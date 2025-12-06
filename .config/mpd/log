@@ -1,0 +1,573 @@
+Jun 25 09:28 : exception: Failed to open '/home/adrn/.config/mpd/state': No such file or directory
+Jun 25 09:28 : exception: Failed to access /home/adrn/music: No such file or directory
+Jun 25 09:28 : mixer: Failed to read mixer for 'default detected output': no such mixer control: PCM
+Jun 25 09:30 : mixer: Failed to read mixer for 'default detected output': no such mixer control: PCM
+Jun 25 09:30 : exception: Failed to open /home/adrn/.config/mpd/playlists: Not a directory
+Jun 25 09:30 : exception: Failed to open /home/adrn/.config/mpd/playlists: Not a directory
+Jun 25 09:30 : exception: Failed to open /home/adrn/.config/mpd/playlists: Not a directory
+Jun 25 09:32 : mixer: Failed to read mixer for 'default detected output': no such mixer control: PCM
+Jun 25 09:32 : exception: Failed to open /home/adrn/.config/mpd/playlists: Not a directory
+Jun 25 09:32 : exception: Failed to open /home/adrn/.config/mpd/playlists: Not a directory
+Jun 25 09:32 : exception: Failed to open /home/adrn/.config/mpd/playlists: Not a directory
+Jun 25 09:32 : exception: Failed to open /home/adrn/.config/mpd/playlists: Not a directory
+Jun 25 09:32 : update: added DreamCore/VOCALOID_UTOPIA_P_dennoko-P_(getmp3.pro).mp3
+Jun 25 09:32 : update: added playlists/Lemon Demon - View-Monster (full album with bonus tracks from the Bandcamp release) [Mpgun.com].mp3
+Jun 25 09:32 : update: added playlists/lyric/POV： Crying at 3am [Cg58VkWwaXs].mp3
+Jun 25 09:32 : update: added playlists/lyric/pov you miss them but they are already gone a playlist..mp3
+Jun 25 09:32 : update: added playlists/lyric/1h-we'll meet again.mp3
+Jun 25 09:32 : update: added playlists/lyric/A personal Vent playlist. (Social, love and self harm trauma)-_j6KCCBr4Ho-160k-1650030330517.mp3
+Jun 25 09:32 : update: added playlists/lyric/povno one cares. [_vent playlist_]-XEWSGFxxd5o-160k-1650030280314.mp3
+Jun 25 09:32 : update: added playlists/lyric/god FUCKING DAMN IT DUDE - midwest emo mixtape-O3Guk1J4Lrg-160k-1646941097262.mp3
+Jun 25 09:32 : update: added playlists/lyric/cavetown-playlist.mp3
+Jun 25 09:32 : update: added playlists/lyric/yumeirou - pov; you miss them but they are already gone ,, a playlist.mp3
+Jun 25 09:32 : update: added playlists/lyric/pov it’s ur fault [vent playlist]-aI1HoGjr3G4-160k-1646161047365.mp3
+Jun 25 09:32 : update: added playlists/lyric/videoplayback.mp3
+Jun 25 09:32 : update: added playlists/I bet you know all these songs _ a throwback playlist _ 80s music hits-26NybMr34GE-160k-1646940333207.mp3
+Jun 25 09:32 : update: added playlists/dreamcore/download (1).mp3
+Jun 25 09:32 : update: added playlists/dreamcore/i l l u s i o n Glitchcore, Hyperpop, Voidcore, Dreamcore playlist [slowed 8d].mp3
+Jun 25 09:32 : update: added playlists/dreamcore/Lo-fi for Ghosts (Only)-2GjPQfdQfMY-160k-1644256326737.mp3
+Jun 25 09:32 : update: added playlists/dreamcore/Nightmare playlist_ Songs I listen to comfort me after a nightmare (read discrimination).mp3
+Jun 25 09:32 : update: added playlists/dreamcore/they're always watching a dreamcoreweirdcore playlist [part 1].mp3
+Jun 25 09:32 : update: added playlists/dreamcore/Rare psychedelic soft indie rock songs to lay in the snow and contemplate life (Mr Floyd Larry mix)_q-NoDGhyQ8A.mp3
+Jun 25 09:32 : update: added playlists/dreamcore/- Dead Weight - __ a Jack Stauber playlist (320 kbps).mp3
+Jun 25 09:32 : update: added playlists/dreamcore/• pov _ 𝔠𝔲𝔱𝔢𝔤𝔬𝔯𝔢 𝔦𝔰 𝔤𝔬𝔦𝔫𝔤 𝔟𝔞𝔠𝔨 𝔱𝔬 𝔶𝔬𝔲𝔯 𝔭𝔥𝔞𝔰𝔢 • [𝙿𝙻𝙰𝚈𝙻𝙸𝚂𝚃] (320 kbps).mp3
+Jun 25 09:32 : update: added playlists/dreamcore/a jack stauber playlist !!.mp3
+Jun 25 09:32 : update: added playlists/best of femtanyl so far (~˘▾˘)~ [w4RuuiMjDcU].mp3
+Jun 25 09:32 : update: added playlists/rock/headbangin' rock  playlist; green day, idkhbtfm, adam jensen, weathers, etc.-d2bPlEC8LBA-160k-1646941146706.mp3
+Jun 25 09:32 : update: added playlists/rock/a dark academia x rock playlist-fJqgCDhhZnI-160k-1646090271768.mp3
+Jun 25 09:32 : update: added playlists/rock/a 90s playlist to rock out to.mp3
+Jun 25 09:32 : update: added playlists/rock/Atomvinter - The Hex Dispensers - III (Full Album).mp3
+Jun 25 09:32 : update: added playlists/rock/i'm here to cause a riot rebel revelry playlist.mp3
+Jun 25 09:32 : update: added lofi/Superorganism - Something For Your M.I.N.D. (Official Video).mp3
+Jun 25 09:32 : update: added lofi/(FREE) Lofi Type Beat - Romance in Tokyo  (prod. yusei) [YCUk1kFh4V0].mp3
+Jun 25 09:32 : update: added lofi/Moe Shop - Love Taste (w Jamie Paige & Shiki).mp3
+Jun 25 09:32 : update: added lofi/𝘉𝘢𝘯𝘢𝘯𝘢 𝘚𝘩𝘢𝘬𝘦.mp3
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added lofi/Out Of Touch Thursday! (Synthwave Remix).mp4
+Jun 25 09:32 : update: added lofi/잠드는 거리 Cover (ねむるまち Cover) [9VNIL5aoSUo].mp3
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added lofi/Superorganism - SPRORGNSM.m4a
+Jun 25 09:32 : update: added lyric/nowhere to run - stegosaurus rex (s l o w e d  d o w n)-z9ydWde3TK8-1080p-1646081957458.mp4
+Jun 25 09:32 : update: added lyric/Nightcore - Teen Idle - (Lyrics).mp3
+Jun 25 09:32 : update: added lyric/Nothing Lasts.mp3
+Jun 25 09:32 : update: added lyric/d4vd - Romantic Homicide (320 kbps).mp3
+Jun 25 09:32 : update: added lyric/iRobot.mp3
+Jun 25 09:32 : update: added lyric/18 yrs.mp3
+Jun 25 09:32 : update: added lyric/ He Loves Me (He Loves Baby Bugs (320 kbps).mp3
+Jun 25 09:32 : update: added lyric/I'm So Lucky Lucky - Nightcore.mp3
+Jun 25 09:32 : update: added lyric/ Duncan Laurence - Arcade (Lyric Video) (320 kbps).mp3
+Jun 25 09:32 : update: added lyric/ɕꫀ⍴ᧁꫀⳡ♡𝔨ꭷ - punkinloveee - freak show (slowed + reverb).mp3
+Jun 25 09:32 : update: added lyric/Devil Town.mp3
+Jun 25 09:32 : update: added lyric/Cotton_Candy_Skies_slowed_and_reve_(getmp3.pro).mp3
+Jun 25 09:32 : update: added lyric/Gang Of Youths - Achilles, Come Down (Lyrics).mp3
+Jun 25 09:32 : update: added lyric/Tally Hall - Hidden in the Sand (320 kbps).mp3
+Jun 25 09:32 : update: added lyric/Cigarette Ahegao.mp3
+Jun 25 09:32 : update: added lyric/Vorsa - D2M (Lyrics).mp3
+Jun 25 09:32 : update: added lyric/blackbear - idfc (Lyrics).mp3
+Jun 25 09:32 : update: added lyric/metric-lost-kitten-hd.mp3
+Jun 25 09:32 : update: added lyric/ Line Without A Hook  (Slowed And Reverb)   {She’s a she’s a lady and I’m just a line without a hook} (320 kbps).mp3
+Jun 25 09:32 : update: added lyric/1h 𝙬𝙚'𝙡𝙡 𝙢𝙚𝙚𝙩 𝙖𝙜𝙖𝙞𝙣 𝙫𝙚𝙧𝙖 𝙡𝙮𝙣𝙣 - Maruwhat [xmrCPK3fUfA].mp3
+Jun 25 09:32 : update: added lyric/𝐀𝐥𝐞𝐱 𝐆 - 𝐓𝐫𝐞𝐞𝐡𝐨𝐮𝐬𝐞 (𝐋𝐲𝐫𝐢𝐜𝐬).mp3
+Jun 25 09:32 : update: added lyric/Panicland - THE EDGE [Official Audio]-3WD9fNB8loI-160k-1646524673798.mp3
+Jun 25 09:32 : update: added lyric/The Cult of Dionysus ✨ The Orion Experience-8ZcqaolcjUI-1080p-1646259812881.mp4
+Jun 25 09:32 : update: added lyric/누구보다 완벽하게 빛나고 싶었던 가수ㅣ Are You Satisfied- Marina & The Diamonds  [lyrics⧸가사⧸해석] [Jhf2xY_6LN8].mp3
+Jun 25 09:32 : update: added lyric/Still Life (320 kbps).mp3
+Jun 25 09:32 : update: added lyric/Clover Help Me (Music Video).mp3
+Jun 25 09:32 : update: added lyric/Can You Hold Me Close.mp3
+Jun 25 09:32 : update: added lyric/drifted_away(slowed). [Mpgun.com].mp3
+Jun 25 09:32 : update: added lyric/angeleyes_-_abba_sped_up_(getmp3.pro) (1).mp3
+Jun 25 09:32 : update: added lyric/I Can't Handle Change.mp3
+Jun 25 09:32 : update: added lyric/Three Days Grace - Chain of Abuse (Visualizer) [k9Ls6le-OXg].mp3
+Jun 25 09:32 : update: added lyric/DEAMN_-_Save_Me_(Audio).mp3
+Jun 25 09:32 : update: added lyric/flora cash - You're Somebody Else (Lyric Video).mp3
+Jun 25 09:32 : update: added lyric/Alien Blues[Mpgun.com].mp3
+Jun 25 09:32 : update: added lyric/Bedroom - In My Head (Official Audio).mp3
+Jun 25 09:32 : update: added lyric/the walters - i love you so ﾉ slowed   reverb ﾉ[Mpgun.com].mp3
+Jun 25 09:32 : update: added lyric/osno1 - darkest part of day [Laura Les] [fUXVy_szZuw].mp3
+Jun 25 09:32 : update: added lyric/i don't wanna be me anymore.mp3
+Jun 25 09:32 : update: added lyric/Ashe - Moral Of The Story.mp3
+Jun 25 09:32 : update: added lyric/something real - lameboysharp (prod. fatheryelvy).mp3
+Jun 25 09:32 : update: added lyric/Tell Me Pretty Lies [Mpgun.com].mp3
+Jun 25 09:32 : update: added lyric/BoyWithUke - Toxic (Official Lyric Video) [Mvaosumc4hU].mp3
+Jun 25 09:32 : update: added lyric/Feel Better.mp3
+Jun 25 09:32 : update: added lyric/why you came back _.mp3
+Jun 25 09:32 : update: added lyric/Power - you don't love me - rebzyyx (slowed).mp3
+Jun 25 09:32 : update: added lyric/Half an Orange - Old Friends (feat. Blonde Maze) [Monstercat Release].mp3
+Jun 25 09:32 : update: added lyric/in love with the idea of you.mp3
+Jun 25 09:32 : update: added lyric/Hazel[Mpgun.com].mp3
+Jun 25 09:32 : update: added lyric/AFTER DARK (Slowed To Perfection  Reverb).mp3
+Jun 25 09:32 : update: added lyric/CUCO - Lover is a Day.mp3
+Jun 25 09:32 : update: added lyric/DethTech - Lessthanthree [jfLQgxcXimk].mp3
+Jun 25 09:32 : update: added lyric/You suck x not allowed remix _ HallowRemixes [Mpgun.com].mp3
+Jun 25 09:32 : update: added lyric/Needs ｜ Sped up [woSktNNAasI].mp3
+Jun 25 09:32 : update: added lyric/Little Dark Age.mp3
+Jun 25 09:32 : update: added NightCore/Nightcore - Monsters (Ruelle) - (Lyrics).mp3
+Jun 25 09:32 : update: added NightCore/Nightcore - Control (Halsey) - Lyrics.mp3
+Jun 25 09:32 : update: added NightCore/椎名もた(siinamota)-Girl A少女A  소녀A [가사해석].mp3
+Jun 25 09:32 : update: added NightCore/nightcore-insanity.mp3
+Jun 25 09:32 : update: added NightCore/Nightcore - Chemical X - (Lyrics)-MtumTf1eZ6s-160k-1646940098332.mp3
+Jun 25 09:32 : update: added NightCore/Nightcore - What do i live for (Fabian Secon) - (Lyrics).mp3
+Jun 25 09:32 : update: added NightCore/Nightcore - Hate Me (Lyrics).mp3
+Jun 25 09:32 : update: added inne/punkinloveee-ft-h3artcrush-freak-show-lyrics-tell-me-pretty-little-lies-ill-be-yours.mp3
+Jun 25 09:32 : update: added inne/Hip Cat.mp3
+Jun 25 09:32 : update: added inne/videoplayback (2).mp4
+Jun 25 09:32 : update: added inne/Mania - Welcome to the Club (Lyrics).mp3
+Jun 25 09:32 : update: added inne/Ren - Life is funny-rV8U73JHs0Q-160k-1646939350604.mp3
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added inne/BitchBoyBunny - ME!ME!ME! [AMV] - Get it up.m4a
+Jun 25 09:32 : update: added inne/PSYOPS - Sperging Out! [YrLAh0Ew1dI].mp3
+Jun 25 09:32 : update: added inne/Y2Mate.is - Ren - Love Music Part 3-OjElKx6q2Wc-160k-1646939315305.mp3
+Jun 25 09:32 : update: added inne/Dragon Ball Original Soundtrack - Makafushigi Adventure Instrumental HQ.mp3
+Jun 25 09:32 : update: added inne/Young Rising Sons - SAD (Clap Your Hands).mp3
+Jun 25 09:32 : update: added inne/angeleyes_-_abba_sped_up_(getmp3.pro) (1).mp3
+Jun 25 09:32 : update: added inne/Dragon_Ball_Super_[AMV]_-_Courtesy_Call.mp3
+Jun 25 09:32 : update: added inne/Ren - Love Music Part 3-OjElKx6q2Wc-160k-1646939315305.mp3
+Jun 25 09:32 : update: added inne/I DONT KNOW HOW BUT THEY FOUND ME - Do It All The Time [hXzPxBhhmY8].mp3
+Jun 25 09:32 : update: added inne/Daft Punk - Get Lucky ( Slowed  Muffled ).mp3
+Jun 25 09:32 : update: added inne/Saint Bernard.mp3
+Jun 25 09:32 : update: added inne/Spooky Scary Skeletons Remix Extended Mix.mp3
+Jun 25 09:32 : update: added inne/Baby We're A Horror Movie.mp3
+Jun 25 09:32 : update: added inne/잠드는 거리 Cover (ねむるまち Cover) [9VNIL5aoSUo].mp3
+Jun 25 09:32 : update: added inne/Cha Cha (320 kbps).mp3
+Jun 25 09:32 : update: added inne/Twin Cabins - Swing Lynn (320 kbps).mp3
+Jun 25 09:32 : update: added inne/Y2Mate.is - Ren - Life is funny-rV8U73JHs0Q-160k-1646939350604.mp3
+Jun 25 09:32 : update: added inne/The Front Bottoms - Twin Size Mattress (Official).mp3
+Jun 25 09:32 : update: added inne/SuperorganismVEVO - Superorganism - Something For Your M.I.N.D. (Official Video).mp3
+Jun 25 09:32 : update: added inne/morrigan.mp3
+Jun 25 09:32 : update: added inne/Henny Bottle.mp3
+Jun 25 09:32 : update: added inne/The Correspondents - Fear & Delight (Official Video) [ABS-mlep5rY].mp3
+Jun 25 09:32 : update: added wykonawcy/ミラクルミュージカル/Dream Sweet in Sea Major.mp3
+Jun 25 09:32 : update: added wykonawcy/ミラクルミュージカル/Labyrinth [MdAzl3sOwmY].mp3
+Jun 25 09:32 : update: added wykonawcy/WHOKILLEDXIX/WHOKILLEDXIX - Bratz Doll (Official Music Video).mp3
+Jun 25 09:32 : update: added wykonawcy/WHOKILLEDXIX/WHOKILLEDXIX - lovestory [Official Audio].mp3
+Jun 25 09:32 : update: added wykonawcy/WHOKILLEDXIX/WHOKILLEDXIX - ANXIETY (Official Music Video).mp3
+Jun 25 09:32 : update: added wykonawcy/WHOKILLEDXIX/WHOKILLEDXIX - help [Official Audio].mp3
+Jun 25 09:32 : update: added wykonawcy/WHOKILLEDXIX/WHOKILLEDXIX - When Bad Things Happen [Official Audio].mp3
+Jun 25 09:32 : update: added wykonawcy/WHOKILLEDXIX/I Feel Like Dying (feat. Death Tour).mp3
+Jun 25 09:32 : update: added wykonawcy/WHOKILLEDXIX/WHOKILLEDXIX - nothing else [Official Audio].mp3
+Jun 25 09:32 : update: added wykonawcy/WHOKILLEDXIX/WHOKILLEDXIX - BITES [Official Audio].mp3
+Jun 25 09:32 : update: added wykonawcy/WHOKILLEDXIX/WHOKILLEDXIX - BOSOZOKU (Official Audio).mp3
+Jun 25 09:32 : update: added wykonawcy/WHOKILLEDXIX/WHOKILLEDXIX - YOUCANTHAVEMYCHIPS (Official Music Video).mp3
+Jun 25 09:32 : update: added wykonawcy/WHOKILLEDXIX/WHOKILLEDXIX_-_spy_Lyrics_my_m_(getmp3.pro).mp3
+Jun 25 09:32 : update: added wykonawcy/SubUrban/Sub Urban - Freak (8D AUDIO).mp3
+Jun 25 09:32 : update: added wykonawcy/SubUrban/Sub Urban - Cradles [16D AUDIONOT 8D].mp3
+Jun 25 09:32 : update: added wykonawcy/SubUrban/Sub Urban - Freak (feat. REI AMI).mp3
+Jun 25 09:32 : update: added wykonawcy/Fentanyl/femtanyl - Topic - PUSH UR T3MPRR.mp3
+Jun 25 09:32 : update: added wykonawcy/Fentanyl/LOVESICK, CANNIBAL! [62RGOaAL-UI].mp3
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added wykonawcy/Fentanyl/Femtanyl - femtanyl - KATAMARI.m4a
+Jun 25 09:32 : update: added wykonawcy/Fentanyl/Femtanyl - Charli XCX - speed drive (femtanyl remix).mp3
+Jun 25 09:32 : update: added wykonawcy/Fentanyl/Fentanyl - DOGMATICA - femtanyl (Lyrics Video).mp3
+Jun 25 09:32 : update: added wykonawcy/Weathers/Weathers - Feel Good (Official Stream).mp3
+Jun 25 09:32 : update: added wykonawcy/Weathers/Weathers - Losing Blood - Official Lyric Video [Mpgun.com].mp3
+Jun 25 09:32 : update: added wykonawcy/Weathers/Hello  Weathers  Lyrics-7R8ZcJPtnx0-160k-1646938666034.mp3
+Jun 25 09:32 : update: added wykonawcy/Weathers/Weathers - Shallow Water (Audio).mp3
+Jun 25 09:32 : update: added wykonawcy/Weathers/Weathers - Secret's Safe With Me (Audio).mp3
+Jun 25 09:32 : update: added wykonawcy/Weathers/Hard Times.mp3
+Jun 25 09:32 : update: added wykonawcy/Weathers/Weathers - I'm Not Ok (Audio).mp3
+Jun 25 09:32 : update: added wykonawcy/Weathers/Weathers - Anything I Want (Audio).mp3
+Jun 25 09:32 : update: added wykonawcy/Weathers/Y2Mate.is - Hello  Weathers  Lyrics-7R8ZcJPtnx0-160k-1646938666034.mp3
+Jun 25 09:32 : update: added wykonawcy/Weathers/Where Do I Sign_.mp3
+Jun 25 09:32 : update: added wykonawcy/Negative xp/Negative XP - I Wish Blocking People Would Kill Them [mXA6rzj0RoM].mp3
+Jun 25 09:32 : update: added wykonawcy/Negative xp/DannyXanny - negative xp - loud.mp3
+Jun 25 09:32 : update: added wykonawcy/tally Hal/Cannibal [5_QwMRE-BKc].mp3
+Jun 25 09:32 : update: added wykonawcy/tally Hal/Mucka Blucka (Tally Hall Cover w⧸ New Lyrics) [PiXQYHjMxLU].mp3
+Jun 25 09:32 : update: added wykonawcy/tally Hal/Tally Hall - Hidden in the Sand (320 kbps).mp3
+Jun 25 09:32 : update: added wykonawcy/tally Hal/The Mind Electric.mp3
+Jun 25 09:32 : update: added wykonawcy/tally Hal/tallyhall - Tally Hall - Welcome To Tally Hall.opus
+Jun 25 09:32 : update: added wykonawcy/tally Hal/THE MIND ELECTRIC ｜ Chonny Jash [uIQbSzkXIsk].mp3
+Jun 25 09:32 : update: added wykonawcy/tally Hal/Tally Hall - Welcome To Tally Hall [SwToedwyhoE].mp3
+Jun 25 09:32 : update: added wykonawcy/tally Hal/Light (Audio) [qjk_OoWnPtk].mp3
+Jun 25 09:32 : update: added wykonawcy/tally Hal/Never Meant to Know (Tally Hall Cover) [DziswZCMTDE].mp3
+Jun 25 09:32 : update: added wykonawcy/tally Hal/Chonny Jash - Fine, I'm Fine [fOjT-64XGvs].mp3
+Jun 25 09:32 : update: added wykonawcy/tally Hal/Chonny Jash - Hidden in the Sand (Tally Hall Cover w⧸ Lyrics).mp3
+Jun 25 09:32 : update: added wykonawcy/tally Hal/& (320 kbps).mp3
+Jun 25 09:32 : update: added wykonawcy/tally Hal/Variations on a Cloud (ミラクルミュージカル, Miracle Musical Cover) [09TBI5TAqrM].mp3
+Jun 25 09:32 : update: added wykonawcy/Afrojax.zip/Afrojax/Y2Mate.is - 08. legendarny afrojax - do gazu cz. 1-1oJxuHxtMIE-160k-1646940693527.mp3
+Jun 25 09:32 : update: added wykonawcy/Afrojax.zip/Afrojax/Y2Mate.is - Legendarny Afrojax - Nowy poziom deprawacji-gBEm22wlYU0-160k-1646940615255.mp3
+Jun 25 09:32 : update: added wykonawcy/I DONT KNOW HOW BUT THEY FOUND ME - I DONT KNOW HOW BUT THEY FOUND ME/Younger Hunger - YUNG (Official Video) [ZphBphmMILs].mp3
+Jun 25 09:32 : update: added wykonawcy/I DONT KNOW HOW BUT THEY FOUND ME - I DONT KNOW HOW BUT THEY FOUND ME/I DONT KNOW HOW BUT THEY FOUND ME - Leave Me Alone (Lyric Video) [85Z3iwpFQeg].mp3
+Jun 25 09:32 : update: added wykonawcy/I DONT KNOW HOW BUT THEY FOUND ME - I DONT KNOW HOW BUT THEY FOUND ME/I DONT KNOW HOW BUT THEY FOUND ME -Choke.mp3
+Jun 25 09:32 : update: added wykonawcy/I DONT KNOW HOW BUT THEY FOUND ME - I DONT KNOW HOW BUT THEY FOUND ME/I DONT KNOW HOW BUT THEY FOUND ME - Do It All The Time [hXzPxBhhmY8].mp3
+Jun 25 09:32 : update: added wykonawcy/I DONT KNOW HOW BUT THEY FOUND ME - I DONT KNOW HOW BUT THEY FOUND ME/Younger Hunger - Dead or Alive (Official Audio) [8sWpwnX_DCs].mp3
+Jun 25 09:32 : update: added wykonawcy/Dreamers/DREAMERS - Teddy Bear (Audio Only)-YYbQSIRoeQw-160k-1646939960769.mp3
+Jun 25 09:32 : update: added wykonawcy/Dreamers/Y2Mate.is - DREAMERS - Teddy Bear (Audio Only)-YYbQSIRoeQw-160k-1646939960769.mp3
+Jun 25 09:32 : update: added wykonawcy/Dreamers/DREAMERS - Insomniac (Visualizer Video).mp3
+Jun 25 09:32 : update: added wykonawcy/Dreamers/DREAMERS - Die Happy (Visualizer Video).mp3
+Jun 25 09:32 : update: added wykonawcy/Dreamers/DREAMERS - Fake It Til You Make It (Visualizer Video).mp3
+Jun 25 09:32 : update: added wykonawcy/cave town/Home by cavetown (Slowed  Reverb).mp3
+Jun 25 09:32 : update: added wykonawcy/Krzysztof Dauszkiewicz.zip/Krzysztof Dauszkiewicz/Easy Rider (Live).mp3
+Jun 25 09:32 : update: added wykonawcy/Krzysztof Dauszkiewicz.zip/Krzysztof Dauszkiewicz/Gdy nie ma w domu starych - KRZYSZTOF DAUKSZEWICZCZERWONY TULIPAN.mp3
+Jun 25 09:32 : update: added wykonawcy/Krzysztof Dauszkiewicz.zip/Krzysztof Dauszkiewicz/Krzysztof Daukszewicz - Deszcz pada na Mazurach.mp3
+Jun 25 09:32 : update: added wykonawcy/Krzysztof Dauszkiewicz.zip/Krzysztof Dauszkiewicz/Krzysztof Daukszewicz - Leniwa niedziela.mp3
+Jun 25 09:32 : update: added wykonawcy/Krzysztof Dauszkiewicz.zip/Krzysztof Dauszkiewicz/Krzysztof Daukszewicz - Obok hotelu Grand.mp3
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added wykonawcy/TzarBombah/Mom found my reddit account /TzarBombah - Topic - Mom Found My Reddit Account.m4a
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added wykonawcy/TzarBombah/Mom found my reddit account /TzarBombah - Topic - Romance in Anime.m4a
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added wykonawcy/TzarBombah/Mom found my reddit account /TzarBombah - Topic - You're All NPC's To Me.m4a
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added wykonawcy/TzarBombah/Mom found my reddit account /TzarBombah - Topic - Killing Stoners is a Full Time Job.m4a
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added wykonawcy/TzarBombah/Mom found my reddit account /TzarBombah - Topic - I Know That She's a Fed.m4a
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added wykonawcy/TzarBombah/Mom found my reddit account /TzarBombah - Topic - Intro.m4a
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added wykonawcy/TzarBombah/Mom found my reddit account /TzarBombah - Topic - The Fetishization of the Traditional Woman.m4a
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added wykonawcy/TzarBombah/Mom found my reddit account /TzarBombah - Topic - 5g Melted My Brain (Tape Demo Rip).m4a
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added wykonawcy/TzarBombah/Mom found my reddit account /TzarBombah - Topic - I Need a Lobotomy (Tape Demo Rip).m4a
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added wykonawcy/TzarBombah/Blackpill the public/TzarBombah - Topic - THIS SONG HAS BEEN REMOVED BY THE FBI.m4a
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added wykonawcy/TzarBombah/Blackpill the public/TzarBombah - Topic - Tulpa.m4a
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added wykonawcy/TzarBombah/Blackpill the public/TzarBombah - Topic - Intermission.m4a
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added wykonawcy/TzarBombah/Blackpill the public/TzarBombah - Topic - 4Chan Ifunny Anthem.m4a
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added wykonawcy/TzarBombah/Blackpill the public/TzarBombah - Topic - I Am Tired.m4a
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added wykonawcy/TzarBombah/Blackpill the public/TzarBombah - Topic - Another Breakup Song.m4a
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added wykonawcy/TzarBombah/Blackpill the public/TzarBombah - Topic - Fakecel.m4a
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added wykonawcy/TzarBombah/Blackpill the public/TzarBombah - Topic - Sell Out.m4a
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added wykonawcy/TzarBombah/Blackpill the public/TzarBombah - Topic - Femboy.m4a
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added wykonawcy/TzarBombah/Blackpill the public/TzarBombah - Topic - Accelerate.m4a
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added wykonawcy/TzarBombah/Blackpill the public/TzarBombah - Topic - MethTown USA.m4a
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added wykonawcy/TzarBombah/Blackpill the public/TzarBombah - Topic - Uncomfortable in my Skin (feat. Owen Adamcik).m4a
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added wykonawcy/TzarBombah/Blackpill the public/TzarBombah - Topic - The Wealthy Don't Goto Heaven.m4a
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added wykonawcy/TzarBombah/Blackpill the public/TzarBombah - Topic - Solar.m4a
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added wykonawcy/TzarBombah/Blackpill the public/TzarBombah - Topic - Blackpill The Public.m4a
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added wykonawcy/TzarBombah/Blackpill the public/TzarBombah - Topic - A Blue Haired Bitch Told Me To Wear A Mask.m4a
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added wykonawcy/TzarBombah/Blackpill the public/TzarBombah - Topic - Adderal Inspired Love Note.m4a
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added wykonawcy/TzarBombah/Blackpill the public/TzarBombah - Topic - Dead Redditors.m4a
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added wykonawcy/TzarBombah/Blackpill the public/TzarBombah - Topic - Jaded.m4a
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added wykonawcy/TzarBombah/Blackpill the public/TzarBombah - Topic - My Typical Weekend.m4a
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added wykonawcy/TzarBombah/Blackpill the public/TzarBombah - Topic - Crystal Bitches.m4a
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added wykonawcy/TzarBombah/Blackpill the public/TzarBombah - Topic - Autistic Tendencies.m4a
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added wykonawcy/TzarBombah/Blackpill the public/TzarBombah - Topic - Wandering Eyes.m4a
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added wykonawcy/TzarBombah/Blackpill the public/TzarBombah - Topic - Trap.m4a
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added wykonawcy/TzarBombah/Blackpill the public/TzarBombah - Topic - Cigarettes.m4a
+Jun 25 09:32 : update: added wykonawcy/100gecs/100 gecs - ringtone (Official Audio Stream).mp3
+Jun 25 09:32 : update: added wykonawcy/100gecs/100 gecs - Doritos & Fritos OFFICIAL MUSIC VIDEO.mp3
+Jun 25 09:32 : update: added wykonawcy/100gecs/100 gecs -  Frog on the floor OFFICIAL AUDIO.mp3
+Jun 25 09:32 : update: added wykonawcy/100gecs/100 gecs - Hollywood Baby OFFICIAL VIDEO.mp3
+Jun 25 09:32 : update: added wykonawcy/Grupa Operacyjna/Grupa Operacyjna - Świat Jest Chory [Mpgun.com].mp3
+Jun 25 09:32 : update: added wykonawcy/Grupa Operacyjna/Grupa Operacyjna - Tumor Cerebri [Mpgun.com].mp3
+Jun 25 09:32 : update: added wykonawcy/Grupa Operacyjna/Grupa Operacyjna - Piekielny Dzień [Mpgun.com].mp3
+Jun 25 09:32 : update: added wykonawcy/pigeon pit/Eat Your Heart Out.mp3
+Jun 25 09:32 : update: added wykonawcy/pigeon pit/The Cigarette Song [Mpgun.com].mp3
+Jun 25 09:32 : update: added wykonawcy/pigeon pit/Tall Black Trees-C_go-EEa8Uw-160k-1647781891319.mp3
+Jun 25 09:32 : update: added wykonawcy/pigeon pit/Freak Me Out.mp3
+Jun 25 09:32 : update: added wykonawcy/pigeon pit/F.M.I.D..mp3
+Jun 25 09:32 : update: added wykonawcy/pigeon pit/Red October.mp3
+Jun 25 09:32 : update: added wykonawcy/pigeon pit/Wichitalk.mp3
+Jun 25 09:32 : update: added wykonawcy/pigeon pit/Tall Black Trees.mp3
+Jun 25 09:32 : update: added wykonawcy/pigeon pit/D.I.Y..mp3
+Jun 25 09:32 : update: added wykonawcy/pigeon pit/No Brakes.mp3
+Jun 25 09:32 : update: added wykonawcy/jack Stauber/Baby Teeth (320 kbps).mp3
+Jun 25 09:32 : update: added wykonawcy/jack Stauber/It's Alright (320 kbps).mp3
+Jun 25 09:32 : update: added wykonawcy/jack Stauber/Beird (320 kbps).mp3
+Jun 25 09:32 : update: added wykonawcy/jack Stauber/ Dead Weight (320 kbps).mp3
+Jun 25 09:32 : update: added wykonawcy/jack Stauber/ Cunk (320 kbps).mp3
+Jun 25 09:32 : update: added wykonawcy/jack Stauber/On (320 kbps).mp3
+Jun 25 09:32 : update: added wykonawcy/jack Stauber/Oh Klahoma - Jack Stauber (Music Video).mp3
+Jun 25 09:32 : update: added wykonawcy/Adam Jensen/Adam Jensen - Never Get High on Your Own Supply (Official Audio)-ppzTY6SImO8-160k-1646938840440.mp3
+Jun 25 09:32 : update: added wykonawcy/Adam Jensen/Adam Jensen - Yoko Oh No (Official Audio)-ADGt4mGM_ss-160k-1646938741767.mp3
+Jun 25 09:32 : update: added wykonawcy/Adam Jensen/Adam Jensen - Baby Blue (Official Audio)-tcwGW-xPk_E-160k-1646938933946.mp3
+Jun 25 09:32 : update: added wykonawcy/Adam Jensen/Adam Jensen - Boomboom (Official Audio)-0FYjPHnRkpg-160k-1646939248924.mp3
+Jun 25 09:32 : update: added wykonawcy/Adam Jensen/Adam Jensen - Pretty Please (Official Audio)-YpHS9-VyDuw-160k-1646939206494.mp3
+Jun 25 09:32 : update: added wykonawcy/Adam Jensen/adam-jensen-if-there-is-a-god-kill-me-now-official-audio.mp3
+Jun 25 09:32 : update: added wykonawcy/Adam Jensen/Adam Jensen - I'm a Sucker for a Liar in a Red Dress (Stripped)-hLblRGQEidE-160k-1646938781847.mp3
+Jun 25 09:32 : update: added wykonawcy/Adam Jensen/Adam Jensen - The Hunter (Official Audio)--DYzYD2-23g-160k-1646102889865.mp3
+Jun 25 09:32 : update: added wykonawcy/Adam Jensen/Adam Jensen - Deathwish (Official Audio).mp3
+Jun 25 09:32 : update: added wykonawcy/Adam Jensen/Adam Jensen - Ready to Die (Official Audio).mp3
+Jun 25 09:32 : update: added wykonawcy/Adam Jensen/Adam Jensen - Jekyll and Hyde (Official Audio).mp3
+Jun 25 09:32 : update: added wykonawcy/Adam Jensen/Adam Jensen - Kerosene (Official Audio)-EXGy3N_nyCI-160k-1646938960590.mp3
+Jun 25 09:32 : update: added wykonawcy/Adam Jensen/Adam Jensen - Trouble (Official Audio)-SE5qF1kcDck-160k-1646240852342.mp3
+Jun 25 09:32 : update: added wykonawcy/Adam Jensen/Adam Jensen - That Man He's a Monster (Official Audio)-d7cIYXm88V0-160k-1646938805814.mp3
+Jun 25 09:32 : update: added wykonawcy/Adam Jensen/Adam Jensen -  The Mystic (Official Audio)-rRUOGd_9orc-160k-1644422553104.mp3
+Jun 25 09:32 : update: added wykonawcy/Adam Jensen/Adam Jensen - The Mystic (Stripped)-RRe48uVOuK8-160k-1646938888645.mp3
+Jun 25 09:32 : update: added wykonawcy/Adam Jensen/Adam Jensen - I Know Where the Bodies Are Buried (Official Audio)-0IkbGvfgefU-160k-1646939140424.mp3
+Jun 25 09:32 : update: added wykonawcy/Adam Jensen/Adam Jensen - Street Brawling Millionaire (Official Audio).mp3
+Jun 25 09:32 : update: added wykonawcy/Adam Jensen/Adam Jensen - Flowers on My Grave (Official Audio) (320 kbps).mp3
+Jun 25 09:32 : update: added wykonawcy/Adam Jensen/Adam Jensen - Bad Luck (Official Audio)-8a9vlC7yy7I-160k-1646939182190.mp3
+Jun 25 09:32 : update: added wykonawcy/Adam Jensen/Adam Jensen - I'm a Sucker for a Liar in a Red Dress (Official Audio)-HyvP-frWgGE-160k-1645405085127.mp3
+Jun 25 09:32 : update: added wykonawcy/Adam Jensen/Adam Jensen - hi (Official Audio)-a62jTpeefJs-160k-1646939105826.mp3
+Jun 25 09:32 : update: added wykonawcy/Adam Jensen/Adam Jensen - Pain (Official Audio)-tiEI0H-Z3Jk-160k-1646938865456.mp3
+Jun 25 09:32 : update: added wykonawcy/Adam Jensen/Adam Jensen - Adam Jensen - Freak Like Me (Official Audio).mp3
+Jun 25 09:32 : update: added wykonawcy/Adam Jensen/Adam Jensen - Chaos (Official Audio)-kS2M7qvKyTI-160k-1649995574627.mp3
+Jun 25 09:32 : update: added wykonawcy/Adam Jensen/Adam Jensen - Don't Care (Official Audio)-xDvdP5FHehc-160k-1646939050065.mp3
+Jun 25 09:32 : update: added wykonawcy/Adam Jensen/Adam Jensen - John Doe (Official Audio)-Hu1Gi_J88rw-160k-1646938989791.mp3
+Jun 25 09:32 : update: added wykonawcy/Adam Jensen/Adam Jensen - Street Fight (Official Audio)-oh3ZwwdM-qs-160k-1645780651911.mp3
+Jun 25 09:32 : update: added wykonawcy/Adam Jensen/Adam Jensen - I Can Hold a Grudge Like Nobody's Business (Official Audio)-xpcAJuTk2oU-160k-1646427342642.mp3
+Jun 25 09:32 : update: added wykonawcy/Adam Jensen/Adam Jensen - Let It Bleed (Official Audio)-rpUd8ljUNWk-160k-1644780301908.mp3
+Jun 25 09:32 : update: added wykonawcy/Hellsing soundtracks/Hellsing OST RAID Track 1 Cool. The World Without Logos.mp3
+Jun 25 09:32 : update: added wykonawcy/Hellsing soundtracks/Hellsing OST RAID Track 3 Musical Entertainment.mp3
+Jun 25 09:32 : update: added wykonawcy/Hellsing soundtracks/Hellsing OST RAID Track 2 Double Crossed Fool.mp3
+Jun 25 09:32 : update: added wykonawcy/Hellsing soundtracks/Hellsing OST RAID Track 19 When Going to War, Fight with Arrows, Spears, and Swords.mp3
+Jun 25 09:32 : update: added wykonawcy/Hellsing soundtracks/Hellsing OST 2 Hated guy of Sinfulness.mp3
+Jun 25 09:32 : update: added wykonawcy/Gezebelle Gaburgably/Unfathomable Pain [IpU7Dqgz384].mp3
+Jun 25 09:32 : update: added wykonawcy/Gezebelle Gaburgably/GEZEBELLE GABURGABLY - Heads Up.mp3
+Jun 25 09:32 : update: added wykonawcy/Gezebelle Gaburgably/Squander [yxWhaRnvjvI].mp3
+Jun 25 09:32 : update: added wykonawcy/Gezebelle Gaburgably/Smelly Jelly [ii7ssE77z-g].mp3
+Jun 25 09:32 : update: added wykonawcy/Gezebelle Gaburgably/Video Game Abortion [rXtFq66hbfU].mp3
+Jun 25 09:32 : update: added wykonawcy/Gezebelle Gaburgably/WWWML？ [MOefyxmMwWA].mp3
+Jun 25 09:32 : update: added wykonawcy/Gezebelle Gaburgably/Snail Man [6zgjIEEb3wg].mp3
+Jun 25 09:32 : update: added wykonawcy/Lil Darkie/BLACK SHEEP.mp3
+Jun 25 09:32 : update: added wykonawcy/Lil Darkie/LIL DARKIE - RAP MUSIC (PROD. WENDIGO) (MUSIC VIDEO).mp3
+Jun 25 09:32 : update: added wykonawcy/Lil Darkie/HAHA.mp3
+Jun 25 09:32 : update: added wykonawcy/Lil Darkie/ISIS TYPE BEAT.mp3
+Jun 25 09:32 : update: added wykonawcy/Lil Darkie/they just put my dog down (RIP TUGBOAT RIP PERCY) (PROD. WENDIGO).mp3
+Jun 25 09:32 : update: added wykonawcy/Lil Darkie/KILL ALL HUMANS.mp3
+Jun 25 09:32 : update: added wykonawcy/Lil Darkie/HOLOCAUST.mp3
+Jun 25 09:32 : update: added wykonawcy/Lil Darkie/GENOCIDE.mp3
+Jun 25 09:32 : update: added wykonawcy/Lil Darkie/MONDAY GUNDAY.mp3
+Jun 25 09:32 : update: added wykonawcy/Dylan Short/Modern Baseball - Hours Outside in the Snow.mp3
+Jun 25 09:32 : update: added wykonawcy/Dylan Short/Modern Baseball - I Think You Were In My Profile Picture Once.mp3
+Jun 25 09:32 : update: added wykonawcy/Dylan Short/Modern Baseball - Re-done.mp3
+Jun 25 09:32 : update: added wykonawcy/Saint Motel/Saint Motel - _Happy Accidents_ (Official Audio)_esQ19QRcj-g.mp3
+Jun 25 09:32 : update: added wykonawcy/Saint Motel/SAINT MOTEL - _Destroyer_ (Official Video).mp3
+Jun 25 09:32 : update: added wykonawcy/Saint Motel/You're Nobody Till Somebody Wants You Dead.mp3
+Jun 25 09:32 : update: added wykonawcy/Saint Motel/SAINT MOTEL - A Good Song Never Dies (Official Audio).mp3
+Jun 25 09:32 : update: added wykonawcy/Saint Motel/SAINT MOTEL - Bullet (Official Audio).mp3
+Jun 25 09:32 : update: added wykonawcy/Gospel.zip/Gospel/Y2Mate.is - Gospel  Krople prod.Ocean Beats-naw1eO5_Er8-160k-1646940881068.mp3
+Jun 25 09:32 : update: added wykonawcy/Gospel.zip/Gospel/Y2Mate.is - Gospel 11 Dzis w niebie prod.The  Smeezingtons-9ecLx8hZ-ys-160k-1646940514869.mp3
+Jun 25 09:32 : update: added wykonawcy/Gospel.zip/Gospel/Y2Mate.is - Gospel 12 zwidy prod.Sony lux-ClpT81qhiTk-160k-1646940434473.mp3
+Jun 25 09:32 : update: added wykonawcy/Gospel.zip/Gospel/Y2Mate.is - Gospel 13 Sperma i korniszony  prod. Cubeatz & Vinalz-ntzKjudeUOg-160k-1646940541540.mp3
+Jun 25 09:32 : update: added wykonawcy/Gospel.zip/Gospel/Y2Mate.is - Gospel pierdze ci na chleb prod.dj Hazel  hidden track-KyUXWbInkHM-160k-1646940483666.mp3
+Jun 25 09:32 : update: added wykonawcy/MOther mother/Mother Mother - Arms Tonite-F0xdQ8ES9fc-160k-1642292778919.mp3
+Jun 25 09:32 : update: added wykonawcy/DesRock/Y2Mate.is - Des Rocs - Give me the Night (Official Audio)-w79-fHwbFxw-160k-1646941058153.mp3
+Jun 25 09:32 : update: added wykonawcy/DesRock/Des Rocs - Give me the Night (Official Audio)-w79-fHwbFxw-160k-1646941058153.mp3
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added wykonawcy/DesRock/Des Rocs - Des Rocs - Why Why Why (Official Video Experience).m4a
+Jun 25 09:32 : update: added wykonawcy/DesRock/Des Rocs - Living Proof (Audio).mp3
+Jun 25 09:32 : update: added wykonawcy/DesRock/Des Rocs - Nothing Personal (Official Video Experience).mp3
+Jun 25 09:32 : update: added wykonawcy/DesRock/Y2Mate.is - Des Rocs - Hanging By A Thread (Official Video Experience)-tEklg7nO0Ac-160k-1646939915949.mp3
+Jun 25 09:32 : update: added wykonawcy/DesRock/Des Rocs - Hanging By A Thread (Official Video Experience)-tEklg7nO0Ac-160k-1646939915949.mp3
+Jun 25 09:32 : update: added wykonawcy/DesRock/Y2Mate.is - Des Rocs - break break break (Official Video Experience)-kEeQG909YrU-160k-1646939438635.mp3
+Jun 25 09:32 : update: added wykonawcy/DesRock/Des Rocs - break break break (Official Video Experience)-kEeQG909YrU-160k-1646939438635.mp3
+Jun 25 09:32 : update: added wykonawcy/DesRock/Des Rocs - The Past Has Passed Away (Audio)_5g89GTCBaJQ.mp3
+Jun 25 09:32 : update: added wykonawcy/DesRock/Rabbit Hole (Official Video Experience)-3xcFiYT5jn8-160k-1646939895010.mp3
+Jun 25 09:32 : update: added wykonawcy/DesRock/Y2Mate.is - Des Rocs - Rabbit Hole (Official Video Experience)-3xcFiYT5jn8-160k-1646939895010.mp3
+Jun 25 09:32 : update: added wykonawcy/DesRock/Des Rocs - Maybe, I (Audio).mp3
+Jun 25 09:32 : update: added wykonawcy/DaysNDaze/show me your blueprints/Libriyum.mp3
+Jun 25 09:32 : update: added wykonawcy/DaysNDaze/show me your blueprints/Addvice.mp3
+Jun 25 09:32 : update: added wykonawcy/DaysNDaze/show me your blueprints/None Exempt.mp3
+Jun 25 09:32 : update: added wykonawcy/DaysNDaze/show me your blueprints/Rewind.mp3
+Jun 25 09:32 : update: added wykonawcy/DaysNDaze/show me your blueprints/My Darling Dopamine.mp3
+Jun 25 09:32 : update: added wykonawcy/DaysNDaze/show me your blueprints/Flurry Rush.mp3
+Jun 25 09:32 : update: added wykonawcy/DaysNDaze/show me your blueprints/Saboteurs.mp3
+Jun 25 09:32 : update: added wykonawcy/DaysNDaze/show me your blueprints/Goodbye Lulu Pt.2.mp3
+Jun 25 09:32 : update: added wykonawcy/DaysNDaze/show me your blueprints/Ditches.mp3
+Jun 25 09:32 : update: added wykonawcy/Big Blue World/I Wanna Be Around U.mp3
+Jun 25 09:32 : update: added wykonawcy/Big Blue World/Why'd U Ask？.mp3
+Jun 25 09:32 : update: added wykonawcy/Big Blue World/No Heaven.mp3
+Jun 25 09:32 : update: added wykonawcy/Big Blue World/FWXL.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/pagan holiday/Y2Mate.is - Gorehound-_BsbuSc64L4-160k-1651362457563.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/pagan holiday/Y2Mate.is - Pagan Holiday, Pt. 1, 2 & 3 A Celebration  Dormant  Revenge-ZOZKD8TtypE-160k-1651362602299.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/pagan holiday/Y2Mate.is - Vengeance the Demon  Close the Door  Outcrowd-cFm5qAPC-To-160k-1651362420733.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/pagan holiday/Y2Mate.is - Paint It Black-JqH0-UfCUy4-160k-1651362669241.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/pagan holiday/Gorehound-_BsbuSc64L4-160k-1651362457563.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/pagan holiday/Paint It Black-JqH0-UfCUy4-160k-1651362669241.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/pagan holiday/Vengeance the Demon  Close the Door  Outcrowd-cFm5qAPC-To-160k-1651362420733.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/pagan holiday/Pagan Holiday, Pt. 1, 2 & 3 A Celebration  Dormant  Revenge-ZOZKD8TtypE-160k-1651362602299.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/horroful/Welcome to Slime City.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/horroful/Hollow Man.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/horroful/Alone in the Dark Mansion of Madness.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/horroful/Fade to Black.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/uke puke/Corpse Grindin' Man.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/uke puke/im-going-to-hell.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/uke puke/Charlie Can.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/uke puke/Im Fucking Alone.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/inne/Escape.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/inne/She Don't Know.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/inne/its-only-the-end-of-the-world.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/inne/Just Another Freak.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/7 Inches of Hell/Late Nite Creature Feature.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/7 Inches of Hell/Scream Acres.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/7 Inches of Hell/The Uglies.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/7 Inches of Hell/i-am-fuck.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/7 Inches of Hell/You-re a Witch [Mpgun.com].mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/shatan, sex and no regret/Still Here.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/shatan, sex and no regret/father-mckee.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/shatan, sex and no regret/I Am The Living Dead.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/fallen down/ Don't Go Into the Woods.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/fallen down/ I Am Fuck-.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/fallen down/When the Bombs Come Down.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/fallen down/ American Psycho.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/fallen down/ Burden.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/fallen down/Morons, Idiots, And Assholes.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/fallen down/ Get Fucked.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/fallen down/Ashes or Bones.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/fallen down/ I've Got Problems.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/fallen down/ Misanthropy and the Full Moon.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/fallen down/ I Once Captured an Angel.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/lost and losting it/is - Demons.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/lost and losting it/Persevere.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/lost and losting it/- Talk Back.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/lost and losting it/ - Lost Soul.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/lost and losting it/I Can't Stand Myself.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/lost and losting it/ It's Only Temporary-97.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/lost and losting it/- Meaningless.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/lost and losting it/ - We're All Human-.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/lost and losting it/ I Wanna Die.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/great life/Eat Shit and Die.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/great life/I Am the Man.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/great life/Where Is My Mind.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/great life/Evil People.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/great life/Mummified Mom.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/great life/Phantom in Your Mind.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/great life/Meat Bag.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/great life/Don't. Care.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/great life/Bloodsucker.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/great life/Music for Teenagers.mp3
+Jun 25 09:32 : update: added wykonawcy/Harley Poe/great life/Already Gone.mp3
+Jun 25 09:32 : update: added wykonawcy/koza.zip/koza/Y2Mate.is - Droga do Damaszku-7SzdhwI_xa4-160k-1646938445097.mp3
+Jun 25 09:32 : update: added wykonawcy/koza.zip/koza/Y2Mate.is - Duchy-cC4x9cxb6pE-160k-1646938511839.mp3
+Jun 25 09:32 : update: added wykonawcy/koza.zip/koza/Y2Mate.is - Koza - Artur Riemer-UHDPWJjZWyM-160k-1646938361863.mp3
+Jun 25 09:32 : update: added wykonawcy/koza.zip/koza/Y2Mate.is - Patologya-II0A11A4L94-160k-1646938479664.mp3
+Jun 25 09:32 : update: added wykonawcy/koza.zip/koza/Y2Mate.is - Rumcays-NrH0J_8X3uQ-160k-1646939838044.mp3
+Jun 25 09:32 : update: added wykonawcy/Lemon Demon/Redesign Your Logo (Bonus Track) [HXk-0_rETJ8].mp3
+Jun 25 09:32 : update: added wykonawcy/Lemon Demon/Aurora Borealis [rbMY-NMT_vc].mp3
+Jun 25 09:32 : update: added wykonawcy/Lemon Demon/The Ocean [5P9_FHeFRcc].mp3
+Jun 25 09:32 : update: added wykonawcy/Lemon Demon/Touch-Tone Telephone [rbxL5BVEkRs].mp3
+Jun 25 09:32 : update: added wykonawcy/Lemon Demon/Lemon Demon - Topic - One Weird Tip.mp3
+Jun 25 09:32 : update: added wykonawcy/Lemon Demon/Lemon Demon - Cabinet Man [CdxtcvnnlXI].mp3
+Jun 25 09:32 : update: added wykonawcy/Lemon Demon/A Mask of My Own Face [8ws-49HHK60].mp3
+Jun 25 09:32 : update: added wykonawcy/1800PAIN/DESTROYUSALL.mp3
+Jun 25 09:32 : update: added wykonawcy/1800PAIN/HURT.mp3
+Jun 25 09:32 : update: added wykonawcy/1800PAIN/1 800 PAIN - CRACK (OFFICIAL AUDIO).mp3
+Jun 25 09:32 : update: added wykonawcy/1800PAIN/1 800 PAIN - HURT (OFFICIAL AUDIO).mp3
+Jun 25 09:32 : update: added wykonawcy/1800PAIN/LEGO.mp3
+Jun 25 09:32 : update: added wykonawcy/1800PAIN/OUTSIDE.mp3
+Jun 25 09:32 : update: added wykonawcy/1800PAIN/SHELF.mp3
+Jun 25 09:32 : update: added wykonawcy/1800PAIN/LURK.mp3
+Jun 25 09:32 : update: added wykonawcy/Mcpoland/Peter McPoland - Shit Show (Official Lyric Video).mp3
+Jun 25 09:32 : update: added wykonawcy/Mcpoland/Peter McPoland - Digital Silence (.mp4) [2x8CMV-Jxg8].mp3
+Jun 25 09:32 : update: added wykonawcy/Yonger Hunger/Younger Hunger - FANGS (Official Audio) [tzv1wMeeYoM].mp3
+Jun 25 09:32 : update: added wykonawcy/Yonger Hunger/Younger Hunger - Straight Face (Official Audio).mp3
+Jun 25 09:32 : update: added wykonawcy/Yonger Hunger/Younger Hunger - Endless Sympathy (Official Audio).mp3
+Jun 25 09:32 : update: added wykonawcy/Yonger Hunger/Younger Hunger - Summer Bummer (Official Audio) [D-PgnfqT0zQ].mp3
+Jun 25 09:32 : update: added wykonawcy/Bear ghost/Starkiller.mp3
+Jun 25 09:32 : update: added wykonawcy/Bear ghost/Necromancin Dancin.mp3
+Jun 25 09:32 : update: added rock/Rex Orange County - Television  So Far So Good (Official Audio).mp3
+Jun 25 09:32 : update: added rock/Basket Case-gS86jipcKzw-160k-1644678928779.mp3
+Jun 25 09:32 : update: added rock/Grandson - Best Friends (Official Audio).mp3
+Jun 25 09:32 : update: added rock/How Do You Sleep_.mp3
+Jun 25 09:32 : update: added rock/Lego Ninjago Official Theme Song Music Video The Fold - The Weekend Whip - HD720.mp3
+Jun 25 09:32 : update: added rock/THE FEDERAL EMPIRE - Bad Habits [reSNrXEUj_o].mp3
+Jun 25 09:32 : update: added rock/grandson_ Rock Bottom [Official Visualizer].mp3
+Jun 25 09:32 : update: added rock/Lincoln - How I Survived Bobby Mackey's Personal Hell (Official Audio) [Gy7z0roZX2w].mp3
+Jun 25 09:32 : update: added rock/When The Weak Go Marching In.mp3
+Jun 25 09:32 : update: added rock/Hollywood Undead - Another Way Out (Official Lyric Video)-TV5m7KvWUj0-160k-1646908318795.mp3
+Jun 25 09:32 : update: added rock/ Alice In Chains - Heaven Beside You (Official Video) (320 kbps).mp3
+Jun 25 09:32 : update: added rock/One Hope - under my sleeve.mp3
+Jun 25 09:32 : update: added rock/The New Real-oU3cIcaI8-I-160k-1646939286281.mp3
+Jun 25 09:32 : update: added rock/Three Days Grace - Right Left Wrong (Official Video).mp3
+Jun 25 09:32 : update: added rock/Chonny Jash - Ain't No Rest for the Wicked (Cage The Elephant Cover) [XOGqwChH2Cw].mp3
+Jun 25 09:32 : update: added rock/Gold Bloom - A Damned Shame (Visual).mp3
+Jun 25 09:32 : update: added rock/Typical Me-BsTpFB2jZmo-160k-1646627274468.mp3
+Jun 25 09:32 : update: added rock/American Idiot-VyV54YwPAkk-160k-1644644322259.mp3
+Jun 25 09:32 : update: added rock/The Unlikely Candidates - Bells (Audio).mp3
+Jun 25 09:32 : update: added rock/Teenagers[Mpgun.com].mp3
+Jun 25 09:32 : update: added rock/Three Days Grace - So Called Life (Lyric Video)-7SBCCSF5p7Q-160k-1645716129708.mp3
+Jun 25 09:32 : update: added rock/Dividing By ZeroSlim Pickens Does The Right Thing And Rides The Bomb To Hell (Official Video).mp3
+Jun 25 09:32 : update: added rock/Transformer_Fall_of_Cybertron_Grimlock_(Skillet_-_Monster).mp3
+Jun 25 09:32 : update: added rock/TzarBombah - Topic - Schizophrenic And Armed.mp3
+Jun 25 09:32 : update: added rock/emo/Rest In Peace (feat. NEET) [MNbphezyyBQ].mp3
+Jun 25 09:32 : update: added rock/emo/makes you happy -hoshie star (feat. rebzyyx)[sped up⧸nightcore] [vR-y0NuTHuY].mp3
+Jun 25 09:32 : update: added rock/emo/soap dodgers [AKCuJuNeO6U].mp3
+Jun 25 09:32 : update: added rock/emo/mild headache - i guess it never really mattered [bGOj8EkMqJQ].mp3
+Jun 25 09:32 : update: added rock/emo/vdqzd - preripped - Hi-Point.mp3
+Jun 25 09:32 : update: added rock/emo/vdqzd - preripped - Epitaph.mp3
+Jun 25 09:32 : update: added rock/emo/aj333 - im a redpilled loser [wryLOPda910].mp3
+Jun 25 09:32 : update: added rock/emo/Crustsox - shut ur mouth (pls).mp3
+Jun 25 09:32 : update: added rock/emo/No Doubt [YzGCml4fEIs].mp3
+Jun 25 09:32 : update: added rock/emo/Mindless Self Indulgence - Mindless Self Indulgence ＂It Gets Worse＂ Lyric Video.mp3
+Jun 25 09:32 : update: added rock/emo/Fried By Fluoride - Topic - Burnt Out.mp3
+Jun 25 09:32 : update: added rock/emo/LFSX - It Was Kinda Cool [Qp4mJWDHXLQ].mp3
+Jun 25 09:32 : update: added rock/emo/Life Sucks [i_9ueNF8uu4].mp3
+Jun 25 09:32 : update: added rock/emo/Addison [h_nIcsbs2iA].mp3
+Jun 25 09:32 : update: added rock/emo/DethTech - No Turning Back [BoAqIm2_les].mp3
+Jun 25 09:32 : update: added rock/emo/NEET 'til I Die [EFxbz3IpSGs].mp3
+Jun 25 09:32 : update: added rock/emo/DethTech - Falling [at2HW3jimHY].mp3
+Jun 25 09:32 : update: added rock/emo/Collapsing (feat. DethTech) [nB7mvqFW_cA].mp3
+Jun 25 09:32 : update: added rock/emo/Dead By 30 (feat. UhOhSlater) [bf-uKKwm77A].mp3
+Jun 25 09:32 : update: added rock/emo/vdqzd - preripped - Spite! (Lyrics).mp3
+Jun 25 09:32 : update: added rock/emo/Crustsox - Topic - Out for Blood.mp3
+Jun 25 09:32 : update: added rock/emo/preripped - emotional autarky (slowed) [AfckX4biJIA].mp3
+Jun 25 09:32 : update: added rock/emo/preripped - emotional autarky [juFA4Az2b7Y].mp3
+Jun 25 09:32 : update: added rock/emo/Pacific Purgatory - Topic - Year of the Horse.mp3
+Jun 25 09:32 : update: added rock/emo/Cyborg9k - starship invaders (Lyrics) [UbWJYwoDT-0].mp3
+Jun 25 09:32 : update: added rock/emo/Baby We're A Horror Movie.mp3
+Jun 25 09:32 : update: added rock/emo/Numbers On Screen Go Up [BqxDXlTjpW4].mp3
+Jun 25 09:32 : update: added rock/emo/TzarBombah - Topic - Killing Stoners is a Full Time Job.mp3
+Jun 25 09:32 : update: added rock/emo/h4rtbrkr - i hate you [3qmAzFGJ2ao].mp3
+Jun 25 09:32 : update: added rock/emo/DethTech - an acquired taste ft. luvwillow [6UWTUNPGpbo].mp3
+Jun 25 09:32 : update: added rock/emo/postmodern dreams [xQI4v_Dd5h0].mp3
+Jun 25 09:32 : update: added rock/emo/Rectangular Prison [nIFzmw6jVzw].mp3
+Jun 25 09:32 : update: added rock/emo/The Love I Lost [hNDco3XaFY0].mp3
+Jun 25 09:32 : update: added rock/emo/Overrated [jOkJoF4dbOc].mp3
+Jun 25 09:32 : update: added rock/emo/Fried By Fluoride - Topic - Dropping Out And Giving Up.mp3
+Jun 25 09:32 : update: added rock/emo/DethTech - Lessthanthree [jfLQgxcXimk].mp3
+Jun 25 09:32 : update: added rock/emo/Defect [yj6d7ImzQuk].mp3
+Jun 25 09:32 : update: added rock/emo/Found God in a Tomato.mp3
+Jun 25 09:32 : update: added rock/emo/vdqzd - UhOhSlater - Pheromones.mp3
+Jun 25 09:32 : update: added rock/emo/Lazy Fucker [ojvu9oie8Uc].mp3
+Jun 25 09:32 : update: added rock/Nothing To Lose But You.mp3
+Jun 25 09:32 : update: added rock/The Correspondents - The Correspondents - Fear & Delight (Official Video).opus
+Jun 25 09:32 : update: added rock/Alfredo.mp3
+Jun 25 09:32 : update: added rock/You're Gonna Go Far, Kid.mp3
+Jun 25 09:32 : update: added rock/You Can Run.mp3
+Jun 25 09:32 : update: added rock/Holiday  Boulevard of Broken Dreams-J0xe5DcnYSA-160k-1644641411497.mp3
+Jun 25 09:32 : update: added rock/Bad Reputation-x6fB8KMUnz0-160k-1644363519083.mp3
+Jun 25 09:32 : update: added rock/Thank God I'm Not You.mp3
+Jun 25 09:32 : update: added rock/FIDLAR - Bad Habits [Hun_Eng Sub].mp3
+Jun 25 09:32 : update: added rock/Set It Off - Wolf In Sheeps Clothing (feat. William Beckett)-1snr9wqlfr8-160k-1644075776520.mp3
+Jun 25 09:32 : update: added rock/grandson-blood-water-official-audio.mp3
+Jun 25 09:32 : update: added rock/3D audio/The White Stripes - 7 Nation Army (Glitch Mob Remix) 8D Audio.mp3
+Jun 25 09:32 : update: added rock/They Don't Care About Us.mp3
+Jun 25 09:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 09:32 : update: added rock/TheBestAMVsOfAllTime - Clarissa - Anime MV ♫ AMV.m4a
+Jun 25 09:32 : exception: Failed to open /home/adrn/.config/mpd/playlists: Not a directory
+Jun 25 09:33 : exception: Failed to open /home/adrn/.config/mpd/playlists: Not a directory
+Jun 25 09:33 : exception: Failed to open /home/adrn/.config/mpd/playlists: Not a directory
+Jun 25 09:33 : exception: Failed to open /home/adrn/.config/mpd/playlists: Not a directory
+Jun 25 09:33 : exception: Failed to open /home/adrn/.config/mpd/playlists: Not a directory
+Jun 25 09:33 : exception: Failed to open /home/adrn/.config/mpd/playlists: Not a directory
+Jun 25 09:33 : exception: Failed to open /home/adrn/.config/mpd/playlists: Not a directory
+Jun 25 09:33 : exception: Failed to open /home/adrn/.config/mpd/playlists: Not a directory
+Jun 25 09:33 : exception: Failed to open /home/adrn/.config/mpd/playlists: Not a directory
+Jun 25 09:33 : exception: Failed to open /home/adrn/.config/mpd/playlists: Not a directory
+Jun 25 09:33 : exception: Failed to open /home/adrn/.config/mpd/playlists: Not a directory
+Jun 25 09:33 : exception: Failed to open /home/adrn/.config/mpd/playlists: Not a directory
+Jun 25 09:33 : exception: Failed to open /home/adrn/.config/mpd/playlists: Not a directory
+Jun 25 09:33 : exception: Failed to open /home/adrn/.config/mpd/playlists: Not a directory
+Jun 25 09:33 : exception: Failed to open /home/adrn/.config/mpd/playlists: Not a directory
+Jun 25 09:33 : exception: Failed to open /home/adrn/.config/mpd/playlists: Not a directory
+Jun 25 09:33 : exception: Failed to open /home/adrn/.config/mpd/playlists: Not a directory
+Jun 25 09:33 : exception: Failed to open /home/adrn/.config/mpd/playlists: Not a directory
+Jun 25 09:45 : mixer: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Jun 25 09:49 : mixer: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM

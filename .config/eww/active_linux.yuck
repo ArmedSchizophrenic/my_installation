@@ -1,0 +1,34 @@
+(defvar show true)
+(defwidget activate-linux []
+ 
+  (eventbox 
+ ;   :onhover "${EWW_CMD} update show=false"
+ ;   :onhoverlost "${EWW_CMD} update show=true"
+    (box
+      :orientation "v"
+      :halign "start"
+      :valign "start"
+      (label :xalign 0 :markup "<span font_size=\"large\">Activate Linux</span>")
+      (label :xalign 0 :text "Go Fuck Yourself to activate Linux")
+    )
+  )
+)
+(defwindow activate-linux
+  :monitor 0 
+  :stacking "fg"
+  :click_through true
+  :geometry (
+    geometry 
+    :x "8px" 
+    :y "32px"
+    :width "250px" 
+    :anchor "bottom right"
+    :click_through true
+  )
+  (revealer
+    :transition "slideup"
+    :reveal show
+    :click_through true
+   (activate-linux)
+  )
+)

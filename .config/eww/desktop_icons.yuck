@@ -1,0 +1,35 @@
+(defwindow desktop_icons
+  :monitor 0
+  :geometry (
+    geometry
+    :x "0%"
+    :y "20px"
+    :width "100%"
+    :height "100%"
+    :anchor "center"
+  )
+  :stacking "bg"
+  :exclusive false
+  :focusable false
+  (desktop_files_list)
+)
+
+(deflisten desktop_files "scripts/desk_list.sh")
+
+(defwidget desktop_file [name icon]
+  (box :class "desktop-file"
+    (image :path "~/Pictures/wp/lol.jpg" :width "32px" :height "32px")
+    (label :text name)
+  )
+)
+
+(defwidget desktop_files_list []
+  (box :class "desktop-files-list"
+    (for i in desktop_files
+      (desktop_file :name "${i.name}" :icon "${i.icon}")
+    )
+  )
+)
+
+
+

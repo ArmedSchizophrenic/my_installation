@@ -1,0 +1,22 @@
+[
+   {
+      "name": "eDP-1",
+      "workspaces": [
+         {"active": false,"class": "workspace-button w6","id": 6,"name": "6 []"}
+      ]
+   },
+   {
+      "name": "DP-3",
+      "workspaces": [
+         {"active": false,"class": "workspace-button w1","id": 1,"name": "1 "},
+         {"active": true,"class": "workspace-button w3 workspace-active wa3","id": 3,"name": "3 "}
+      ]
+   },
+   {
+      "name": "DP-4",
+      "workspaces": [
+         {"active": false,"class": "workspace-button w2","id": 2,"name": "2 "},
+         {"active": false,"class": "workspace-button w5","id": 5,"name": "5 "}
+      ]
+   }
+]

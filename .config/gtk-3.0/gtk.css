@@ -1,0 +1,86 @@
+* {
+    font-family: "MesloLGS NF";
+    background-image: none;
+ }
+
+.nemo-window * {
+    font-family: "MesloLGS NF";
+    background-image: none;
+    background-color: #163556;
+    color: #ef5e90;
+}
+
+.nemo-window headerbar,
+.nemo-window .view,
+.nemo-window treeview,
+.nemo-window iconview,
+.nemo-window .locationentry,
+.nemo-window entry,
+.nemo-window combobox,
+.nemo-window textview,
+.nemo-window label,
+.nemo-window box,
+.nemo-window menu,
+.nemo-window button {
+    background-color: #163556;
+    color: #ef5e90;
+}
+
+.nemo-window .view,
+.nemo-window treeview,
+.nemo-window iconview {
+    color: #1cd4ee;
+}
+
+.nemo-window .view:selected,
+.nemo-window treeview:selected,
+.nemo-window iconview:selected {
+    background-color: #163556;
+    color: #e5e500;
+}
+
+.nemo-window .sidebar .view,
+.nemo-window .sidebar treeview {
+    background-color: #163556;
+    color: #ef5e90;
+}
+
+
+.nemo-window .rubberband {
+    background-color: rgba(22, 53, 86, 0.3);
+    border: 2px solid #ef5e90;
+}
+
+.nemo-window .places-treeview,
+.nemo-window .places-treeview .view.cell:hover,
+.nemo-window .places-treeview iconview.cell:hover,
+.nemo-window .places-treeview .view.cell:selected,
+.nemo-window .places-treeview iconview.cell:selected {
+    background-color: #163556;
+    color: #e5e500;
+    -NemoPlacesTreeView-disk-full-bg-color: #e5e500;
+    -NemoPlacesTreeView-disk-full-fg-color: #ef5e90;
+    -GtkTreeView-vertical-separator: 10;
+}
+
+.nemo-window .scrollbar slider {
+    background-color: #3c3c4c;
+    border-radius: 3px;
+}
+
+.nemo-window image {
+    color: #ef5e90;
+}
+
+menuitem {
+    background-color: #163556;
+    color: #e5e500;
+}
+menuitem:hover {
+    background-color: #ef5e90;
+    color: #e5e500;
+}
+
+
+
+

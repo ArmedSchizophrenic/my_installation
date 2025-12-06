@@ -1,0 +1,144 @@
+*{
+ all: unset;
+}
+// bar
+.timer {
+color: #e5e500;
+background-color: #163556;
+border: 2px solid #ef5e90;
+border-radius: 16px;
+padding: 8px;
+margin: 8px;
+margin-right: 8px; 
+font-weight: bold;
+}
+.metric scale trough highlight {
+  all: unset;
+  background-color: #ef5e90;
+  color: #000;
+  border-radius: 10px;
+}
+.metric scale trough {
+  all: unset;
+  background-color: #e5e500;
+  border-radius: 50px;
+  min-height: 6px;
+  min-width: 50px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.sidestuff slider {
+
+}
+.sidestuff {
+color: #e5e500;
+background-color: #163556;
+border: 2px solid #ef5e90;
+border-radius: 16px;
+padding: 8px;
+margin: 8px;
+margin-right: 8px;
+}
+.workspaces{
+color: #e5e500;
+background-color: #163556;
+border: 2px solid #ef5e90;
+border-radius: 16px;
+padding: 8px;
+margin: 8px;
+margin-right: 8px;
+
+}
+.active{
+color: #163556;
+background-color: #e5e500;
+border-radius: 8px;
+margin-right: 8px; 
+min-height: 6px;
+  min-width: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-weight: bold;
+}
+.here{
+color: #000;
+background-color: #e55e90;
+border-radius: 8px;
+margin-right: 8px; 
+min-height: 6px;
+  min-width: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-weight: bold;
+}
+menu{
+  color: #e5e500;
+  background-color: #163556;
+  border: 1px solid #ef5e90;
+  border-radius: 8px;
+}
+ menuitem {
+    border-radius: 5px;
+    padding: 8px 12px;
+  }
+menuitem:hover {
+  color: #e5e500;
+  background-color: #163556;
+  border: 1px solid #ef5e90;
+  }
+// calendar
+.cal {
+  color: #ef5e90;
+  background-color: #163556;
+  font-size: 1em;
+  font-weight: bold;
+  border: 2px solid #ef5e90;
+  border-radius: 16px;
+}
+
+.cal:selected {
+  color: #e5e500;
+}
+
+.cal.header {
+  color: #ef5734;
+}
+
+.cal.button {
+  color: #163556;
+}
+
+.cal.highlight {
+  color: #ef5734;
+}
+
+.cal:indeterminate {
+  color: #86a83e;
+}
+// active linux
+
+.activate-linux {
+  color: rgba(250, 250, 250, 0.4);
+
+  &.background {
+    background: none;
+  }
+}
+///// panel
+.panel {
+all: unset;
+}
+.button0 {
+color: #e5e500;
+background-color: #163556;
+border: 2px solid #ef5e90;
+border-radius: 8px;
+font-size: 32px;
+}
+.panel_items {
+color: #e5e500;
+background-color: #163556;
+border: 2px solid #ef5e90;
+border-radius: 16px;
+  margin: 5px 2px;
+}

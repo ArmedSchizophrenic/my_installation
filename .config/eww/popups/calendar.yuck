@@ -1,0 +1,16 @@
+(defwindow calendar
+:monitor 0
+:stacking "fg"
+:geometry (
+ geometry
+ :width "200px"
+ :heigh "200px"
+ :anchor "top center"
+  )
+  (calendar
+    :visible "true"
+  )
+)
+
+
+

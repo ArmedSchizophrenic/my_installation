@@ -1,0 +1,237 @@
+(defwindow bar
+  :monitor 0
+  :geometry (
+    geometry
+    :y "-42"
+    :width "100%"
+    :height "40px"
+    :anchor "top center" 
+  )  
+  :stacking "bg"
+  :exclusive false
+  :focusable false
+  (bar)   
+)
+
+(defwidget bar[]
+  ( centerbox
+    (workspaces0)  
+    (timer)
+    (sidestuff)
+  )
+)
+
+(defwidget wsw [n a]
+  (box
+    :class a    
+    :halign "start"
+    (label 
+      :class "gaming"
+      :text {n == "" ? "🎮" : "${n}"}
+    )
+  )
+)
+
+(deflisten workspace0 "hyprland-workspaces `hyprctl monitors -j | jq -r \".[0].name\"`")
+
+(defwidget workspaces0 []
+  (eventbox :onscroll "hyprctl dispatch workspace `echo {} | sed 's/up/+/\' | sed 's/down/-/'`1"
+    (box
+      :class "workspaces"
+      :halign "start"
+      (for i in workspace0
+        (box   
+          (wsw  :n "${i.name -1}" :a "${i.active == true  ? "active" : "here"}")
+        )
+      )
+    )
+  )
+)
+(defwidget space [pos] 
+  (box :halign pos )
+)
+(defvar show-calendar false)
+(defpoll time 
+  :interval "1s"
+  `date +%H:%M`)
+(defwidget timer []
+  (eventbox
+    :onhover "${EWW_CMD} update show-calendar=true"
+    :onhoverlost "${EWW_CMD} update show-calendar=false"
+    (box
+      :class "timer" 
+      :halign "center"
+      time
+    )
+  )
+)
+
+(defpoll volume :interval "1s"
+  "scripts/getvol")
+(defpoll gamma :interval "1s"
+  "hyprctl hyprsunset gamma")
+(defpoll temp :interval "1s"
+  "hyprctl hyprsunset temperature")
+(defpoll net :interval "1s" 
+  "scripts/net.sh")
+(defvar extrastuff false)
+(defvar network false )
+(defwidget sidestuff []
+  (box  :orientation "h" :space-evenly false :halign "end"
+;;;;;;;;;;;;;;;;
+    (box :class "sidestuff" :space-evenly false 
+      (button :onclick "${network == true ? "eww update network=false" : " eww update network=true"}" 
+        (label :text "${network == true ? "➤ " : "↓↑➤"}" :angle {network == true ? 0 : 180}) 
+      )
+      (revealer :transition "slideright" :reveal network :duration "500ms" 
+       (net) 
+      )   
+    )
+;;;;;;;;;;;;;;
+    (box :class "sidestuff" :space-evenly false 
+      (button :onclick "${extrastuff == true ? "eww update extrastuff=false" : " eww update extrastuff=true"}" 
+        (label :text "${extrastuff == true ? "➤ " : "☀️➤"}" :angle {extrastuff == true ? 0 : 180}) 
+      )
+      (revealer :transition "slideright" :reveal extrastuff :duration "500ms" 
+        (brightness)
+      )   
+    )
+    (box :class "sidestuff" :space-evenly false
+      (metricc :label "🔊" :onclick "pavucontrol & disown"
+        :value volume
+        :onchange "pamixer --set-volume {}")
+      (systray 
+        :spacing "4"
+        :orientation "h"
+        :icon-size "20"
+      )
+    )
+    ;   (metric :label ""
+    ;     :value {EWW_RAM.used_mem_perc}
+    ;     :onchange "")
+    ;   (metric :label "💾"
+    ;     :value {round((1 - (EWW_DISK["/"].free / EWW_DISK["/"].total)) * 100, 0)}
+    ;     :onchange "")
+  )
+)
+(defwidget brightness []
+  (box  :space-evenly false  
+    (metric :label "☀️"  :min 20 :max 101 
+      :value gamma
+      :onchange "hyprctl hyprsunset gamma {}")
+    (metric :label "🔥"  :min 1000 :max 6000 
+      :value temp
+      :onchange "hyprctl hyprsunset temperature {}")
+  )
+)
+(defwidget net []
+  (box
+  (label :text "↓ ${net.download} kB/s")
+  (label :text "↑ ${net.upload} kB/s")
+  )
+)
+
+(defwidget metric [label value onchange min max]
+  (box :orientation "h"
+    :class "metric"
+    :space-evenly false
+    (box :class "label" label)
+    (scale :min min
+      :max max
+      :active {onchange != ""}
+      :value value
+      :onchange onchange)))
+(defwidget metricc [label value onchange onclick]
+  (box :orientation "h"
+    :class "metric"
+    :space-evenly false
+    (box (button :onclick onclick label))
+    (scale :min 0
+      :max 101
+      :active {onchange != ""}
+      :value value
+      :onchange onchange)
+  )
+)
+
+(defwindow calendar0
+  :monitor 0
+  :geometry (
+    geometry
+    :y "10"
+    :width "20%"
+    :height "20px"
+    :anchor "top center" 
+    :wm-ignore true
+  )  
+  :stacking "fg"
+  :exclusive false
+  :focusable false
+  (calendar
+    :class "cal"
+    :visible show-calendar
+  )
+)
+
+(defwindow extra_stuff
+  :monitor 0
+  :geometry (
+    geometry
+    :y "-56px"
+    :x "1520px"
+    :width "250px"
+    :height "40px"
+
+    :wm-ignore true
+  )
+  (extrastuffz) 
+)
+(defwidget extrastuffz []
+  (box :class "sidestuff" :space-evenly false
+    (button :onclick "eww close extra_stuff" (label :text " ➤ "))
+    (metric :label "🌞"  :min 20 :max 101 
+      :value gamma
+      :onchange "hyprctl hyprsunset gamma {}")
+    (metric :label "🔥"  :min 1000 :max 5000 
+      :value temp
+      :onchange "hyprctl hyprsunset temperature {}")
+
+  )
+)
+
+(defwindow works
+  :monitor 0
+  :geometry (
+    geometry
+    :y "-56px"
+    :x "1520px"
+    :width "60px"
+    :height "40px"
+
+    :wm-ignore true
+  )
+  (circle) 
+)
+
+(defwidget circle []
+  (box :class "sidestuff"
+    (button  (label :text "🔧" ))
+  )
+)
+
+(defwindow spaceing
+  :monitor 0
+  :geometry (
+    geometry
+    :y "0"
+    :width "100%"
+    :height "40px"
+    :anchor "top center" 
+  )  
+  :stacking "bg"
+  :exclusive true
+  :focusable false
+  (box
+" "
+  )
+)

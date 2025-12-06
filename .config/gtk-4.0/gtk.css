@@ -1,0 +1,30 @@
+
+* {
+  background-color: #163556;
+  color: #e5e500;
+    font-family: "MesloLGS NF";
+   
+}
+
+scrolledwindow > viewport {
+  border: none;
+  background: transparent;
+  box-shadow: none;
+}
+
+.viewport .box {
+  background: transparent;
+}
+
+
+window.vim {
+    background-color: #1e1e1e;
+}
+
+
+/*
+background maximized pavucontrol-window
+tiled-bottom tiled-left tiled-right
+tiled-top00
+*/
+

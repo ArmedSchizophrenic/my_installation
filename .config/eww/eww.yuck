@@ -1,0 +1,5 @@
+(include "bar.yuck")
+(include "active_linux.yuck")
+(include "desktop_icons.yuck")
+(include "panel.yuck")
+

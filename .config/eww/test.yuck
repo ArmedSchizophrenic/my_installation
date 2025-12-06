@@ -1,0 +1,25 @@
+
+(defpoll disk_usage :interval "10s"
+  "bash -c \"df --output=pcent / | tail -1 | tr -dc '0-9.'\"")
+
+(defwindow disk-graph
+  :geometry (geometry :x "50%" :y "10px" :width "420px" :height "140px" :anchor "top center")
+  :windowtype "dock"
+  :stacking "fg"
+  :exclusive false
+  (box :orientation "vertical" :spacing 6 :class "disk-graph-box"
+    (label :text "Zużycie dysku" :class "dg-title")
+    (graph :value {disk_usage}
+           :time-range "1h"      
+           :thickness 2
+           :min 0
+           :max 100
+           :dynamic false
+           :class "dg-graph")
+    (box :orientation "horizontal" :spacing 8 :halign "end"
+      (label :text {disk_usage} :class "dg-percent")
+      (label :text "%" :class "dg-percent-unit")
+    )
+  )
+)
+
