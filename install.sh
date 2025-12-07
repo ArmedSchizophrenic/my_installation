@@ -1,7 +1,7 @@
 #!/bin/bash
 
-PACMAN_FILE="packages_pacman.txt"
-AUR_FILE="packages_aur.txt"
+PACMAN_FILE="packages_aur.txt"
+AUR_FILE="packages_paru.txt"
 
 # ——————————————————————————————
 # Sprawdzanie plików paczek
