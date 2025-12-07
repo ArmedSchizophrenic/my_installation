@@ -35,7 +35,6 @@ hyprpaper
 hyprsunset
 hyprland-workspaces
 hyprdynamicmonitors-bin
-zsh
 zsh-autosuggestions
 tmux
 ripgrep
