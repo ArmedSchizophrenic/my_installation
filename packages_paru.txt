@@ -1,0 +1,13 @@
+hyprsunset
+hyprland-workspaces
+hyprdynamicmonitors-bin
+amdgpu_top-git
+amd-vulkan-prefixes
+amf-amdgpu-pro
+lib32-amdgpu-pro-oglp
+openrgb-plugin-hardware-sync-git
+cli-visualizer-git
+grimblast-git
+youtube-dl-gui-git
+yt-dlp
+

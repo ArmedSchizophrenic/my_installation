@@ -32,9 +32,6 @@ helvum
 xdg-desktop-portal-hyprland
 hyprland
 hyprpaper
-hyprsunset
-hyprland-workspaces
-hyprdynamicmonitors-bin
 zsh-autosuggestions
 fzf
 ripgrep
@@ -74,7 +71,6 @@ bridge-utils
 docker
 dnsmasq
 smartmontools
-dysk
 liquidctl
 progress
 gvfs-mtp
@@ -93,7 +89,6 @@ ueberzug
 pqiv
 chafa
 cava
-cli-visualizer-git
 cliphist
 copyq
 neofetch
@@ -105,7 +100,6 @@ noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
 otf-font-awesome
-bibata-cursor-theme-bin
 kitty
 telegram-desktop
 telegram-tg
@@ -115,20 +109,9 @@ wine-staging
 lutris
 steam
 prismlauncher
-gamescope
-vulkan-amdgpu-pro
-amd-vulkan-prefixes
-amdgpu_top-git
-amf-amdgpu-pro
-lib32-amdgpu-pro-oglp
-openrgb-plugin-hardware-sync-git
 mgba-sdl
 love
-scrcpy
-simple-mtpfs-git
 dunst
-grimblast-git
-eww
 wev
 wofi
 sux
@@ -146,5 +129,4 @@ zram-generator
 unrar
 unrar-free
 unzip
-youtube-dl-gui-git
-yt-dlp
+
