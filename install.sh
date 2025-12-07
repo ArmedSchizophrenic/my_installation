@@ -30,7 +30,7 @@ sleep 2
 # ——————————————————————————————
 # Instalacja paru (tylko jeśli brak)
 # ——————————————————————————————
-if ! command -v paru >/dev/null 2>&1; then
+if ! sudo -u "$SUDO_USER" command -v paru >/dev/null 2>&1; then
   echo "Installing paru..."
   pacman -Sy --needed --noconfirm base-devel git
   sleep 2
