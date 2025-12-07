@@ -1,70 +1,80 @@
+#!/bin/bash
+
 PKG_FILE="packages.txt"
 
+# ——————————————————————————————
+# Sprawdzanie pliku packages.txt
+# ——————————————————————————————
 if [ ! -f "$PKG_FILE" ]; then
-  echo "Brak pliku $PKG_FILE!"
-  exit 1
-fi
-
-if [ "$EUID" -ne 0 ]; then
-  echo "sudo zjebie"
-  exit 1
-fi
-
-echo "Installig packages ... " 
-
-wait 3
-
-
-echo "Instaluję paru..."
-pacman -Sy --needed --noconfirm base-devel git
-
-wait 3
-
-sudo -u $SUDO_USER bash -c '
-    git clone https://aur.archlinux.org/paru.git /tmp/paru
-    cd /tmp/paru
-    makepkg -si --noconfirm
-    '
-
-    echo "instalowanie z pliku $PKG_FILE"
-sudo -u $SUDO_USER paru -Sy --needed --noconfirm $(cat "$PKG_FILE")
-
- sudo pacman -S --noconfirm flatpak
-
- if ! flatpak remotes | grep -q "flathub"; then
-    echo "Dodaję repozytorium Flathub..."
-    flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-fi
-
-FLATPAK_PACKAGES=(
-  org.freedesktop.Platform.GL.default
-  org.freedesktop.Platform.GL.default
-  org.freedesktop.Platform.codecs-extra
-  org.gnome.Platform.Locale
-  org.gnome.Platform
-  org.prismlauncher.PrismLauncher
-  org.gimp.Gorg.vinegarhq.Sober
-)
-
-for package in "${FLATPAK_PACKAGES[@]}"; do
-    echo "Instaluję $package..."
-    flatpak install -y flathub "$package"
-done
-
-
-read -p "przeniesc configi? (y/n): " answer
-
-if [[ "$answer" == [Yy] ]]; then
-    echo "ok..."
-    cp -r .config/* ~/ aonfig/
-    cp .zshrc ~/
-    cp .p10k.zsh ~/
-else
-    echo "lol."
+    echo "Brak pliku $PKG_FILE!"
     exit 1
 fi
 
+# ——————————————————————————————
+# Skrypt musi być odpalony jako root
+# ——————————————————————————————
+if [ "$EUID" -ne 0 ]; then
+    echo "Uruchom jako sudo."
+    exit 1
+fi
 
+# Kiedy używasz sudo, normalny użytkownik siedzi w $SUDO_USER
+USER_HOME="/home/$SUDO_USER"
+
+echo "instalajowowanowanie pakietow sys..."
+sleep 2
+
+# ——————————————————————————————
+# Instalacja paru
+# ——————————————————————————————
+echo "installing paru..."
+pacman -Sy --needed --noconfirm base-devel git
+
+sleep 2
+
+sudo -u "$SUDO_USER" bash -c '
+    git clone https://aur.archlinux.org/paru.git /tmp/paru;
+    cd /tmp/paru || exit 1;
+    makepkg -si --noconfirm;
+'
+
+# ——————————————————————————————
+# Instalacja paczek z pliku
+# ——————————————————————————————
+echo "Instaluję paczki z pliku $PKG_FILE..."
+sudo -u "$SUDO_USER" paru -Sy --needed --noconfirm $(cat "$PKG_FILE")
+
+# ——————————————————————————————
+# Flatpak + Flathub
+# ——————————————————————————————
+pacman -S --noconfirm flatpak
+
+if ! flatpak remotes | grep -q "flathub"; then
+    echo "Dodaję repo Flathub..."
+    flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+fi
+
+
+
+# ——————————————————————————————
+# Kopiowanie configów
+# ——————————————————————————————
+echo
+read -p "Przenieść configi? (y/n): " answer
+
+if [[ "$answer" =~ ^[Yy]$ ]]; then
+    echo "Przenoszę configi..."
+
+    # Poprawne kopiowanie
+    cp -r .config/* "$USER_HOME/.config/"
+    cp -r home/.zshrc "$USER_HOME/"
+    cp -r home/.p10k.zsh "$USER_HOME/"
+
+    # Prawa własności
+    chown -R "$SUDO_USER:$SUDO_USER" "$USER_HOME"
+else
+    echo "Pomijam configi."
+fi
 
 echo "Gotowe!"
 
