@@ -69,7 +69,8 @@ if [[ "$answer" =~ ^[Yy]$ ]]; then
     cp -r .config/* "$USER_HOME/.config/"
     cp -r home/.zshrc "$USER_HOME/"
     cp -r home/.p10k.zsh "$USER_HOME/"
-
+    mkdir "$USER_HOME/Documents"
+    cp -r Documents/* "$USER_HOME/Documents/"
     # Prawa własności
     chown -R "$SUDO_USER:$SUDO_USER" "$USER_HOME"
 else
