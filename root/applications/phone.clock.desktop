@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=zegar/budzik
+Exec=scrcpy -d --new-display=600x1200/250 --max-fps 30 --start-app=+com.sec.android.app.clockpackage
+Icon=scrcpy
+Type=Application
+Terminal=false
+

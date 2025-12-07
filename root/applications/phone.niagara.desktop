@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Phone screen
+Exec=scrcpy -d --new-display=600x1200/300 --max-fps 30 --start-app=+bitpit.launcher
+Icon=scrcpy
+Type=Application
+Terminal=false
+

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=ifunny
+Exec=scrcpy -d --new-display=600x1200/250 --max-fps 60 --start-app=+mobi.ifunny
+Icon=scrcpy
+Type=Application
+Terminal=false
+

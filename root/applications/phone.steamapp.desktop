@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Steam Phone App
+Exec=scrcpy -d --new-display=600x1200/250 --max-fps 30 --start-app=+com.valvesoftware.android.steam.community
+Icon=scrcpy
+Type=Application
+Terminal=false
+

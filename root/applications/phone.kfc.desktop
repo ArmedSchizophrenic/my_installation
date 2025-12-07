@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=KFC App
+Exec=scrcpy -d --new-display=600x1200/250 --max-fps 30 --start-app=+com.kfc_polska
+Icon=scrcpy
+Type=Application
+Terminal=false
+

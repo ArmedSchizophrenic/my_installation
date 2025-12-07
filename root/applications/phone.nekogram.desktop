@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Nekogram
+Exec=scrcpy -e --new-display=600x1200/250 --max-fps 60 --shortcut-mod=lctrl --start-app=+tw.nekomimi.nekogram --prefer-text
+Icon=scrcpy
+Type=Application
+Terminal=false
+

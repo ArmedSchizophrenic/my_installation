@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Music
+Exec=scrcpy -d --new-display=600x600/200 --start-app=in.krosbits.musicolet
+Icon=scrcpy
+Type=Application
+Terminal=false
+
