@@ -79,6 +79,12 @@ if [[ "$answer" =~ ^[Yy]$ ]]; then
     cp -r .config/* "$USER_HOME/.config/"
     mkdir -p "$USER_HOME/Documents"
     cp -r Documents/* "$USER_HOME/Documents/"
+    # ——————————————————————————————
+    # Przenoszenie plików .desktop do /usr/share/applications
+    # ——————————————————————————————
+    
+      echo "Kopiuję pliki .desktop do /usr/share/applications..."
+      cp root/applications/* /usr/share/applications/
 
     echo "Instaluję Zsh..."
     pacman -S --noconfirm zsh
