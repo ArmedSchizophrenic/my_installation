@@ -7,18 +7,18 @@ AUR_FILE="packages_paru.txt"
 # Sprawdzanie plików paczek
 # ——————————————————————————————
 for FILE in "$PACMAN_FILE" "$AUR_FILE"; do
-    if [ ! -f "$FILE" ]; then
-        echo "Brak pliku $FILE!"
-        exit 1
-    fi
+  if [ ! -f "$FILE" ]; then
+    echo "Brak pliku $FILE!"
+    exit 1
+  fi
 done
 
 # ——————————————————————————————
 # Skrypt musi być odpalony jako root
 # ——————————————————————————————
 if [ "$EUID" -ne 0 ]; then
-    echo "Uruchom jako sudo."
-    exit 1
+  echo "Uruchom jako sudo."
+  exit 1
 fi
 
 # Kiedy używasz sudo, normalny użytkownik siedzi w $SUDO_USER
@@ -31,17 +31,17 @@ sleep 2
 # Instalacja paru (tylko jeśli brak)
 # ——————————————————————————————
 if ! command -v paru >/dev/null 2>&1; then
-    echo "Installing paru..."
-    pacman -Sy --needed --noconfirm base-devel git
-    sleep 2
+  echo "Installing paru..."
+  pacman -Sy --needed --noconfirm base-devel git
+  sleep 2
 
-    sudo -u "$SUDO_USER" bash -c '
-        git clone https://aur.archlinux.org/paru.git /tmp/paru
-        cd /tmp/paru || exit 1
-        makepkg -si --noconfirm
-    '
+  sudo -u "$SUDO_USER" bash -c '
+  git clone https://aur.archlinux.org/paru.git /tmp/paru
+  cd /tmp/paru || exit 1
+  makepkg -si --noconfirm
+  '
 else
-    echo "paru już zainstalowany, pomijam instalację."
+  echo "paru już zainstalowany, pomijam instalację."
 fi
 
 # ——————————————————————————————
@@ -62,8 +62,8 @@ sudo -u "$SUDO_USER" paru -Sy --needed --noconfirm $(cat "$AUR_FILE")
 pacman -S --noconfirm flatpak
 
 if ! flatpak remotes | grep -q "flathub"; then
-    echo "Dodaję repo Flathub..."
-    flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+  echo "Dodaję repo Flathub..."
+  flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 fi
 
 # ——————————————————————————————
@@ -73,7 +73,7 @@ echo
 read -p "Przenieść configi? (y/n): " answer
 
 if [[ "$answer" =~ ^[Yy]$ ]]; then
-    echo "Przenoszę configi..."
+  echo "Przenoszę configi..."
 
     # Poprawne kopiowanie
     cp -r .config/* "$USER_HOME/.config/"
@@ -85,9 +85,9 @@ if [[ "$answer" =~ ^[Yy]$ ]]; then
 
     echo "Instaluję Oh-My-Zsh..."
     sudo -u "$SUDO_USER" sh -c '
-        export RUNZSH=no
-        export CHSH=no
-        sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    export RUNZSH=no
+    export CHSH=no
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
     '
 
     echo "Ustawiam Zsh jako domyślną powłokę..."
@@ -100,15 +100,16 @@ if [[ "$answer" =~ ^[Yy]$ ]]; then
     cp -f home/.p10k.zsh "$USER_HOME/.p10k.zsh"
 
     # Jeśli masz własny OMZ z katalogu skryptu
-    if [ -d "home/.oh-my-zsh" ]; then
-        cp -r home/.oh-my-zsh/* "$USER_HOME/.oh-my-zsh/"
-    fi
+
+    rm -r "$USER_HOME/.oh-my-zsh"
+    cp -r home/.oh-my-zsh/* "$USER_HOME/.oh-my-zsh/"
+
 
     # Naprawa praw
     chown -R "$SUDO_USER:$SUDO_USER" "$USER_HOME"
 
     echo "Zsh + OMZ skonfigurowane!"
-else
+  else
     echo "Pomijam configi."
 fi
 

@@ -93,7 +93,7 @@ alias cf='clear; neofetch'
 
 alias fvim='nvim $(fzf -m --preview="bat --color=always {}")'
 
-alias pacfzf='~/Documents/./pacfzf.sh'
+alias pacfzf='~/Documents/scripts/./pacfzf.sh'
 
 alias icat="kitten icat"
 
