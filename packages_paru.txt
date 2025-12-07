@@ -10,4 +10,5 @@ cli-visualizer-git
 grimblast-git
 youtube-dl-gui-git
 yt-dlp
+eww
 

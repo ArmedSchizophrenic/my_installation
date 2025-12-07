@@ -1,0 +1,111 @@
+{
+    "Effects": [
+        {
+            "AllowOnlyFirst": false,
+            "AutoStart": true,
+            "Brightness": 19,
+            "ControllerZones": [
+                {
+                    "description": "ENE SMBus Device",
+                    "is_segment": false,
+                    "location": "I2C: /dev/i2c-3, address 0x70",
+                    "name": "ENE DRAM",
+                    "reverse": true,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "",
+                    "vendor": "ENE",
+                    "version": "AUDA0-E6K5-0101",
+                    "zone_idx": 0
+                },
+                {
+                    "description": "ENE SMBus Device",
+                    "is_segment": false,
+                    "location": "I2C: /dev/i2c-3, address 0x72",
+                    "name": "ENE DRAM",
+                    "reverse": true,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "",
+                    "vendor": "ENE",
+                    "version": "AUDA0-E6K5-0101",
+                    "zone_idx": 0
+                },
+                {
+                    "description": "ASUS Aura USB Mainboard Device",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw0",
+                    "name": "ASUS ROG STRIX B760-I GAMING WIFI",
+                    "reverse": true,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "9876543210",
+                    "vendor": "ASUS",
+                    "version": "AULA3-AR32-0222",
+                    "zone_idx": 0
+                },
+                {
+                    "description": "ASUS Aura USB Mainboard Device",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw0",
+                    "name": "ASUS ROG STRIX B760-I GAMING WIFI",
+                    "reverse": true,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "9876543210",
+                    "vendor": "ASUS",
+                    "version": "AULA3-AR32-0222",
+                    "zone_idx": 1
+                }
+            ],
+            "CustomName": "",
+            "CustomSettings": {
+                "AnimationSpeed": 100.0,
+                "BackgroundBrightness": 100,
+                "BackgroundMode": 4,
+                "BackgroundTimeout": 120.0,
+                "ForegroundMode": 2,
+                "ReactiveBackground": false,
+                "SilentBackground": false,
+                "SingleColorMode": 0,
+                "audio_settings": {
+                    "amplitude": 100,
+                    "audio_device": 1,
+                    "avg_mode": 1,
+                    "avg_size": 25,
+                    "decay": 0,
+                    "equalizer": [
+                        0.8700000047683716,
+                        0.6899999976158142,
+                        0.550000011920929,
+                        0.5099999904632568,
+                        0.6600000262260437,
+                        0.6499999761581421,
+                        0.7400000095367432,
+                        0.7300000190734863,
+                        0.8100000023841858,
+                        0.9300000071525574,
+                        1.3200000524520874,
+                        0.8199999928474426,
+                        0.6200000047683716,
+                        0.800000011920929,
+                        0.9700000286102295,
+                        1.0099999904632568
+                    ],
+                    "filter_constant": 1.1100000143051147,
+                    "nrml_ofst": 2.2899999618530273,
+                    "nrml_scl": 0.5,
+                    "window_mode": 0
+                }
+            },
+            "EffectClassName": "AudioVisualizer",
+            "FPS": 60,
+            "RandomColors": false,
+            "Slider2Val": 1,
+            "Speed": 1,
+            "Temperature": 0,
+            "Tint": 100
+        }
+    ],
+    "version": 2
+}

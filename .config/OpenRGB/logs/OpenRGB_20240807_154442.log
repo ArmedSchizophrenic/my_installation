@@ -1,0 +1,1958 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20240807_154442
+====================================================================================================
+
+0     |Info:    Found file: test.orp attempting to validate header
+0     |Info:    Valid v4 profile found for test
+1004  |Trace:   [ResourceManager] Calling detection start callbacks.
+1005  |Trace:   [ResourceManager] Calling detection progress callbacks.
+1005  |Debug:   Closing HID interfaces: Success
+1005  |Trace:   [ResourceManager] Calling device list change callbacks.
+1005  |Info:    ------------------------------------------------------
+1005  |Info:    |               Start device detection               |
+1005  |Info:    ------------------------------------------------------
+1005  |Info:    Initializing HID interfaces: Success
+1007  |Info:    ------------------------------------------------------
+1007  |Info:    |             Detecting I2C interfaces               |
+1007  |Info:    ------------------------------------------------------
+1007  |Info:    Registering I2C interface: /dev/i2c-3 Device 0000:0000 Subsystem: 0000:0000
+1007  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1007  |Info:    Registering I2C interface: /dev/i2c-10 Device 0000:0000 Subsystem: 0000:0000
+1007  |Info:    Registering I2C interface: /dev/i2c-1 Device 0000:0000 Subsystem: 0000:0000
+1007  |Info:    Registering I2C interface: /dev/i2c-8 Device 1002:73DF Subsystem: 1002:0E36
+1007  |Info:    Registering I2C interface: /dev/i2c-6 Device 1002:73DF Subsystem: 1002:0E36
+1007  |Info:    Registering I2C interface: /dev/i2c-4 Device 1002:73DF Subsystem: 1002:0E36
+1007  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1007  |Info:    Registering I2C interface: /dev/i2c-11 Device 0000:0000 Subsystem: 0000:0000
+1007  |Info:    Registering I2C interface: /dev/i2c-2 Device 0000:0000 Subsystem: 0000:0000
+1007  |Info:    Registering I2C interface: /dev/i2c-0 Device 8086:7A23 Subsystem: 1043:8882
+1007  |Info:    Registering I2C interface: /dev/i2c-9 Device 1002:73DF Subsystem: 1002:0E36
+1007  |Info:    Registering I2C interface: /dev/i2c-7 Device 1002:73DF Subsystem: 1002:0E36
+1007  |Info:    Registering I2C interface: /dev/i2c-5 Device 1002:73DF Subsystem: 1002:0E36
+1007  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1007  |Info:    Registering I2C interface: /dev/i2c-MSFT8000:00 Device 0000:0000 Subsystem: 0000:0000
+1007  |Info:    ------------------------------------------------------
+1007  |Info:    |               Detecting I2C devices                |
+1007  |Info:    ------------------------------------------------------
+1007  |Debug:   [Patriot Viper Steel] is enabled
+1007  |Trace:   [ResourceManager] Calling detection progress callbacks.
+1007  |Debug:   [Patriot Viper Steel] Testing bus 8 at address 0x77
+1037  |Trace:   [ResourceManager] Registered detection progress callback.  Total callbacks registered: 1
+1037  |Trace:   [ResourceManager] Registered device list change callback.  Total callbacks registered: 1
+1037  |Debug:   dialog show callback registered
+1045  |Debug:   [Patriot Viper Steel] Writing at address 77, res=FFFFFFFF
+1045  |Debug:   [Patriot Viper Steel] no devices found
+1045  |Trace:   [Patriot Viper Steel] detection end
+1045  |Debug:   [Patriot Viper] is enabled
+1045  |Trace:   [ResourceManager] Calling detection progress callbacks.
+1045  |Debug:   [Patriot Viper] Testing bus 8 at address 0x77
+1053  |Trace:   [PluginManager] Scanning plugin directory: /home/adrn/.config/OpenRGB/plugins/
+1087  |Debug:   [Patriot Viper] Writing at address 77, res=FFFFFFFF
+1087  |Debug:   [Patriot Viper] no devices found
+1087  |Trace:   [Patriot Viper] detection end
+1087  |Debug:   [HyperX DRAM] is enabled
+1087  |Trace:   [ResourceManager] Calling detection progress callbacks.
+1087  |Debug:   [HyperX DRAM] Checking VID/PID on bus 0...
+1087  |Debug:   [HyperX DRAM] IF_DRAM_SMBUS was false for 0000 0000
+1087  |Debug:   [HyperX DRAM] Checking VID/PID on bus 1...
+1087  |Debug:   [HyperX DRAM] IF_DRAM_SMBUS was false for 0000 0000
+1087  |Debug:   [HyperX DRAM] Checking VID/PID on bus 2...
+1087  |Debug:   [HyperX DRAM] IF_DRAM_SMBUS was false for 0000 0000
+1087  |Debug:   [HyperX DRAM] Checking VID/PID on bus 3...
+1087  |Debug:   [HyperX DRAM] IF_DRAM_SMBUS was false for 1002 73DF
+1087  |Debug:   [HyperX DRAM] Checking VID/PID on bus 4...
+1087  |Debug:   [HyperX DRAM] IF_DRAM_SMBUS was false for 1002 73DF
+1087  |Debug:   [HyperX DRAM] Checking VID/PID on bus 5...
+1087  |Debug:   [HyperX DRAM] IF_DRAM_SMBUS was false for 1002 73DF
+1087  |Debug:   [HyperX DRAM] Checking VID/PID on bus 6...
+1087  |Debug:   [HyperX DRAM] IF_DRAM_SMBUS was false for 0000 0000
+1087  |Debug:   [HyperX DRAM] Checking VID/PID on bus 7...
+1087  |Debug:   [HyperX DRAM] IF_DRAM_SMBUS was false for 0000 0000
+1087  |Debug:   [HyperX DRAM] Checking VID/PID on bus 8...
+1087  |Debug:   [HyperX DRAM] Testing bus 8 at address 0x27
+1129  |Debug:   [HyperX DRAM] Writing at address 27, res=FFFFFFFF
+1129  |Debug:   [HyperX DRAM] Checking VID/PID on bus 9...
+1129  |Debug:   [HyperX DRAM] IF_DRAM_SMBUS was false for 1002 73DF
+1129  |Debug:   [HyperX DRAM] Checking VID/PID on bus 10...
+1129  |Debug:   [HyperX DRAM] IF_DRAM_SMBUS was false for 1002 73DF
+1129  |Debug:   [HyperX DRAM] Checking VID/PID on bus 11...
+1129  |Debug:   [HyperX DRAM] IF_DRAM_SMBUS was false for 1002 73DF
+1129  |Debug:   [HyperX DRAM] Checking VID/PID on bus 12...
+1129  |Debug:   [HyperX DRAM] IF_DRAM_SMBUS was false for 0000 0000
+1129  |Debug:   [HyperX DRAM] no devices found
+1129  |Trace:   [HyperX DRAM] detection end
+1129  |Debug:   [Gigabyte RGB Fusion] is enabled
+1129  |Trace:   [ResourceManager] Calling detection progress callbacks.
+1129  |Debug:   [Gigabyte RGB Fusion SMBus] Bus 00 is not a motherboard or the subvendor does not match the one for Gigabyte Technology Co., Ltd., skipping detection
+1129  |Debug:   [Gigabyte RGB Fusion SMBus] Bus 01 is not a motherboard or the subvendor does not match the one for Gigabyte Technology Co., Ltd., skipping detection
+1129  |Debug:   [Gigabyte RGB Fusion SMBus] Bus 02 is not a motherboard or the subvendor does not match the one for Gigabyte Technology Co., Ltd., skipping detection
+1129  |Debug:   [Gigabyte RGB Fusion SMBus] Bus 06 is not a motherboard or the subvendor does not match the one for Gigabyte Technology Co., Ltd., skipping detection
+1129  |Debug:   [Gigabyte RGB Fusion SMBus] Bus 07 is not a motherboard or the subvendor does not match the one for Gigabyte Technology Co., Ltd., skipping detection
+1129  |Debug:   [Gigabyte RGB Fusion SMBus] Bus 08 is not a motherboard or the subvendor does not match the one for Gigabyte Technology Co., Ltd., skipping detection
+1129  |Debug:   [Gigabyte RGB Fusion SMBus] Bus 12 is not a motherboard or the subvendor does not match the one for Gigabyte Technology Co., Ltd., skipping detection
+1129  |Debug:   [Gigabyte RGB Fusion] no devices found
+1129  |Trace:   [Gigabyte RGB Fusion] detection end
+1129  |Debug:   [Gigabyte RGB Fusion 2 SMBus] is enabled
+1129  |Trace:   [ResourceManager] Calling detection progress callbacks.
+1129  |Debug:   [Gigabyte RGB Fusion 2 SMBus] FAILED  - 'ROG STRIX B760-I GAMING WIFI' was not found in the JSON list. Do NOT enable if this is a USB based board.
+1129  |Debug:   [Gigabyte RGB Fusion 2 SMBus] no devices found
+1129  |Trace:   [Gigabyte RGB Fusion 2 SMBus] detection end
+1129  |Debug:   [Gigabyte RGB Fusion 2 DRAM] is enabled
+1129  |Trace:   [ResourceManager] Calling detection progress callbacks.
+1171  |Debug:   [Gigabyte RGB Fusion 2 DRAM] no devices found
+1171  |Trace:   [Gigabyte RGB Fusion 2 DRAM] detection end
+1171  |Debug:   [EVGA Pascal GPU] is enabled
+1171  |Trace:   [ResourceManager] Calling detection progress callbacks.
+1171  |Debug:   [EVGA Pascal GPU] no devices found
+1171  |Trace:   [EVGA Pascal GPU] detection end
+1171  |Debug:   [EVGA GP102 GPU] is enabled
+1171  |Trace:   [ResourceManager] Calling detection progress callbacks.
+1171  |Debug:   [EVGA GP102 GPU] no devices found
+1171  |Trace:   [EVGA GP102 GPU] detection end
+1171  |Debug:   [ENE SMBus DRAM] is enabled
+1171  |Trace:   [ResourceManager] Calling detection progress callbacks.
+1171  |Debug:   [ENE SMBus DRAM] Remapping ENE SMBus RAM modules on 0x77
+1212  |Debug:   [ENE SMBus DRAM] No device detected at 0x77, aborting remap
+1213  |Debug:   [ENE SMBus] looking for devices at 0x70...
+1297  |Debug:   [ENE SMBus] looking for devices at 0x71...
+1381  |Debug:   [ENE SMBus] looking for devices at 0x72...
+1465  |Debug:   [ENE SMBus] looking for devices at 0x73...
+1549  |Debug:   [ENE SMBus] looking for devices at 0x74...
+1633  |Debug:   [ENE SMBus] looking for devices at 0x75...
+1717  |Debug:   [ENE SMBus] looking for devices at 0x76...
+1801  |Debug:   [ENE SMBus] looking for devices at 0x78...
+1885  |Debug:   [ENE SMBus] looking for devices at 0x79...
+1969  |Debug:   [ENE SMBus] looking for devices at 0x7A...
+2053  |Debug:   [ENE SMBus] looking for devices at 0x7B...
+2137  |Debug:   [ENE SMBus] looking for devices at 0x7C...
+2221  |Debug:   [ENE SMBus] looking for devices at 0x7D...
+2305  |Debug:   [ENE SMBus] looking for devices at 0x7E...
+2388  |Debug:   [ENE SMBus] looking for devices at 0x7F...
+2472  |Debug:   [ENE SMBus] looking for devices at 0x4F...
+2556  |Debug:   [ENE SMBus] looking for devices at 0x66...
+2640  |Debug:   [ENE SMBus] looking for devices at 0x67...
+2724  |Debug:   [ENE SMBus] looking for devices at 0x39...
+2808  |Debug:   [ENE SMBus] looking for devices at 0x3A...
+2892  |Debug:   [ENE SMBus] looking for devices at 0x3B...
+2976  |Debug:   [ENE SMBus] looking for devices at 0x3C...
+3060  |Debug:   [ENE SMBus] looking for devices at 0x3D...
+3144  |Debug:   [ENE SMBus DRAM] no devices found
+3144  |Trace:   [ENE SMBus DRAM] detection end
+3144  |Debug:   [ASUS Aura SMBus Motherboard] is enabled
+3144  |Trace:   [ResourceManager] Calling detection progress callbacks.
+3144  |Debug:   [ENE (ASUS Aura) SMBus Controller] Bus 00 is a motherboard and the subvendor matches the one for ASUS, looking for a device at 0x40
+3144  |Debug:   [ENE SMBus] looking for devices at 0x40...
+5182  |Debug:   [ENE (ASUS Aura) SMBus Controller] Bus 00 is a motherboard and the subvendor matches the one for ASUS, looking for a device at 0x4E
+5183  |Debug:   [ENE SMBus] looking for devices at 0x4E...
+7206  |Debug:   [ENE (ASUS Aura) SMBus Controller] Bus 00 is a motherboard and the subvendor matches the one for ASUS, looking for a device at 0x4F
+7206  |Debug:   [ENE SMBus] looking for devices at 0x4F...
+9233  |Debug:   [ENE (ASUS Aura) SMBus Controller] Bus 01 is a motherboard and the subvendor matches the one for ASUS, looking for a device at 0x40
+9233  |Debug:   [ENE SMBus] looking for devices at 0x40...
+9234  |Debug:   [ENE (ASUS Aura) SMBus Controller] Bus 01 is a motherboard and the subvendor matches the one for ASUS, looking for a device at 0x4E
+9234  |Debug:   [ENE SMBus] looking for devices at 0x4E...
+9235  |Debug:   [ENE (ASUS Aura) SMBus Controller] Bus 01 is a motherboard and the subvendor matches the one for ASUS, looking for a device at 0x4F
+9235  |Debug:   [ENE SMBus] looking for devices at 0x4F...
+9237  |Debug:   [ENE (ASUS Aura) SMBus Controller] Bus 02 is a motherboard and the subvendor matches the one for ASUS, looking for a device at 0x40
+9237  |Debug:   [ENE SMBus] looking for devices at 0x40...
+11289 |Debug:   [ENE (ASUS Aura) SMBus Controller] Bus 02 is a motherboard and the subvendor matches the one for ASUS, looking for a device at 0x4E
+11289 |Debug:   [ENE SMBus] looking for devices at 0x4E...
+13313 |Debug:   [ENE (ASUS Aura) SMBus Controller] Bus 02 is a motherboard and the subvendor matches the one for ASUS, looking for a device at 0x4F
+13313 |Debug:   [ENE SMBus] looking for devices at 0x4F...
+15339 |Debug:   [ENE (ASUS Aura) SMBus Controller] Bus 06 is a motherboard and the subvendor matches the one for ASUS, looking for a device at 0x40
+15339 |Debug:   [ENE SMBus] looking for devices at 0x40...
+15341 |Debug:   [ENE (ASUS Aura) SMBus Controller] Bus 06 is a motherboard and the subvendor matches the one for ASUS, looking for a device at 0x4E
+15341 |Debug:   [ENE SMBus] looking for devices at 0x4E...
+15342 |Debug:   [ENE (ASUS Aura) SMBus Controller] Bus 06 is a motherboard and the subvendor matches the one for ASUS, looking for a device at 0x4F
+15342 |Debug:   [ENE SMBus] looking for devices at 0x4F...
+15343 |Debug:   [ENE (ASUS Aura) SMBus Controller] Bus 07 is a motherboard and the subvendor matches the one for ASUS, looking for a device at 0x40
+15343 |Debug:   [ENE SMBus] looking for devices at 0x40...
+15355 |Debug:   [ENE SMBus] Detected an I2C device at address 40, testing register range
+15356 |Verbose: [ENE SMBus] Detection failed testing register A1.  Expected 01, got 00.
+15356 |Verbose: [ENE SMBus] Detection failed testing register A2.  Expected 02, got 00.
+15356 |Verbose: [ENE SMBus] Detection failed testing register A3.  Expected 03, got 00.
+15356 |Verbose: [ENE SMBus] Detection failed testing register A4.  Expected 04, got 00.
+15357 |Verbose: [ENE SMBus] Detection failed testing register A5.  Expected 05, got 00.
+15357 |Verbose: [ENE SMBus] Detection failed testing register A6.  Expected 06, got 00.
+15357 |Verbose: [ENE SMBus] Detection failed testing register A7.  Expected 07, got 00.
+15357 |Verbose: [ENE SMBus] Detection failed testing register A8.  Expected 08, got 00.
+15357 |Verbose: [ENE SMBus] Detection failed testing register A9.  Expected 09, got 00.
+15358 |Verbose: [ENE SMBus] Detection failed testing register AA.  Expected 0A, got 00.
+15358 |Verbose: [ENE SMBus] Detection failed testing register AB.  Expected 0B, got 00.
+15358 |Verbose: [ENE SMBus] Detection failed testing register AC.  Expected 0C, got 00.
+15358 |Verbose: [ENE SMBus] Detection failed testing register AD.  Expected 0D, got 00.
+15358 |Verbose: [ENE SMBus] Detection failed testing register AE.  Expected 0E, got 00.
+15359 |Verbose: [ENE SMBus] Detection failed testing register AF.  Expected 0F, got 00.
+15360 |Debug:   [ENE (ASUS Aura) SMBus Controller] Bus 07 is a motherboard and the subvendor matches the one for ASUS, looking for a device at 0x4E
+15360 |Debug:   [ENE SMBus] looking for devices at 0x4E...
+15361 |Debug:   [ENE (ASUS Aura) SMBus Controller] Bus 07 is a motherboard and the subvendor matches the one for ASUS, looking for a device at 0x4F
+15361 |Debug:   [ENE SMBus] looking for devices at 0x4F...
+15362 |Debug:   [ENE (ASUS Aura) SMBus Controller] Bus 08 is a motherboard and the subvendor matches the one for ASUS, looking for a device at 0x40
+15362 |Debug:   [ENE SMBus] looking for devices at 0x40...
+15438 |Debug:   [ENE (ASUS Aura) SMBus Controller] Bus 08 is a motherboard and the subvendor matches the one for ASUS, looking for a device at 0x4E
+15438 |Debug:   [ENE SMBus] looking for devices at 0x4E...
+15522 |Debug:   [ENE (ASUS Aura) SMBus Controller] Bus 08 is a motherboard and the subvendor matches the one for ASUS, looking for a device at 0x4F
+15522 |Debug:   [ENE SMBus] looking for devices at 0x4F...
+15606 |Debug:   [ENE (ASUS Aura) SMBus Controller] Bus 12 is a motherboard and the subvendor matches the one for ASUS, looking for a device at 0x40
+15606 |Debug:   [ENE SMBus] looking for devices at 0x40...
+15607 |Debug:   [ENE (ASUS Aura) SMBus Controller] Bus 12 is a motherboard and the subvendor matches the one for ASUS, looking for a device at 0x4E
+15607 |Debug:   [ENE SMBus] looking for devices at 0x4E...
+15608 |Debug:   [ENE (ASUS Aura) SMBus Controller] Bus 12 is a motherboard and the subvendor matches the one for ASUS, looking for a device at 0x4F
+15608 |Debug:   [ENE SMBus] looking for devices at 0x4F...
+15609 |Debug:   [ASUS Aura SMBus Motherboard] no devices found
+15609 |Trace:   [ASUS Aura SMBus Motherboard] detection end
+15609 |Debug:   [Crucial] is enabled
+15609 |Trace:   [ResourceManager] Calling detection progress callbacks.
+15647 |Debug:   [Crucial DRAM] In bus: 8086:7A23 looking for devices at [0x39|0x3A|0x3B|0x3C|0x20|0x21|0x22|0x23]
+15647 |Debug:   [Crucial DRAM] Testing address 39 to see if there is a device there
+15689 |Debug:   [Crucial DRAM] Testing address 3A to see if there is a device there
+15732 |Debug:   [Crucial DRAM] Testing address 3B to see if there is a device there
+15773 |Debug:   [Crucial DRAM] Testing address 3C to see if there is a device there
+15815 |Debug:   [Crucial DRAM] Testing address 20 to see if there is a device there
+15857 |Debug:   [Crucial DRAM] Testing address 21 to see if there is a device there
+15899 |Debug:   [Crucial DRAM] Testing address 22 to see if there is a device there
+15941 |Debug:   [Crucial DRAM] Testing address 23 to see if there is a device there
+15983 |Debug:   [Crucial] no devices found
+15983 |Trace:   [Crucial] detection end
+15983 |Debug:   [Corsair Vengeance Pro] is enabled
+15983 |Trace:   [ResourceManager] Calling detection progress callbacks.
+15983 |Debug:   [Corsair Vengeance RGB PRO] Testing bus 0
+15983 |Debug:   [Corsair Vengeance RGB PRO] Bus 0 is not a DRAM bus
+15983 |Debug:   [Corsair Vengeance RGB PRO] Testing bus 1
+15983 |Debug:   [Corsair Vengeance RGB PRO] Bus 1 is not a DRAM bus
+15983 |Debug:   [Corsair Vengeance RGB PRO] Testing bus 2
+15983 |Debug:   [Corsair Vengeance RGB PRO] Bus 2 is not a DRAM bus
+15983 |Debug:   [Corsair Vengeance RGB PRO] Testing bus 3
+15983 |Debug:   [Corsair Vengeance RGB PRO] Bus 3 is not a DRAM bus
+15983 |Debug:   [Corsair Vengeance RGB PRO] Testing bus 4
+15983 |Debug:   [Corsair Vengeance RGB PRO] Bus 4 is not a DRAM bus
+15983 |Debug:   [Corsair Vengeance RGB PRO] Testing bus 5
+15983 |Debug:   [Corsair Vengeance RGB PRO] Bus 5 is not a DRAM bus
+15983 |Debug:   [Corsair Vengeance RGB PRO] Testing bus 6
+15983 |Debug:   [Corsair Vengeance RGB PRO] Bus 6 is not a DRAM bus
+15983 |Debug:   [Corsair Vengeance RGB PRO] Testing bus 7
+15983 |Debug:   [Corsair Vengeance RGB PRO] Bus 7 is not a DRAM bus
+15983 |Debug:   [Corsair Vengeance RGB PRO] Testing bus 8
+16024 |Debug:   [Corsair Vengeance RGB PRO] Trying address 58
+16024 |Debug:   [Corsair Vengeance RGB PRO] Failed: res was FFFFFFFF
+16066 |Debug:   [Corsair Vengeance RGB PRO] Trying address 59
+16066 |Debug:   [Corsair Vengeance RGB PRO] Failed: res was FFFFFFFF
+16108 |Debug:   [Corsair Vengeance RGB PRO] Trying address 5A
+16108 |Debug:   [Corsair Vengeance RGB PRO] Failed: res was FFFFFFFF
+16150 |Debug:   [Corsair Vengeance RGB PRO] Trying address 5B
+16150 |Debug:   [Corsair Vengeance RGB PRO] Failed: res was FFFFFFFF
+16192 |Debug:   [Corsair Vengeance RGB PRO] Trying address 5C
+16192 |Debug:   [Corsair Vengeance RGB PRO] Failed: res was FFFFFFFF
+16234 |Debug:   [Corsair Vengeance RGB PRO] Trying address 5D
+16234 |Debug:   [Corsair Vengeance RGB PRO] Failed: res was FFFFFFFF
+16276 |Debug:   [Corsair Vengeance RGB PRO] Trying address 5E
+16276 |Debug:   [Corsair Vengeance RGB PRO] Failed: res was FFFFFFFF
+16318 |Debug:   [Corsair Vengeance RGB PRO] Trying address 5F
+16318 |Debug:   [Corsair Vengeance RGB PRO] Failed: res was FFFFFFFF
+16328 |Debug:   [Corsair Vengeance RGB PRO] Testing bus 9
+16328 |Debug:   [Corsair Vengeance RGB PRO] Bus 9 is not a DRAM bus
+16328 |Debug:   [Corsair Vengeance RGB PRO] Testing bus 10
+16328 |Debug:   [Corsair Vengeance RGB PRO] Bus 10 is not a DRAM bus
+16328 |Debug:   [Corsair Vengeance RGB PRO] Testing bus 11
+16328 |Debug:   [Corsair Vengeance RGB PRO] Bus 11 is not a DRAM bus
+16328 |Debug:   [Corsair Vengeance RGB PRO] Testing bus 12
+16328 |Debug:   [Corsair Vengeance RGB PRO] Bus 12 is not a DRAM bus
+16328 |Debug:   [Corsair Vengeance Pro] no devices found
+16328 |Trace:   [Corsair Vengeance Pro] detection end
+16328 |Debug:   [Corsair Vengeance] is enabled
+16328 |Trace:   [ResourceManager] Calling detection progress callbacks.
+16989 |Debug:   [Corsair Vengeance] no devices found
+16989 |Trace:   [Corsair Vengeance] detection end
+16989 |Debug:   [Corsair Dominator Platinum] is enabled
+16989 |Trace:   [ResourceManager] Calling detection progress callbacks.
+16989 |Debug:   [Corsair Dominator Platinum] Bus 0 is not a DRAM bus
+16989 |Debug:   [Corsair Dominator Platinum] Bus 1 is not a DRAM bus
+16989 |Debug:   [Corsair Dominator Platinum] Bus 2 is not a DRAM bus
+16989 |Debug:   [Corsair Dominator Platinum] Bus 3 is not a DRAM bus
+16989 |Debug:   [Corsair Dominator Platinum] Bus 4 is not a DRAM bus
+16989 |Debug:   [Corsair Dominator Platinum] Bus 5 is not a DRAM bus
+16989 |Debug:   [Corsair Dominator Platinum] Bus 6 is not a DRAM bus
+16989 |Debug:   [Corsair Dominator Platinum] Bus 7 is not a DRAM bus
+16989 |Debug:   [Corsair Dominator Platinum] Testing bus 8
+17031 |Debug:   [Corsair Dominator Platinum] Trying address 58
+17031 |Debug:   [Corsair Dominator Platinum] Failed: res was FFFFFFFF
+17073 |Debug:   [Corsair Dominator Platinum] Trying address 59
+17073 |Debug:   [Corsair Dominator Platinum] Failed: res was FFFFFFFF
+17115 |Debug:   [Corsair Dominator Platinum] Trying address 5A
+17115 |Debug:   [Corsair Dominator Platinum] Failed: res was FFFFFFFF
+17157 |Debug:   [Corsair Dominator Platinum] Trying address 5B
+17157 |Debug:   [Corsair Dominator Platinum] Failed: res was FFFFFFFF
+17199 |Debug:   [Corsair Dominator Platinum] Trying address 5C
+17199 |Debug:   [Corsair Dominator Platinum] Failed: res was FFFFFFFF
+17241 |Debug:   [Corsair Dominator Platinum] Trying address 5D
+17241 |Debug:   [Corsair Dominator Platinum] Failed: res was FFFFFFFF
+17283 |Debug:   [Corsair Dominator Platinum] Trying address 5E
+17283 |Debug:   [Corsair Dominator Platinum] Failed: res was FFFFFFFF
+17325 |Debug:   [Corsair Dominator Platinum] Trying address 5F
+17325 |Debug:   [Corsair Dominator Platinum] Failed: res was FFFFFFFF
+17367 |Debug:   [Corsair Dominator Platinum] Trying address 18
+17367 |Debug:   [Corsair Dominator Platinum] Failed: res was FFFFFFFF
+17409 |Debug:   [Corsair Dominator Platinum] Trying address 19
+17409 |Debug:   [Corsair Dominator Platinum] Failed: res was FFFFFFFF
+17451 |Debug:   [Corsair Dominator Platinum] Trying address 1A
+17451 |Debug:   [Corsair Dominator Platinum] Failed: res was FFFFFFFF
+17493 |Debug:   [Corsair Dominator Platinum] Trying address 1B
+17493 |Debug:   [Corsair Dominator Platinum] Failed: res was FFFFFFFF
+17535 |Debug:   [Corsair Dominator Platinum] Trying address 1C
+17535 |Debug:   [Corsair Dominator Platinum] Failed: res was FFFFFFFF
+17577 |Debug:   [Corsair Dominator Platinum] Trying address 1D
+17577 |Debug:   [Corsair Dominator Platinum] Failed: res was FFFFFFFF
+17619 |Debug:   [Corsair Dominator Platinum] Trying address 1E
+17619 |Debug:   [Corsair Dominator Platinum] Failed: res was FFFFFFFF
+17661 |Debug:   [Corsair Dominator Platinum] Trying address 1F
+17661 |Debug:   [Corsair Dominator Platinum] Failed: res was FFFFFFFF
+17671 |Debug:   [Corsair Dominator Platinum] Bus 9 is not a DRAM bus
+17671 |Debug:   [Corsair Dominator Platinum] Bus 10 is not a DRAM bus
+17671 |Debug:   [Corsair Dominator Platinum] Bus 11 is not a DRAM bus
+17671 |Debug:   [Corsair Dominator Platinum] Bus 12 is not a DRAM bus
+17671 |Debug:   [Corsair Dominator Platinum] no devices found
+17671 |Trace:   [Corsair Dominator Platinum] detection end
+17671 |Debug:   [ASRock Motherboard SMBus Controllers] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Debug:   [ASRock SMBus Detectector] Bus 00 is not a motherboard or the subvendor does not match the one for ASRock, skipping detection
+17671 |Debug:   [ASRock SMBus Detectector] Bus 01 is not a motherboard or the subvendor does not match the one for ASRock, skipping detection
+17671 |Debug:   [ASRock SMBus Detectector] Bus 02 is not a motherboard or the subvendor does not match the one for ASRock, skipping detection
+17671 |Debug:   [ASRock SMBus Detectector] Bus 06 is not a motherboard or the subvendor does not match the one for ASRock, skipping detection
+17671 |Debug:   [ASRock SMBus Detectector] Bus 07 is not a motherboard or the subvendor does not match the one for ASRock, skipping detection
+17671 |Debug:   [ASRock SMBus Detectector] Bus 08 is not a motherboard or the subvendor does not match the one for ASRock, skipping detection
+17671 |Debug:   [ASRock SMBus Detectector] Bus 12 is not a motherboard or the subvendor does not match the one for ASRock, skipping detection
+17671 |Debug:   [ASRock Motherboard SMBus Controllers] no devices found
+17671 |Trace:   [ASRock Motherboard SMBus Controllers] detection end
+17671 |Info:    ------------------------------------------------------
+17671 |Info:    |               Detecting I2C PCI devices            |
+17671 |Info:    ------------------------------------------------------
+17671 |Debug:   [ZOTAC GAMING GeForce RTX 3070 Ti Trinity OC] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [ZOTAC GAMING GeForce RTX 3070 Ti Trinity OC] detection end
+17671 |Debug:   [ZOTAC GAMING GeForce RTX 3080 Ti AMP Holo] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [ZOTAC GAMING GeForce RTX 3080 Ti AMP Holo] detection end
+17671 |Debug:   [ZOTAC GAMING GeForce RTX 3090 AMP Extreme Holo] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [ZOTAC GAMING GeForce RTX 3090 AMP Extreme Holo] detection end
+17671 |Debug:   [ZOTAC GAMING GeForce RTX 4090 Trinity OC] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [ZOTAC GAMING GeForce RTX 4090 Trinity OC] detection end
+17671 |Debug:   [ZOTAC GAMING GeForce RTX 4090 AMP Extreme AIRO] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [ZOTAC GAMING GeForce RTX 4090 AMP Extreme AIRO] detection end
+17671 |Debug:   [ZOTAC GAMING GeForce RTX 2070 SUPER Twin Fan] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [ZOTAC GAMING GeForce RTX 2070 SUPER Twin Fan] detection end
+17671 |Debug:   [Sapphire RX 470/480 Nitro+] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Sapphire RX 470/480 Nitro+] detection end
+17671 |Debug:   [Sapphire RX 570/580/590 Nitro+] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Sapphire RX 570/580/590 Nitro+] detection end
+17671 |Debug:   [Sapphire RX 570/580/590 Nitro+] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Sapphire RX 570/580/590 Nitro+] detection end
+17671 |Debug:   [Sapphire RX 580 Nitro+ (2048SP)] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Sapphire RX 580 Nitro+ (2048SP)] detection end
+17671 |Debug:   [Sapphire RX Vega 56/64 Nitro+] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Sapphire RX Vega 56/64 Nitro+] detection end
+17671 |Debug:   [Sapphire RX 5700 (XT) Nitro+] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Sapphire RX 5700 (XT) Nitro+] detection end
+17671 |Debug:   [Sapphire RX 5700 XT Nitro+] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Sapphire RX 5700 XT Nitro+] detection end
+17671 |Debug:   [Sapphire RX 5700 XT Nitro+] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Sapphire RX 5700 XT Nitro+] detection end
+17671 |Debug:   [Sapphire RX 5500 XT Nitro+] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Sapphire RX 5500 XT Nitro+] detection end
+17671 |Debug:   [Sapphire RX 6800 XT Nitro+ SE] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Sapphire RX 6800 XT Nitro+ SE] detection end
+17671 |Debug:   [Sapphire RX 6800 XT/6900 XT Nitro+] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Sapphire RX 6800 XT/6900 XT Nitro+] detection end
+17671 |Debug:   [Sapphire RX 6800 Nitro+] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Sapphire RX 6800 Nitro+] detection end
+17671 |Debug:   [Sapphire RX 6700 XT Nitro+] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Sapphire RX 6700 XT Nitro+] detection end
+17671 |Debug:   [Sapphire RX 6750 XT Nitro+] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Sapphire RX 6750 XT Nitro+] detection end
+17671 |Debug:   [Sapphire RX 6600 XT Nitro+] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Sapphire RX 6600 XT Nitro+] detection end
+17671 |Debug:   [Sapphire RX 6900 XT Nitro+ SE] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Sapphire RX 6900 XT Nitro+ SE] detection end
+17671 |Debug:   [Sapphire RX 6950 XT Nitro+] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Sapphire RX 6950 XT Nitro+] detection end
+17671 |Debug:   [Sapphire RX 6900 XT Toxic] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Sapphire RX 6900 XT Toxic] detection end
+17671 |Debug:   [Sapphire RX 6900 XT Toxic Limited Edition] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Sapphire RX 6900 XT Toxic Limited Edition] detection end
+17671 |Debug:   [Sapphire RX 6900 XT Toxic] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Sapphire RX 6900 XT Toxic] detection end
+17671 |Debug:   [Sapphire RX 7900 XTX Nitro+] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Sapphire RX 7900 XTX Nitro+] detection end
+17671 |Debug:   [PNY XLR8 Revel EPIC-X RTX 3060] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [PNY XLR8 Revel EPIC-X RTX 3060] detection end
+17671 |Debug:   [PNY XLR8 Revel EPIC-X RTX 3070] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [PNY XLR8 Revel EPIC-X RTX 3070] detection end
+17671 |Debug:   [PNY XLR8 Revel EPIC-X RTX 3070 LHR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [PNY XLR8 Revel EPIC-X RTX 3070 LHR] detection end
+17671 |Debug:   [PNY XLR8 Revel EPIC-X RTX 3080] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [PNY XLR8 Revel EPIC-X RTX 3080] detection end
+17671 |Debug:   [PNY XLR8 Revel EPIC-X RTX 3090] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [PNY XLR8 Revel EPIC-X RTX 3090] detection end
+17671 |Debug:   [PNY XLR8 OC EDITION RTX 2060] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [PNY XLR8 OC EDITION RTX 2060] detection end
+17671 |Debug:   [Palit 3060] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Palit 3060] detection end
+17671 |Debug:   [Palit 3060 LHR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Palit 3060 LHR] detection end
+17671 |Debug:   [Palit 3060Ti] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Palit 3060Ti] detection end
+17671 |Debug:   [Palit 3060TI LHR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Palit 3060TI LHR] detection end
+17671 |Debug:   [Palit 3070] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Palit 3070] detection end
+17671 |Debug:   [Palit 3070 LHR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Palit 3070 LHR] detection end
+17671 |Debug:   [Palit 3070Ti GamingPro] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Palit 3070Ti GamingPro] detection end
+17671 |Debug:   [Palit 3070Ti] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Palit 3070Ti] detection end
+17671 |Debug:   [Palit 3080] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Palit 3080] detection end
+17671 |Debug:   [Palit 3080 Gamerock] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Palit 3080 Gamerock] detection end
+17671 |Debug:   [Palit 3080 Gamerock LHR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Palit 3080 Gamerock LHR] detection end
+17671 |Debug:   [Palit 3080 LHR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Palit 3080 LHR] detection end
+17671 |Debug:   [Palit 3080 GamingPro 12G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Palit 3080 GamingPro 12G] detection end
+17671 |Debug:   [Palit 3080Ti] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Palit 3080Ti] detection end
+17671 |Debug:   [Palit 3080Ti Gamerock] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Palit 3080Ti Gamerock] detection end
+17671 |Debug:   [Palit 3090] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Palit 3090] detection end
+17671 |Debug:   [Palit 3090 Gamerock] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Palit 3090 Gamerock] detection end
+17671 |Debug:   [Palit GeForce RTX 3060 Ti Dual] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Palit GeForce RTX 3060 Ti Dual] detection end
+17671 |Debug:   [Palit 4070Ti Gamerock] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Palit 4070Ti Gamerock] detection end
+17671 |Debug:   [Palit 4090 Gamerock] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Palit 4090 Gamerock] detection end
+17671 |Debug:   [NVIDIA RTX2080S] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [NVIDIA RTX2080S] detection end
+17671 |Debug:   [NVIDIA RTX2060S] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [NVIDIA RTX2060S] detection end
+17671 |Debug:   [Palit 1080] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Palit 1080] detection end
+17671 |Debug:   [MSI GeForce RTX 4070 12GB Gaming X Trio] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 4070 12GB Gaming X Trio] detection end
+17671 |Debug:   [MSI GeForce RTX 4070Ti 12GB Gaming X Trio] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 4070Ti 12GB Gaming X Trio] detection end
+17671 |Debug:   [MSI GeForce RTX 4070Ti 12GB Suprim X Trio] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 4070Ti 12GB Suprim X Trio] detection end
+17671 |Debug:   [MSI GeForce RTX 4080 16GB Gaming X Trio] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 4080 16GB Gaming X Trio] detection end
+17671 |Debug:   [MSI GeForce RTX 4080 16GB Suprim X] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 4080 16GB Suprim X] detection end
+17671 |Debug:   [MSI GeForce RTX 4090 24GB Gaming X Trio] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 4090 24GB Gaming X Trio] detection end
+17671 |Debug:   [MSI GeForce RTX 4090 24GB Suprim Liquid X] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 4090 24GB Suprim Liquid X] detection end
+17671 |Debug:   [MSI GeForce RTX 4090 24GB Suprim X] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 4090 24GB Suprim X] detection end
+17671 |Debug:   [MSI GeForce GTX 1070 Gaming X] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce GTX 1070 Gaming X] detection end
+17671 |Debug:   [MSI GeForce GTX 1660 Gaming X 6G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce GTX 1660 Gaming X 6G] detection end
+17671 |Debug:   [MSI GeForce GTX 1660Ti Gaming 6G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce GTX 1660Ti Gaming 6G] detection end
+17671 |Debug:   [MSI GeForce GTX 1660Ti Gaming X 6G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce GTX 1660Ti Gaming X 6G] detection end
+17671 |Debug:   [MSI GeForce GTX 1660 Super Gaming 6G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce GTX 1660 Super Gaming 6G] detection end
+17671 |Debug:   [MSI GeForce GTX 1660 Super Gaming X 6G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce GTX 1660 Super Gaming X 6G] detection end
+17671 |Debug:   [MSI GeForce RTX 2060 Gaming Z 6G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 2060 Gaming Z 6G] detection end
+17671 |Debug:   [MSI GeForce RTX 2060 Gaming Z 6G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 2060 Gaming Z 6G] detection end
+17671 |Debug:   [MSI GeForce RTX 2060 Gaming Z 6G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 2060 Gaming Z 6G] detection end
+17671 |Debug:   [MSI GeForce RTX 2060 Super Gaming X] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 2060 Super Gaming X] detection end
+17671 |Debug:   [MSI GeForce RTX 2060 Super ARMOR OC] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 2060 Super ARMOR OC] detection end
+17671 |Debug:   [MSI GeForce RTX 2070 Gaming Z] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 2070 Gaming Z] detection end
+17671 |Debug:   [MSI GeForce RTX 2070 Gaming] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 2070 Gaming] detection end
+17671 |Debug:   [MSI GeForce RTX 2070 ARMOR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 2070 ARMOR] detection end
+17671 |Debug:   [MSI GeForce RTX 2070 ARMOR OC] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 2070 ARMOR OC] detection end
+17671 |Debug:   [MSI GeForce RTX 2070 SUPER ARMOR OC] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 2070 SUPER ARMOR OC] detection end
+17671 |Debug:   [MSI GeForce RTX 2070 Super Gaming] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 2070 Super Gaming] detection end
+17671 |Debug:   [MSI GeForce RTX 2070 Super Gaming Trio] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 2070 Super Gaming Trio] detection end
+17671 |Debug:   [MSI GeForce RTX 2070 Super Gaming X] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 2070 Super Gaming X] detection end
+17671 |Debug:   [MSI GeForce RTX 2070 Super Gaming X Trio] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 2070 Super Gaming X Trio] detection end
+17671 |Debug:   [MSI GeForce RTX 2070 Super Gaming Z Trio] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 2070 Super Gaming Z Trio] detection end
+17671 |Debug:   [MSI GeForce RTX 2080 Gaming Trio] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 2080 Gaming Trio] detection end
+17671 |Debug:   [MSI GeForce RTX 2080 Gaming X Trio] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 2080 Gaming X Trio] detection end
+17671 |Debug:   [MSI GeForce RTX 2080 Sea Hawk EK X] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 2080 Sea Hawk EK X] detection end
+17671 |Debug:   [MSI GeForce RTX 2080 Duke 8G OC] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 2080 Duke 8G OC] detection end
+17671 |Debug:   [MSI GeForce RTX 2080 Super Gaming X Trio] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 2080 Super Gaming X Trio] detection end
+17671 |Debug:   [MSI GeForce RTX 2080Ti Gaming X Trio] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 2080Ti Gaming X Trio] detection end
+17671 |Debug:   [MSI GeForce RTX 2080Ti Gaming Z Trio] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 2080Ti Gaming Z Trio] detection end
+17671 |Debug:   [MSI GeForce RTX 2080Ti 11G Gaming X Trio] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 2080Ti 11G Gaming X Trio] detection end
+17671 |Debug:   [MSI GeForce RTX 2080Ti Sea Hawk EK X] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 2080Ti Sea Hawk EK X] detection end
+17671 |Debug:   [MSI GeForce RTX 3050 Gaming X 8G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 3050 Gaming X 8G] detection end
+17671 |Debug:   [MSI GeForce RTX 3060 Gaming X 12G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 3060 Gaming X 12G] detection end
+17671 |Debug:   [MSI GeForce RTX 3060 Gaming X 12G LHR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 3060 Gaming X 12G LHR] detection end
+17671 |Debug:   [MSI GeForce RTX 3060 Gaming X 12G (GA104)] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 3060 Gaming X 12G (GA104)] detection end
+17671 |Debug:   [MSI GeForce RTX 3060 12G Gaming X Trio LHR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 3060 12G Gaming X Trio LHR] detection end
+17671 |Debug:   [MSI GeForce RTX 3060 12G Gaming X Trio] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 3060 12G Gaming X Trio] detection end
+17671 |Debug:   [MSI GeForce RTX 3060 12G Gaming Z Trio] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 3060 12G Gaming Z Trio] detection end
+17671 |Debug:   [MSI GeForce RTX 3060 Ti 8GB Gaming X Trio] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 3060 Ti 8GB Gaming X Trio] detection end
+17671 |Debug:   [MSI GeForce RTX 3060 Ti 8GB Gaming X LHR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 3060 Ti 8GB Gaming X LHR] detection end
+17671 |Debug:   [MSI GeForce RTX 3060 Ti 8GB Gaming X Trio LHR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 3060 Ti 8GB Gaming X Trio LHR] detection end
+17671 |Debug:   [MSI GeForce RTX 3070 8GB Gaming Trio] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 3070 8GB Gaming Trio] detection end
+17671 |Debug:   [MSI GeForce RTX 3070 8GB Gaming X Trio] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 3070 8GB Gaming X Trio] detection end
+17671 |Debug:   [MSI GeForce RTX 3070 8GB Suprim] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 3070 8GB Suprim] detection end
+17671 |Debug:   [MSI GeForce RTX 3070 8GB Suprim X] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 3070 8GB Suprim X] detection end
+17671 |Debug:   [MSI GeForce RTX 3070 8GB Suprim X LHR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 3070 8GB Suprim X LHR] detection end
+17671 |Debug:   [MSI GeForce RTX 3070 Ti 8GB Gaming X Trio] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 3070 Ti 8GB Gaming X Trio] detection end
+17671 |Debug:   [MSI GeForce RTX 3070 Ti Suprim X 8G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 3070 Ti Suprim X 8G] detection end
+17671 |Debug:   [MSI GeForce RTX 3080 10GB Gaming Z Trio] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 3080 10GB Gaming Z Trio] detection end
+17671 |Debug:   [MSI GeForce RTX 3080 10GB Gaming Z Trio LHR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 3080 10GB Gaming Z Trio LHR] detection end
+17671 |Debug:   [MSI GeForce RTX 3080 10GB Gaming X Trio] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 3080 10GB Gaming X Trio] detection end
+17671 |Debug:   [MSI GeForce RTX 3080 Suprim X 10G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 3080 Suprim X 10G] detection end
+17671 |Debug:   [MSI GeForce RTX 3080 Suprim X 10G LHR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 3080 Suprim X 10G LHR] detection end
+17671 |Debug:   [MSI GeForce RTX 3080 Suprim X 12G LHR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 3080 Suprim X 12G LHR] detection end
+17671 |Debug:   [MSI GeForce RTX 3080 12GB Gaming Z Trio LHR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 3080 12GB Gaming Z Trio LHR] detection end
+17671 |Debug:   [MSI GeForce RTX 3080 Ti Gaming X Trio 12G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 3080 Ti Gaming X Trio 12G] detection end
+17671 |Debug:   [MSI GeForce RTX 3080 Ti Suprim X 12G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 3080 Ti Suprim X 12G] detection end
+17671 |Debug:   [MSI GeForce RTX 3090 24GB Gaming X Trio] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 3090 24GB Gaming X Trio] detection end
+17671 |Debug:   [MSI GeForce RTX 3090 Suprim 24G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 3090 Suprim 24G] detection end
+17671 |Debug:   [MSI GeForce RTX 3090 Suprim X 24G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 3090 Suprim X 24G] detection end
+17671 |Debug:   [MSI GeForce RTX 3090 Ti Suprim X 24G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 3090 Ti Suprim X 24G] detection end
+17671 |Debug:   [MSI GeForce RTX 3090 Ti Gaming X Trio 24G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI GeForce RTX 3090 Ti Gaming X Trio 24G] detection end
+17671 |Debug:   [MSI Radeon RX 6600 XT Gaming X] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI Radeon RX 6600 XT Gaming X] detection end
+17671 |Debug:   [MSI Radeon RX 6700 XT Gaming X] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI Radeon RX 6700 XT Gaming X] detection end
+17671 |Debug:   [MSI Radeon RX 6750 XT Gaming X Trio 12G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI Radeon RX 6750 XT Gaming X Trio 12G] detection end
+17671 |Debug:   [MSI Radeon RX 6800 Gaming Z Trio v1] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI Radeon RX 6800 Gaming Z Trio v1] detection end
+17671 |Debug:   [MSI Radeon RX 6800 Gaming X Trio] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI Radeon RX 6800 Gaming X Trio] detection end
+17671 |Debug:   [MSI Radeon RX 6800 XT Gaming X Trio] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI Radeon RX 6800 XT Gaming X Trio] detection end
+17671 |Debug:   [MSI Radeon RX 6800 XT Gaming Z Trio] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI Radeon RX 6800 XT Gaming Z Trio] detection end
+17671 |Debug:   [MSI Radeon RX 6900 XT Gaming X Trio] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI Radeon RX 6900 XT Gaming X Trio] detection end
+17671 |Debug:   [MSI Radeon RX 6900 XT Gaming Z Trio] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI Radeon RX 6900 XT Gaming Z Trio] detection end
+17671 |Debug:   [MSI Radeon RX 6950 XT Gaming X Trio] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI Radeon RX 6950 XT Gaming X Trio] detection end
+17671 |Debug:   [MSI Radeon RX 6950 XT Gaming X Trio] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [MSI Radeon RX 6950 XT Gaming X Trio] detection end
+17671 |Debug:   [Gigabyte AORUS RTX2060 SUPER 8G V1] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte AORUS RTX2060 SUPER 8G V1] detection end
+17671 |Debug:   [Gigabyte AORUS RTX2070 XTREME 8G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte AORUS RTX2070 XTREME 8G] detection end
+17671 |Debug:   [Gigabyte AORUS RTX2070 XTREME 8G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte AORUS RTX2070 XTREME 8G] detection end
+17671 |Debug:   [Gigabyte AORUS RTX2070 SUPER 8G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte AORUS RTX2070 SUPER 8G] detection end
+17671 |Debug:   [Gigabyte AORUS RTX2070 SUPER 8G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte AORUS RTX2070 SUPER 8G] detection end
+17671 |Debug:   [Gigabyte AORUS RTX2080 8G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte AORUS RTX2080 8G] detection end
+17671 |Debug:   [Gigabyte AORUS RTX2080 XTREME 8G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte AORUS RTX2080 XTREME 8G] detection end
+17671 |Debug:   [Gigabyte AORUS RTX2080 SUPER 8G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte AORUS RTX2080 SUPER 8G] detection end
+17671 |Debug:   [Gigabyte AORUS RTX2080 SUPER 8G Rev 1.0] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte AORUS RTX2080 SUPER 8G Rev 1.0] detection end
+17671 |Debug:   [Gigabyte AORUS RTX2080 SUPER Waterforce WB 8G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte AORUS RTX2080 SUPER Waterforce WB 8G] detection end
+17671 |Debug:   [Gigabyte AORUS RTX2080 SUPER Waterforce WB 8G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte AORUS RTX2080 SUPER Waterforce WB 8G] detection end
+17671 |Debug:   [Gigabyte AORUS RTX2080 Ti XTREME 11G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte AORUS RTX2080 Ti XTREME 11G] detection end
+17671 |Debug:   [Gigabyte AORUS RTX3060 ELITE 12G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte AORUS RTX3060 ELITE 12G] detection end
+17671 |Debug:   [Gigabyte AORUS RTX3060 ELITE 12G Rev a1] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte AORUS RTX3060 ELITE 12G Rev a1] detection end
+17671 |Debug:   [Gigabyte AORUS RTX3060 ELITE 12G LHR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte AORUS RTX3060 ELITE 12G LHR] detection end
+17671 |Debug:   [Gigabyte AORUS RTX3060 Ti ELITE 8G LHR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte AORUS RTX3060 Ti ELITE 8G LHR] detection end
+17671 |Debug:   [Gigabyte RTX3060 Ti GAMING OC 8G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3060 Ti GAMING OC 8G] detection end
+17671 |Debug:   [Gigabyte RTX3060 Ti GAMING OC 8G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3060 Ti GAMING OC 8G] detection end
+17671 |Debug:   [Gigabyte RTX3060 Ti GAMING OC LHR 8G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3060 Ti GAMING OC LHR 8G] detection end
+17671 |Debug:   [Gigabyte RTX3060 Ti GAMING OC PRO 8G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3060 Ti GAMING OC PRO 8G] detection end
+17671 |Debug:   [Gigabyte RTX3060 Ti Gaming OC PRO 8G LHR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3060 Ti Gaming OC PRO 8G LHR] detection end
+17671 |Debug:   [Gigabyte RTX3070 MASTER 8G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3070 MASTER 8G] detection end
+17671 |Debug:   [Gigabyte RTX3070 MASTER 8G LHR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3070 MASTER 8G LHR] detection end
+17671 |Debug:   [Gigabyte AORUS RTX3070 Ti MASTER 8G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte AORUS RTX3070 Ti MASTER 8G] detection end
+17671 |Debug:   [Gigabyte AORUS RTX3080 XTREME WATERFORCE WB 10G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte AORUS RTX3080 XTREME WATERFORCE WB 10G] detection end
+17671 |Debug:   [Gigabyte AORUS RTX3080 XTREME WATERFORCE WB 10G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte AORUS RTX3080 XTREME WATERFORCE WB 10G] detection end
+17671 |Debug:   [Gigabyte AORUS RTX3080 XTREME WATERFORCE WB 12G LHR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte AORUS RTX3080 XTREME WATERFORCE WB 12G LHR] detection end
+17671 |Debug:   [Gigabyte AORUS RTX3080 XTREME WATERFORCE 10G Rev 2.0] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte AORUS RTX3080 XTREME WATERFORCE 10G Rev 2.0] detection end
+17671 |Debug:   [Gigabyte RTX3080 Ti Vision OC 12G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3080 Ti Vision OC 12G] detection end
+17671 |Debug:   [Gigabyte AORUS RTX3080 Ti XTREME WATERFORCE 12G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte AORUS RTX3080 Ti XTREME WATERFORCE 12G] detection end
+17671 |Debug:   [Gigabyte RTX3090 VISION OC 24G ] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3090 VISION OC 24G ] detection end
+17671 |Debug:   [Gigabyte AORUS RTX3090 XTREME WATERFORCE 24G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte AORUS RTX3090 XTREME WATERFORCE 24G] detection end
+17671 |Debug:   [Gigabyte AORUS RTX3090 XTREME WATERFORCE WB 24G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte AORUS RTX3090 XTREME WATERFORCE WB 24G] detection end
+17671 |Debug:   [Gigabyte RTX4070Ti Gaming OC 12G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX4070Ti Gaming OC 12G] detection end
+17671 |Debug:   [Gigabyte RTX4080 AERO OC 16G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX4080 AERO OC 16G] detection end
+17671 |Debug:   [Gigabyte RTX4080 Eagle OC 16G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX4080 Eagle OC 16G] detection end
+17671 |Debug:   [Gigabyte RTX4080 Gaming OC 16G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX4080 Gaming OC 16G] detection end
+17671 |Debug:   [Gigabyte AORUS RTX4080 MASTER 16G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte AORUS RTX4080 MASTER 16G] detection end
+17671 |Debug:   [Gigabyte RTX4090 GAMING OC 24G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX4090 GAMING OC 24G] detection end
+17671 |Debug:   [Gigabyte AORUS RTX4090 MASTER 24G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte AORUS RTX4090 MASTER 24G] detection end
+17671 |Debug:   [Gigabyte GTX1050 Ti G1 Gaming (rev A1)] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte GTX1050 Ti G1 Gaming (rev A1)] detection end
+17671 |Debug:   [Gigabyte GTX1050 Ti G1 Gaming] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte GTX1050 Ti G1 Gaming] detection end
+17671 |Debug:   [Gigabyte GTX1060 G1 Gaming 6G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte GTX1060 G1 Gaming 6G] detection end
+17671 |Debug:   [Gigabyte GTX1060 G1 Gaming 6G OC] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte GTX1060 G1 Gaming 6G OC] detection end
+17671 |Debug:   [Gigabyte GTX1060 Xtreme Gaming V1] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte GTX1060 Xtreme Gaming V1] detection end
+17671 |Debug:   [Gigabyte GTX1060 Xtreme Gaming v2] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte GTX1060 Xtreme Gaming v2] detection end
+17671 |Debug:   [Gigabyte GTX1070 Xtreme Gaming] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte GTX1070 Xtreme Gaming] detection end
+17671 |Debug:   [Gigabyte GTX1070 G1 Gaming 8G V1] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte GTX1070 G1 Gaming 8G V1] detection end
+17671 |Debug:   [Gigabyte GTX1070 Ti 8G Gaming] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte GTX1070 Ti 8G Gaming] detection end
+17671 |Debug:   [Gigabyte GTX1080 G1 Gaming] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte GTX1080 G1 Gaming] detection end
+17671 |Debug:   [Gigabyte GTX1080 Ti 11G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte GTX1080 Ti 11G] detection end
+17671 |Debug:   [Gigabyte GTX1080 Ti Gaming OC 11G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte GTX1080 Ti Gaming OC 11G] detection end
+17671 |Debug:   [Gigabyte GTX1080 Ti Gaming OC BLACK 11G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte GTX1080 Ti Gaming OC BLACK 11G] detection end
+17671 |Debug:   [Gigabyte GTX1080 Ti Xtreme Edition] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte GTX1080 Ti Xtreme Edition] detection end
+17671 |Debug:   [Gigabyte GTX1080 Ti Xtreme Waterforce Edition] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte GTX1080 Ti Xtreme Waterforce Edition] detection end
+17671 |Debug:   [Gigabyte GTX1650 Gaming OC] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte GTX1650 Gaming OC] detection end
+17671 |Debug:   [Gigabyte GTX1660 Gaming OC 6G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte GTX1660 Gaming OC 6G] detection end
+17671 |Debug:   [Gigabyte GTX1660 SUPER Gaming OC] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte GTX1660 SUPER Gaming OC] detection end
+17671 |Debug:   [Gigabyte RTX2060 Gaming OC] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX2060 Gaming OC] detection end
+17671 |Debug:   [Gigabyte RTX2060 Gaming OC PRO] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX2060 Gaming OC PRO] detection end
+17671 |Debug:   [Gigabyte RTX2060 Gaming OC PRO V2] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX2060 Gaming OC PRO V2] detection end
+17671 |Debug:   [Gigabyte RTX2060 Gaming OC PRO White] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX2060 Gaming OC PRO White] detection end
+17671 |Debug:   [Gigabyte RTX2060 SUPER Gaming] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX2060 SUPER Gaming] detection end
+17671 |Debug:   [Gigabyte RTX2060 SUPER Gaming OC] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX2060 SUPER Gaming OC] detection end
+17671 |Debug:   [Gigabyte RTX2060 SUPER Gaming OC 3X White 8G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX2060 SUPER Gaming OC 3X White 8G] detection end
+17671 |Debug:   [Gigabyte RTX2060 SUPER Gaming OC 3X 8G V2] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX2060 SUPER Gaming OC 3X 8G V2] detection end
+17671 |Debug:   [Gigabyte RTX2070 Gaming OC 8G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX2070 Gaming OC 8G] detection end
+17671 |Debug:   [Gigabyte RTX2070 Gaming OC 8GC] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX2070 Gaming OC 8GC] detection end
+17671 |Debug:   [Gigabyte RTX2070 Windforce 8G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX2070 Windforce 8G] detection end
+17671 |Debug:   [Gigabyte RTX2070S Gaming OC] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX2070S Gaming OC] detection end
+17671 |Debug:   [Gigabyte RTX2070S Gaming OC 3X] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX2070S Gaming OC 3X] detection end
+17671 |Debug:   [Gigabyte RTX2070S Gaming OC 3X] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX2070S Gaming OC 3X] detection end
+17671 |Debug:   [Gigabyte RTX2070S Gaming OC 3X White] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX2070S Gaming OC 3X White] detection end
+17671 |Debug:   [Gigabyte RTX2080 Gaming OC 8G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX2080 Gaming OC 8G] detection end
+17671 |Debug:   [Gigabyte RTX2080 Gaming OC 8G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX2080 Gaming OC 8G] detection end
+17671 |Debug:   [Gigabyte RTX2080 Ti GAMING OC 11G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX2080 Ti GAMING OC 11G] detection end
+17671 |Debug:   [Gigabyte RTX2080S Gaming OC 8G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX2080S Gaming OC 8G] detection end
+17671 |Debug:   [Gigabyte RTX3050 Gaming OC 8G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3050 Gaming OC 8G] detection end
+17671 |Debug:   [Gigabyte RTX3060 EAGLE OC 12G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3060 EAGLE OC 12G] detection end
+17671 |Debug:   [Gigabyte RTX3060 EAGLE OC 12G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3060 EAGLE OC 12G] detection end
+17671 |Debug:   [Gigabyte RTX3060 EAGLE OC 12G V2] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3060 EAGLE OC 12G V2] detection end
+17671 |Debug:   [Gigabyte RTX3060 EAGLE 12G LHR V2] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3060 EAGLE 12G LHR V2] detection end
+17671 |Debug:   [Gigabyte RTX3060 Vision OC 12G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3060 Vision OC 12G] detection end
+17671 |Debug:   [Gigabyte RTX3060 Vision OC 12G LHR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3060 Vision OC 12G LHR] detection end
+17671 |Debug:   [Gigabyte RTX3060 Vision OC 12G v3.0] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3060 Vision OC 12G v3.0] detection end
+17671 |Debug:   [Gigabyte RTX3060 Gaming OC 12G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3060 Gaming OC 12G] detection end
+17671 |Debug:   [Gigabyte RTX3060 Gaming OC 12G (rev. 2.0)] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3060 Gaming OC 12G (rev. 2.0)] detection end
+17671 |Debug:   [Gigabyte RTX3060 Gaming OC 12G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3060 Gaming OC 12G] detection end
+17671 |Debug:   [Gigabyte RTX3060 Ti EAGLE OC 8G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3060 Ti EAGLE OC 8G] detection end
+17671 |Debug:   [Gigabyte RTX3060 Ti EAGLE OC 8G V2.0 LHR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3060 Ti EAGLE OC 8G V2.0 LHR] detection end
+17671 |Debug:   [Gigabyte RTX3060 Ti EAGLE OC 8G V2.0 LHR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3060 Ti EAGLE OC 8G V2.0 LHR] detection end
+17671 |Debug:   [Gigabyte RTX3060 Ti Vision OC 8G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3060 Ti Vision OC 8G] detection end
+17671 |Debug:   [Gigabyte RTX3070 Gaming OC 8G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3070 Gaming OC 8G] detection end
+17671 |Debug:   [Gigabyte RTX3070 Gaming OC 8G v3.0 LHR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3070 Gaming OC 8G v3.0 LHR] detection end
+17671 |Debug:   [Gigabyte RTX3070 Vision 8G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3070 Vision 8G] detection end
+17671 |Debug:   [Gigabyte RTX3070 Vision 8G V2.0 LHR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3070 Vision 8G V2.0 LHR] detection end
+17671 |Debug:   [Gigabyte RTX3070 Eagle OC 8G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3070 Eagle OC 8G] detection end
+17671 |Debug:   [Gigabyte RTX3070 Eagle OC 8G V2.0 LHR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3070 Eagle OC 8G V2.0 LHR] detection end
+17671 |Debug:   [Gigabyte RTX3070 Ti Gaming OC 8G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3070 Ti Gaming OC 8G] detection end
+17671 |Debug:   [Gigabyte RTX3070 Ti EAGLE 8G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3070 Ti EAGLE 8G] detection end
+17671 |Debug:   [Gigabyte RTX3070 Ti Vision OC 8G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3070 Ti Vision OC 8G] detection end
+17671 |Debug:   [Gigabyte RTX3080 Gaming OC 10G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3080 Gaming OC 10G] detection end
+17671 |Debug:   [Gigabyte RTX3080 Gaming OC 12G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3080 Gaming OC 12G] detection end
+17671 |Debug:   [Gigabyte RTX3080 Gaming OC 10G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3080 Gaming OC 10G] detection end
+17671 |Debug:   [Gigabyte RTX3080 Vision OC 10G (REV 2.0)] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3080 Vision OC 10G (REV 2.0)] detection end
+17671 |Debug:   [Gigabyte RTX3080 Vision OC 10G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3080 Vision OC 10G] detection end
+17671 |Debug:   [Gigabyte RTX3080 EAGLE OC 10G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3080 EAGLE OC 10G] detection end
+17671 |Debug:   [Gigabyte RTX3080 Ti Gaming OC 12G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3080 Ti Gaming OC 12G] detection end
+17671 |Debug:   [Gigabyte RTX3080 Ti EAGLE 12G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3080 Ti EAGLE 12G] detection end
+17671 |Debug:   [Gigabyte RTX3080 Ti EAGLE OC 12G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3080 Ti EAGLE OC 12G] detection end
+17671 |Debug:   [Gigabyte RTX3090 Gaming OC 24G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gigabyte RTX3090 Gaming OC 24G] detection end
+17671 |Debug:   [KFA2 RTX 2070 EX] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [KFA2 RTX 2070 EX] detection end
+17671 |Debug:   [GALAX RTX 2070 Super EX Gamer Black] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [GALAX RTX 2070 Super EX Gamer Black] detection end
+17671 |Debug:   [KFA2 RTX 2080 EX OC] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [KFA2 RTX 2080 EX OC] detection end
+17671 |Debug:   [KFA2 RTX 2080 Super EX OC] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [KFA2 RTX 2080 Super EX OC] detection end
+17671 |Debug:   [KFA2 RTX 2080 TI EX OC] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [KFA2 RTX 2080 TI EX OC] detection end
+17671 |Debug:   [Gainward GTX 1080 Phoenix] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gainward GTX 1080 Phoenix] detection end
+17671 |Debug:   [Gainward GTX 1080 Ti Phoenix] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gainward GTX 1080 Ti Phoenix] detection end
+17671 |Debug:   [Gainward RTX 2070 Super Phantom] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gainward RTX 2070 Super Phantom] detection end
+17671 |Debug:   [Gainward RTX 2080 Phoenix GS] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gainward RTX 2080 Phoenix GS] detection end
+17671 |Debug:   [Gainward RTX 3070 Phoenix] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gainward RTX 3070 Phoenix] detection end
+17671 |Debug:   [Gainward RTX 3070 Ti Phoenix] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gainward RTX 3070 Ti Phoenix] detection end
+17671 |Debug:   [Gainward RTX 3080 Phoenix] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gainward RTX 3080 Phoenix] detection end
+17671 |Debug:   [Gainward RTX 3080 Ti Phoenix] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gainward RTX 3080 Ti Phoenix] detection end
+17671 |Debug:   [Gainward RTX 3090 Phoenix] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [Gainward RTX 3090 Phoenix] detection end
+17671 |Debug:   [EVGA GeForce RTX 3060TI FTW3 Gaming] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3060TI FTW3 Gaming] detection end
+17671 |Debug:   [EVGA GeForce RTX 3060TI FTW3 Ultra] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3060TI FTW3 Ultra] detection end
+17671 |Debug:   [EVGA GeForce RTX 3060TI FTW3 Ultra LHR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3060TI FTW3 Ultra LHR] detection end
+17671 |Debug:   [EVGA GeForce RTX 3070 Black Gaming] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3070 Black Gaming] detection end
+17671 |Debug:   [EVGA GeForce RTX 3070 XC3 Gaming] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3070 XC3 Gaming] detection end
+17671 |Debug:   [EVGA GeForce RTX 3070 XC3 Ultra] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3070 XC3 Ultra] detection end
+17671 |Debug:   [EVGA GeForce RTX 3070 XC3 Ultra LHR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3070 XC3 Ultra LHR] detection end
+17671 |Debug:   [EVGA GeForce RTX 3070 FTW3 Ultra] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3070 FTW3 Ultra] detection end
+17671 |Debug:   [EVGA GeForce RTX 3070 FTW3 Ultra LHR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3070 FTW3 Ultra LHR] detection end
+17671 |Debug:   [EVGA GeForce RTX 3070Ti XC3 Gaming] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3070Ti XC3 Gaming] detection end
+17671 |Debug:   [EVGA GeForce RTX 3070Ti XC3 Ultra] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3070Ti XC3 Ultra] detection end
+17671 |Debug:   [EVGA GeForce RTX 3070Ti XC3 Ultra v2] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3070Ti XC3 Ultra v2] detection end
+17671 |Debug:   [EVGA GeForce RTX 3070Ti FTW3 Ultra] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3070Ti FTW3 Ultra] detection end
+17671 |Debug:   [EVGA GeForce RTX 3070Ti FTW3 Ultra v2] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3070Ti FTW3 Ultra v2] detection end
+17671 |Debug:   [EVGA GeForce RTX 3080 XC3 Black] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3080 XC3 Black] detection end
+17671 |Debug:   [EVGA GeForce RTX 3080 XC3 Black LHR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3080 XC3 Black LHR] detection end
+17671 |Debug:   [EVGA GeForce RTX 3080 XC3 Gaming] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3080 XC3 Gaming] detection end
+17671 |Debug:   [EVGA GeForce RTX 3080 XC3 Gaming LHR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3080 XC3 Gaming LHR] detection end
+17671 |Debug:   [EVGA GeForce RTX 3080 XC3 Ultra] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3080 XC3 Ultra] detection end
+17671 |Debug:   [EVGA GeForce RTX 3080 XC3 Ultra LHR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3080 XC3 Ultra LHR] detection end
+17671 |Debug:   [EVGA GeForce RTX 3080 XC3 Ultra Hybrid] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3080 XC3 Ultra Hybrid] detection end
+17671 |Debug:   [EVGA GeForce RTX 3080 XC3 Ultra Hybrid LHR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3080 XC3 Ultra Hybrid LHR] detection end
+17671 |Debug:   [EVGA GeForce RTX 3080 XC3 Ultra Hydro Copper] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3080 XC3 Ultra Hydro Copper] detection end
+17671 |Debug:   [EVGA GeForce RTX 3080 FTW3 Gaming] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3080 FTW3 Gaming] detection end
+17671 |Debug:   [EVGA GeForce RTX 3080 FTW3 Ultra] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3080 FTW3 Ultra] detection end
+17671 |Debug:   [EVGA GeForce RTX 3080 FTW3 Ultra v2 LHR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3080 FTW3 Ultra v2 LHR] detection end
+17671 |Debug:   [EVGA GeForce RTX 3080 FTW3 Ultra LHR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3080 FTW3 Ultra LHR] detection end
+17671 |Debug:   [EVGA GeForce RTX 3080 FTW3 Ultra Hybrid] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3080 FTW3 Ultra Hybrid] detection end
+17671 |Debug:   [EVGA GeForce RTX 3080 FTW3 Ultra Hybrid LHR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3080 FTW3 Ultra Hybrid LHR] detection end
+17671 |Debug:   [EVGA GeForce RTX 3080 FTW3 Ultra Hybrid Gaming LHR] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3080 FTW3 Ultra Hybrid Gaming LHR] detection end
+17671 |Debug:   [EVGA GeForce RTX 3080 FTW3 Ultra Hydro Copper] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3080 FTW3 Ultra Hydro Copper] detection end
+17671 |Debug:   [EVGA GeForce RTX 3080 XC3 Ultra 12G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3080 XC3 Ultra 12G] detection end
+17671 |Debug:   [EVGA GeForce RTX 3080 FTW3 Ultra 12GB] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3080 FTW3 Ultra 12GB] detection end
+17671 |Debug:   [EVGA GeForce RTX 3080 FTW3 Ultra Hydro Copper 12G] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3080 FTW3 Ultra Hydro Copper 12G] detection end
+17671 |Debug:   [EVGA GeForce RTX 3080Ti XC3 Gaming] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3080Ti XC3 Gaming] detection end
+17671 |Debug:   [EVGA GeForce RTX 3080Ti XC3 Ultra Gaming] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3080Ti XC3 Ultra Gaming] detection end
+17671 |Debug:   [EVGA GeForce RTX 3080Ti XC3 Gaming Hybrid] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3080Ti XC3 Gaming Hybrid] detection end
+17671 |Debug:   [EVGA GeForce RTX 3080Ti XC3 Gaming Hydro Copper] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3080Ti XC3 Gaming Hydro Copper] detection end
+17671 |Debug:   [EVGA GeForce RTX 3080Ti FTW3 Ultra] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3080Ti FTW3 Ultra] detection end
+17671 |Debug:   [EVGA GeForce RTX 3080Ti FTW3 Ultra Hybrid] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3080Ti FTW3 Ultra Hybrid] detection end
+17671 |Debug:   [EVGA GeForce RTX 3080Ti FTW3 Ultra Hydro Copper] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3080Ti FTW3 Ultra Hydro Copper] detection end
+17671 |Debug:   [EVGA GeForce RTX 3090 XC3 Black] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3090 XC3 Black] detection end
+17671 |Debug:   [EVGA GeForce RTX 3090 XC3 Gaming] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3090 XC3 Gaming] detection end
+17671 |Debug:   [EVGA GeForce RTX 3090 XC3 Ultra] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3090 XC3 Ultra] detection end
+17671 |Debug:   [EVGA GeForce RTX 3090 XC3 Ultra Hybrid] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17671 |Trace:   [EVGA GeForce RTX 3090 XC3 Ultra Hybrid] detection end
+17671 |Debug:   [EVGA GeForce RTX 3090 XC3 Ultra Hydro Copper] is enabled
+17671 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [EVGA GeForce RTX 3090 XC3 Ultra Hydro Copper] detection end
+17672 |Debug:   [EVGA GeForce RTX 3090 FTW3 Ultra] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [EVGA GeForce RTX 3090 FTW3 Ultra] detection end
+17672 |Debug:   [EVGA GeForce RTX 3090 FTW3 Ultra v2] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [EVGA GeForce RTX 3090 FTW3 Ultra v2] detection end
+17672 |Debug:   [EVGA GeForce RTX 3090 FTW3 Ultra v3] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [EVGA GeForce RTX 3090 FTW3 Ultra v3] detection end
+17672 |Debug:   [EVGA GeForce RTX 3090 FTW3 Ultra Hybrid] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [EVGA GeForce RTX 3090 FTW3 Ultra Hybrid] detection end
+17672 |Debug:   [EVGA GeForce RTX 3090 FTW3 Ultra Hydro Copper] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [EVGA GeForce RTX 3090 FTW3 Ultra Hydro Copper] detection end
+17672 |Debug:   [EVGA GeForce RTX 3090 K|NGP|N Hybrid] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [EVGA GeForce RTX 3090 K|NGP|N Hybrid] detection end
+17672 |Debug:   [EVGA GeForce RTX 3090 K|NGP|N Hydro Copper] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [EVGA GeForce RTX 3090 K|NGP|N Hydro Copper] detection end
+17672 |Debug:   [EVGA GeForce RTX 3090Ti FTW3 Black Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [EVGA GeForce RTX 3090Ti FTW3 Black Gaming] detection end
+17672 |Debug:   [EVGA GeForce RTX 3090Ti FTW3 Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [EVGA GeForce RTX 3090Ti FTW3 Gaming] detection end
+17672 |Debug:   [EVGA GeForce RTX 3090Ti FTW3 Ultra Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [EVGA GeForce RTX 3090Ti FTW3 Ultra Gaming] detection end
+17672 |Debug:   [EVGA GeForce RTX 2070 XC Black] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [EVGA GeForce RTX 2070 XC Black] detection end
+17672 |Debug:   [EVGA GeForce RTX 2070 XC Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [EVGA GeForce RTX 2070 XC Gaming] detection end
+17672 |Debug:   [EVGA GeForce RTX 2070 XC OC] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [EVGA GeForce RTX 2070 XC OC] detection end
+17672 |Debug:   [EVGA GeForce RTX 2070 SUPER XC Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [EVGA GeForce RTX 2070 SUPER XC Gaming] detection end
+17672 |Debug:   [EVGA GeForce RTX 2070 SUPER XC Ultra] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [EVGA GeForce RTX 2070 SUPER XC Ultra] detection end
+17672 |Debug:   [EVGA GeForce RTX 2070 SUPER XC Ultra+] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [EVGA GeForce RTX 2070 SUPER XC Ultra+] detection end
+17672 |Debug:   [EVGA GeForce RTX 2070 SUPER FTW3 Ultra] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [EVGA GeForce RTX 2070 SUPER FTW3 Ultra] detection end
+17672 |Debug:   [EVGA GeForce RTX 2070 SUPER FTW3 Ultra+] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [EVGA GeForce RTX 2070 SUPER FTW3 Ultra+] detection end
+17672 |Debug:   [EVGA GeForce RTX 2080 Black] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [EVGA GeForce RTX 2080 Black] detection end
+17672 |Debug:   [EVGA GeForce RTX 2080 XC Black] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [EVGA GeForce RTX 2080 XC Black] detection end
+17672 |Debug:   [EVGA GeForce RTX 2080 XC Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [EVGA GeForce RTX 2080 XC Gaming] detection end
+17672 |Debug:   [EVGA GeForce RTX 2080 XC Ultra Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [EVGA GeForce RTX 2080 XC Ultra Gaming] detection end
+17672 |Debug:   [EVGA GeForce RTX 2080 SUPER XC Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [EVGA GeForce RTX 2080 SUPER XC Gaming] detection end
+17672 |Debug:   [EVGA GeForce RTX 2080 SUPER XC Ultra] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [EVGA GeForce RTX 2080 SUPER XC Ultra] detection end
+17672 |Debug:   [EVGA GeForce RTX 2080 SUPER FTW3 Ultra] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [EVGA GeForce RTX 2080 SUPER FTW3 Ultra] detection end
+17672 |Debug:   [EVGA GeForce RTX 2080 SUPER FTW3 Hybrid OC] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [EVGA GeForce RTX 2080 SUPER FTW3 Hybrid OC] detection end
+17672 |Debug:   [EVGA GeForce RTX 2080 SUPER FTW3 Ultra Hydro Copper] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [EVGA GeForce RTX 2080 SUPER FTW3 Ultra Hydro Copper] detection end
+17672 |Debug:   [EVGA GeForce RTX 2080Ti Black] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [EVGA GeForce RTX 2080Ti Black] detection end
+17672 |Debug:   [EVGA GeForce RTX 2080Ti XC Ultra] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [EVGA GeForce RTX 2080Ti XC Ultra] detection end
+17672 |Debug:   [EVGA GeForce RTX 2080Ti XC HYBRID GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [EVGA GeForce RTX 2080Ti XC HYBRID GAMING] detection end
+17672 |Debug:   [EVGA GeForce RTX 2080Ti XC HYDRO COPPER] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [EVGA GeForce RTX 2080Ti XC HYDRO COPPER] detection end
+17672 |Debug:   [EVGA GeForce RTX 2080Ti FTW3 Ultra] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [EVGA GeForce RTX 2080Ti FTW3 Ultra] detection end
+17672 |Debug:   [ASUS KO RTX 3060 OC O12G GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS KO RTX 3060 OC O12G GAMING] detection end
+17672 |Debug:   [ASUS TUF 3060 O12G GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS TUF 3060 O12G GAMING] detection end
+17672 |Debug:   [ASUS TUF 3060 O12G V2 GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS TUF 3060 O12G V2 GAMING] detection end
+17672 |Debug:   [ASUS TUF 3060 O12G V2 GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS TUF 3060 O12G V2 GAMING] detection end
+17672 |Debug:   [ASUS ROG STRIX 3060 12G GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX 3060 12G GAMING] detection end
+17672 |Debug:   [ASUS ROG STRIX 3060 O12G GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX 3060 O12G GAMING] detection end
+17672 |Debug:   [ASUS ROG STRIX 3060 O12G V2 GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX 3060 O12G V2 GAMING] detection end
+17672 |Debug:   [ASUS KO RTX 3060 O12G V2 GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS KO RTX 3060 O12G V2 GAMING] detection end
+17672 |Debug:   [ASUS KO RTX 3060Ti O8G V2 GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS KO RTX 3060Ti O8G V2 GAMING] detection end
+17672 |Debug:   [ASUS TUF RTX 3060Ti O8G] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS TUF RTX 3060Ti O8G] detection end
+17672 |Debug:   [ASUS KO RTX 3060Ti O8G GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS KO RTX 3060Ti O8G GAMING] detection end
+17672 |Debug:   [ASUS TUF RTX 3060Ti O8G OC] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS TUF RTX 3060Ti O8G OC] detection end
+17672 |Debug:   [ASUS ROG STRIX 3060Ti O8G OC] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX 3060Ti O8G OC] detection end
+17672 |Debug:   [ASUS TUF RTX 3060Ti O8G OC] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS TUF RTX 3060Ti O8G OC] detection end
+17672 |Debug:   [ASUS ROG STRIX 3060Ti O8G V2] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX 3060Ti O8G V2] detection end
+17672 |Debug:   [ASUS ROG STRIX 3070 OC] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX 3070 OC] detection end
+17672 |Debug:   [ASUS ROG STRIX 3070 O8G GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX 3070 O8G GAMING] detection end
+17672 |Debug:   [ASUS ROG STRIX 3070 O8G White] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX 3070 O8G White] detection end
+17672 |Debug:   [ASUS ROG STRIX 3070 O8G V2 GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX 3070 O8G V2 GAMING] detection end
+17672 |Debug:   [ASUS ROG STRIX 3070 O8G V2 White] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX 3070 O8G V2 White] detection end
+17672 |Debug:   [ASUS TUF RTX 3070 8G GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS TUF RTX 3070 8G GAMING] detection end
+17672 |Debug:   [ASUS TUF RTX 3070 O8G GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS TUF RTX 3070 O8G GAMING] detection end
+17672 |Debug:   [ASUS KO RTX 3070 O8G V2 GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS KO RTX 3070 O8G V2 GAMING] detection end
+17672 |Debug:   [ASUS TUF RTX 3070 O8G V2 GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS TUF RTX 3070 O8G V2 GAMING] detection end
+17672 |Debug:   [ASUS ROG STRIX 3070Ti O8G GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX 3070Ti O8G GAMING] detection end
+17672 |Debug:   [ASUS TUF RTX 3070Ti O8G V2 GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS TUF RTX 3070Ti O8G V2 GAMING] detection end
+17672 |Debug:   [ASUS TUF RTX 3070Ti O8G V2 GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS TUF RTX 3070Ti O8G V2 GAMING] detection end
+17672 |Debug:   [ASUS TUF RTX 3070Ti O8G GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS TUF RTX 3070Ti O8G GAMING] detection end
+17672 |Debug:   [ASUS TUF RTX 3080 10G GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS TUF RTX 3080 10G GAMING] detection end
+17672 |Debug:   [ASUS TUF RTX 3080 10G GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS TUF RTX 3080 10G GAMING] detection end
+17672 |Debug:   [ASUS ROG RTX 3080 10G GUNDAM EDITION] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG RTX 3080 10G GUNDAM EDITION] detection end
+17672 |Debug:   [ASUS TUF RTX 3080 O10G OC] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS TUF RTX 3080 O10G OC] detection end
+17672 |Debug:   [ASUS ROG STRIX 3080 10G GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX 3080 10G GAMING] detection end
+17672 |Debug:   [ASUS ROG STRIX 3080 O10G GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX 3080 O10G GAMING] detection end
+17672 |Debug:   [ASUS ROG STRIX 3080 O10G WHITE] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX 3080 O10G WHITE] detection end
+17672 |Debug:   [ASUS ROG STRIX 3080 10G V2 GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX 3080 10G V2 GAMING] detection end
+17672 |Debug:   [ASUS ROG STRIX 3080 O10G V2 GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX 3080 O10G V2 GAMING] detection end
+17672 |Debug:   [ASUS ROG STRIX 3080 O10G V2 WHITE] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX 3080 O10G V2 WHITE] detection end
+17672 |Debug:   [ASUS TUF RTX 3080 O10G V2 GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS TUF RTX 3080 O10G V2 GAMING] detection end
+17672 |Debug:   [ASUS TUF RTX 3080 O10G V2 GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS TUF RTX 3080 O10G V2 GAMING] detection end
+17672 |Debug:   [ASUS TUF RTX 3080 O12G GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS TUF RTX 3080 O12G GAMING] detection end
+17672 |Debug:   [ASUS ROG STRIX RTX 3080 12G] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RTX 3080 12G] detection end
+17672 |Debug:   [ASUS ROG STRIX RTX 3080 O12G] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RTX 3080 O12G] detection end
+17672 |Debug:   [ASUS ROG STRIX RTX 3080 O12G EVA EDITION] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RTX 3080 O12G EVA EDITION] detection end
+17672 |Debug:   [ASUS TUF RTX 3080Ti 12G GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS TUF RTX 3080Ti 12G GAMING] detection end
+17672 |Debug:   [ASUS TUF RTX 3080Ti O12G GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS TUF RTX 3080Ti O12G GAMING] detection end
+17672 |Debug:   [ASUS ROG STRIX 3080Ti O12G GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX 3080Ti O12G GAMING] detection end
+17672 |Debug:   [ASUS ROG STRIX LC 3080Ti O12G GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX LC 3080Ti O12G GAMING] detection end
+17672 |Debug:   [ASUS ROG STRIX 3090 24G GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX 3090 24G GAMING] detection end
+17672 |Debug:   [ASUS ROG STRIX 3090 O24G GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX 3090 O24G GAMING] detection end
+17672 |Debug:   [ASUS ROG STRIX 3090 O24G GAMING White OC] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX 3090 O24G GAMING White OC] detection end
+17672 |Debug:   [ASUS TUF RTX 3090 O24G] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS TUF RTX 3090 O24G] detection end
+17672 |Debug:   [ASUS TUF RTX 3090 O24G OC] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS TUF RTX 3090 O24G OC] detection end
+17672 |Debug:   [ASUS TUF RTX 3090Ti O24G OC GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS TUF RTX 3090Ti O24G OC GAMING] detection end
+17672 |Debug:   [ASUS TUF RTX 4070 Ti 12G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS TUF RTX 4070 Ti 12G Gaming] detection end
+17672 |Debug:   [ASUS TUF RTX 4070 Ti O12G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS TUF RTX 4070 Ti O12G Gaming] detection end
+17672 |Debug:   [ASUS ROG STRIX RTX 4080 16G GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RTX 4080 16G GAMING] detection end
+17672 |Debug:   [ASUS ROG STRIX RTX 4080 O16G GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RTX 4080 O16G GAMING] detection end
+17672 |Debug:   [ASUS TUF RTX 4080 O16G GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS TUF RTX 4080 O16G GAMING] detection end
+17672 |Debug:   [ASUS TUF RTX 4080 O16G OC] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS TUF RTX 4080 O16G OC] detection end
+17672 |Debug:   [ASUS TUF RTX 4090 O24G OC] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS TUF RTX 4090 O24G OC] detection end
+17672 |Debug:   [ASUS TUF RTX 4090 O24G] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS TUF RTX 4090 O24G] detection end
+17672 |Debug:   [ASUS ROG STRIX RTX 4090 O24G GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RTX 4090 O24G GAMING] detection end
+17672 |Debug:   [ASUS ROG STRIX RTX 4090 24G GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RTX 4090 24G GAMING] detection end
+17672 |Debug:   [ASUS TUF RX 6700XT O12G GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS TUF RX 6700XT O12G GAMING] detection end
+17672 |Debug:   [ASUS ROG STRIX RX 6700XT O12G GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RX 6700XT O12G GAMING] detection end
+17672 |Debug:   [ASUS ROG STRIX RX 6750XT O12G GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RX 6750XT O12G GAMING] detection end
+17672 |Debug:   [ASUS RX 6800 TUF Gaming OC] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS RX 6800 TUF Gaming OC] detection end
+17672 |Debug:   [ASUS ROG STRIX RX 6800 O16G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RX 6800 O16G Gaming] detection end
+17672 |Debug:   [ASUS TUF RX 6800XT O16G GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS TUF RX 6800XT O16G GAMING] detection end
+17672 |Debug:   [ASUS ROG STRIX LC RX 6800XT O16G GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX LC RX 6800XT O16G GAMING] detection end
+17672 |Debug:   [ASUS ROG STRIX LC RX 6900XT O16G GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX LC RX 6900XT O16G GAMING] detection end
+17672 |Debug:   [ASUS ROG STRIX LC RX 6900XT O16G GAMING TOP] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX LC RX 6900XT O16G GAMING TOP] detection end
+17672 |Debug:   [ASUS TUF RX 6900XT O16G GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS TUF RX 6900XT O16G GAMING] detection end
+17672 |Debug:   [ASUS TUF RX 6900XT T16G GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS TUF RX 6900XT T16G GAMING] detection end
+17672 |Debug:   [ASUS TUF RX 6950XT O16G GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS TUF RX 6950XT O16G GAMING] detection end
+17672 |Debug:   [ASUS ROG STRIX LC RX 6950XT O16G GAMING] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX LC RX 6950XT O16G GAMING] detection end
+17672 |Debug:   [iGame GeForce RTX 2070 SUPER Advanced OC-V] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [iGame GeForce RTX 2070 SUPER Advanced OC-V] detection end
+17672 |Debug:   [iGame GeForce RTX 3060 Advanced OC 12G L-V] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [iGame GeForce RTX 3060 Advanced OC 12G L-V] detection end
+17672 |Debug:   [iGame GeForce RTX 3060 Ultra W OC 12G L-V] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [iGame GeForce RTX 3060 Ultra W OC 12G L-V] detection end
+17672 |Debug:   [iGame GeForce RTX 3060 Ultra W OC 12G L-V] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [iGame GeForce RTX 3060 Ultra W OC 12G L-V] detection end
+17672 |Debug:   [iGame GeForce RTX 3060 Ti Ultra W OC LHR-V] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [iGame GeForce RTX 3060 Ti Ultra W OC LHR-V] detection end
+17672 |Debug:   [iGame GeForce RTX 3060 Ti Advanced OC-V] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [iGame GeForce RTX 3060 Ti Advanced OC-V] detection end
+17672 |Debug:   [iGame GeForce RTX 3070 Advanced OC-V] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [iGame GeForce RTX 3070 Advanced OC-V] detection end
+17672 |Debug:   [iGame GeForce RTX 3070 Advanced OC-V] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [iGame GeForce RTX 3070 Advanced OC-V] detection end
+17672 |Debug:   [iGame GeForce RTX 3070 Ultra W OC LHR] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [iGame GeForce RTX 3070 Ultra W OC LHR] detection end
+17672 |Debug:   [iGame GeForce RTX 3070 Ti Ultra W OC LHR] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [iGame GeForce RTX 3070 Ti Ultra W OC LHR] detection end
+17672 |Debug:   [iGame GeForce RTX 3070 Ti Advanced OC-V] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [iGame GeForce RTX 3070 Ti Advanced OC-V] detection end
+17672 |Debug:   [iGame GeForce RTX 3080 Ti Advanced OC-V] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [iGame GeForce RTX 3080 Ti Advanced OC-V] detection end
+17672 |Debug:   [iGame GeForce RTX 4070 Ti Advanced OC-V] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [iGame GeForce RTX 4070 Ti Advanced OC-V] detection end
+17672 |Debug:   [iGame GeForce RTX 4080 Ultra W OC-V] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [iGame GeForce RTX 4080 Ultra W OC-V] detection end
+17672 |Debug:   [ASUS ROG Strix GTX 1050 O2G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG Strix GTX 1050 O2G Gaming] detection end
+17672 |Debug:   [ASUS ROG Strix GTX 1050 TI 4G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG Strix GTX 1050 TI 4G Gaming] detection end
+17672 |Debug:   [ASUS ROG Strix GTX 1050 TI O4G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG Strix GTX 1050 TI O4G Gaming] detection end
+17672 |Debug:   [ASUS ROG Strix GTX 1050 TI O4G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG Strix GTX 1050 TI O4G Gaming] detection end
+17672 |Debug:   [ASUS GTX 1060 Strix 6G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS GTX 1060 Strix 6G Gaming] detection end
+17672 |Debug:   [ASUS GTX 1060 Strix] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS GTX 1060 Strix] detection end
+17672 |Debug:   [ASUS GTX 1070 Strix Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS GTX 1070 Strix Gaming] detection end
+17672 |Debug:   [ASUS GTX 1070 Strix OC] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS GTX 1070 Strix OC] detection end
+17672 |Debug:   [ASUS ROG Strix GTX1070 Ti 8G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG Strix GTX1070 Ti 8G Gaming] detection end
+17672 |Debug:   [ASUS ROG Strix GTX1070 Ti A8G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG Strix GTX1070 Ti A8G Gaming] detection end
+17672 |Debug:   [ASUS GTX 1080 Strix OC] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS GTX 1080 Strix OC] detection end
+17672 |Debug:   [ASUS ROG Strix GTX1080 A8G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG Strix GTX1080 A8G Gaming] detection end
+17672 |Debug:   [ASUS ROG Strix GTX1080 O8G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG Strix GTX1080 O8G Gaming] detection end
+17672 |Debug:   [ASUS ROG Strix GTX1080 O8G 11Gbps] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG Strix GTX1080 O8G 11Gbps] detection end
+17672 |Debug:   [ASUS ROG Strix GTX1080 Ti Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG Strix GTX1080 Ti Gaming] detection end
+17672 |Debug:   [ASUS ROG Strix GTX1080 Ti 11G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG Strix GTX1080 Ti 11G Gaming] detection end
+17672 |Debug:   [ASUS ROG Strix GTX1080 Ti O11G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG Strix GTX1080 Ti O11G Gaming] detection end
+17672 |Debug:   [ASUS ROG Strix GTX1080 Ti O11G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG Strix GTX1080 Ti O11G Gaming] detection end
+17672 |Debug:   [ASUS ROG Strix GTX 1650S OC 4G] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG Strix GTX 1650S OC 4G] detection end
+17672 |Debug:   [ASUS ROG Strix GTX 1660S O6G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG Strix GTX 1660S O6G Gaming] detection end
+17672 |Debug:   [ASUS ROG GTX 1660 Ti OC 6G] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG GTX 1660 Ti OC 6G] detection end
+17672 |Debug:   [ASUS ROG STRIX RTX 2060 EVO Gaming 6G] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RTX 2060 EVO Gaming 6G] detection end
+17672 |Debug:   [ASUS ROG STRIX RTX 2060 O6G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RTX 2060 O6G Gaming] detection end
+17672 |Debug:   [ASUS ROG STRIX RTX 2060 O6G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RTX 2060 O6G Gaming] detection end
+17672 |Debug:   [ASUS ROG STRIX RTX 2060 O6G EVO Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RTX 2060 O6G EVO Gaming] detection end
+17672 |Debug:   [ASUS ROG STRIX RTX 2060S 8G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RTX 2060S 8G Gaming] detection end
+17672 |Debug:   [ASUS ROG STRIX RTX 2060S A8G EVO Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RTX 2060S A8G EVO Gaming] detection end
+17672 |Debug:   [ASUS ROG STRIX RTX 2060S O8G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RTX 2060S O8G Gaming] detection end
+17672 |Debug:   [ASUS ROG STRIX RTX 2060S A8G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RTX 2060S A8G Gaming] detection end
+17672 |Debug:   [ASUS ROG STRIX RTX 2070 A8G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RTX 2070 A8G Gaming] detection end
+17672 |Debug:   [ASUS ROG STRIX RTX 2070 O8G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RTX 2070 O8G Gaming] detection end
+17672 |Debug:   [ASUS ROG STRIX RTX 2070S A8G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RTX 2070S A8G Gaming] detection end
+17672 |Debug:   [ASUS ROG STRIX RTX 2070S A8G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RTX 2070S A8G Gaming] detection end
+17672 |Debug:   [ASUS ROG STRIX RTX 2070S A8G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RTX 2070S A8G Gaming] detection end
+17672 |Debug:   [ASUS ROG STRIX RTX 2070S O8G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RTX 2070S O8G Gaming] detection end
+17672 |Debug:   [ASUS ROG STRIX RTX 2070S 8G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RTX 2070S 8G Gaming] detection end
+17672 |Debug:   [ASUS ROG STRIX RTX 2070S O8G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RTX 2070S O8G Gaming] detection end
+17672 |Debug:   [ASUS ROG STRIX RTX 2080 8G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RTX 2080 8G Gaming] detection end
+17672 |Debug:   [ASUS ROG STRIX RTX 2080 O8G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RTX 2080 O8G Gaming] detection end
+17672 |Debug:   [ASUS ROG STRIX RTX 2080 O8G V2 Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RTX 2080 O8G V2 Gaming] detection end
+17672 |Debug:   [ASUS ROG STRIX RTX 2080S A8G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RTX 2080S A8G Gaming] detection end
+17672 |Debug:   [ASUS ROG STRIX RTX 2080S O8G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RTX 2080S O8G Gaming] detection end
+17672 |Debug:   [ASUS ROG STRIX RTX 2080S O8G White] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RTX 2080S O8G White] detection end
+17672 |Debug:   [ASUS ROG STRIX RTX 2080 Ti 11G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RTX 2080 Ti 11G Gaming] detection end
+17672 |Debug:   [ASUS ROG STRIX RTX 2080 Ti 11G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RTX 2080 Ti 11G Gaming] detection end
+17672 |Debug:   [ASUS ROG STRIX RTX 2080 Ti A11G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RTX 2080 Ti A11G Gaming] detection end
+17672 |Debug:   [ASUS ROG STRIX RTX 2080 Ti O11G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RTX 2080 Ti O11G Gaming] detection end
+17672 |Debug:   [ASUS TUF RTX 3060 Ti 8G Gaming OC] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS TUF RTX 3060 Ti 8G Gaming OC] detection end
+17672 |Debug:   [ASUS AREZ Strix RX Vega 56 O8G] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS AREZ Strix RX Vega 56 O8G] detection end
+17672 |Debug:   [ASUS Vega 64 Strix] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS Vega 64 Strix] detection end
+17672 |Debug:   [ASUS RX 5600XT Strix O6G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS RX 5600XT Strix O6G Gaming] detection end
+17672 |Debug:   [ASUS RX 5700XT Strix Gaming OC] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS RX 5700XT Strix Gaming OC] detection end
+17672 |Debug:   [ASUS RX 5700XT Strix 08G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS RX 5700XT Strix 08G Gaming] detection end
+17672 |Debug:   [ASUS ROG STRIX RX470 O4G Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RX470 O4G Gaming] detection end
+17672 |Debug:   [ASUS ROG STRIX RX480 Gaming OC] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RX480 Gaming OC] detection end
+17672 |Debug:   [ASUS ROG STRIX RX560 Gaming] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS ROG STRIX RX560 Gaming] detection end
+17672 |Debug:   [ASUS RX 570 Strix O4G Gaming OC] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS RX 570 Strix O4G Gaming OC] detection end
+17672 |Debug:   [ASUS RX 570 Strix O8G Gaming OC] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS RX 570 Strix O8G Gaming OC] detection end
+17672 |Debug:   [ASUS RX 580 Strix Gaming OC] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS RX 580 Strix Gaming OC] detection end
+17672 |Debug:   [ASUS RX 580 Strix Gaming TOP] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Trace:   [ASUS RX 580 Strix Gaming TOP] detection end
+17672 |Info:    ------------------------------------------------------
+17672 |Info:    |               Detecting HID devices                |
+17672 |Info:    ------------------------------------------------------
+17672 |Debug:   [0B05:19AF U=00A1 P=0xFF72 I=2] AsusTek Computer Inc.     - AURA LED Controller
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17672 |Debug:   [ASUS Aura Motherboard] is enabled
+17672 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17750 |Debug:   [AULA3-AR32-0222] ASUS Aura USB config table:
+17750 |Debug:   [AULA3-AR32-0222] 1E 9F 01 01 00 00
+17750 |Debug:   [AULA3-AR32-0222] 78 3C 00 00 00 00
+17750 |Debug:   [AULA3-AR32-0222] 00 00 00 00 00 00
+17750 |Debug:   [AULA3-AR32-0222] 00 00 00 00 00 00
+17750 |Debug:   [AULA3-AR32-0222] 00 00 00 01 02 02
+17750 |Debug:   [AULA3-AR32-0222] 01 F4 00 00 00 00
+17750 |Debug:   [AULA3-AR32-0222] 00 00 00 00 00 00
+17750 |Debug:   [AULA3-AR32-0222] 00 00 00 00 00 00
+17750 |Debug:   [AULA3-AR32-0222] 00 00 00 00 00 00
+17750 |Debug:   [AULA3-AR32-0222] 00 00 00 00 00 00
+17750 |Info:    [ASUS ROG STRIX B760-I GAMING WIFI] Registering RGB controller
+17750 |Trace:   [ResourceManager] Calling device list change callbacks.
+17750 |Trace:   [ResourceManager] Calling device list change callbacks.
+17750 |Debug:   [3142:0006 U=0001 P=0x000C I=3] FIFINE Microphones        - FIFINE K690 Microphone
+17750 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17750 |Debug:   [3142:0006 U=0005 P=0x000B I=3] FIFINE Microphones        - FIFINE K690 Microphone
+17750 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17750 |Debug:   [05AC:024F U=0006 P=0x0001 I=0] Keychron                  - Keychron K3
+17750 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17750 |Debug:   [Keychron Gaming Keyboard 1] is enabled
+17750 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17752 |Info:    [Keychron Gaming Keyboard 1] Registering RGB controller
+17752 |Trace:   [ResourceManager] Calling device list change callbacks.
+17752 |Trace:   [ResourceManager] Calling device list change callbacks.
+17752 |Debug:   [05AC:024F U=0001 P=0x000C I=1] Keychron                  - Keychron K3
+17752 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17752 |Debug:   [05AC:024F U=0080 P=0x0001 I=1] Keychron                  - Keychron K3
+17752 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17752 |Debug:   [05AC:024F U=0006 P=0x0001 I=1] Keychron                  - Keychron K3
+17752 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17752 |Debug:   [3299:4E52 U=0002 P=0x0001 I=0] SINOWEALTH                - Wired Gaming Mouse
+17752 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17752 |Debug:   [3299:4E52 U=0001 P=0x0001 I=0] SINOWEALTH                - Wired Gaming Mouse
+17752 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17752 |Debug:   [3299:4E52 U=0006 P=0x0001 I=1] SINOWEALTH                - Wired Gaming Mouse
+17752 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17752 |Debug:   [3299:4E52 U=0001 P=0x000C I=1] SINOWEALTH                - Wired Gaming Mouse
+17752 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17752 |Debug:   [3299:4E52 U=0001 P=0xFF00 I=1] SINOWEALTH                - Wired Gaming Mouse
+17752 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17752 |Debug:   [3299:4E52 U=0001 P=0xFF00 I=1] SINOWEALTH                - Wired Gaming Mouse
+17752 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17752 |Debug:   [3299:4E52 U=0001 P=0xFF00 I=1] SINOWEALTH                - Wired Gaming Mouse
+17752 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17752 |Debug:   [1E71:300E U=0001 P=0xFF00 I=1] NZXT Inc.                 - NZXT Kraken Base
+17752 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17752 |Info:    ------------------------------------------------------
+17752 |Info:    |            Detecting libusb HID devices            |
+17752 |Info:    ------------------------------------------------------
+17758 |Debug:   [1E71:300E U=0000 P=0x0000 I=1]                           - 
+17758 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17758 |Debug:   [3299:4E52 U=0000 P=0x0000 I=0]                           - 
+17758 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17758 |Debug:   [3299:4E52 U=0000 P=0x0000 I=1]                           - 
+17758 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17758 |Debug:   [05AC:024F U=0000 P=0x0000 I=0] Keychron                  - Keychron K3
+17758 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17758 |Debug:   [05AC:024F U=0000 P=0x0000 I=1] Keychron                  - Keychron K3
+17758 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17758 |Debug:   [3142:0006 U=0000 P=0x0000 I=3]                           - 
+17758 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17758 |Debug:   [0B05:19AF U=0000 P=0x0000 I=2] AsusTek Computer Inc.     - AURA LED Controller
+17758 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17758 |Info:    ------------------------------------------------------
+17758 |Info:    |              Detecting other devices               |
+17758 |Info:    ------------------------------------------------------
+17758 |Debug:   [OpenRazer] is disabled
+17758 |Trace:   [OpenRazer] detection end
+17758 |Debug:   [Linux LED] is enabled
+17758 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17758 |Trace:   [Linux LED] detection end
+17758 |Debug:   [Faustus] is enabled
+17758 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17758 |Trace:   [Faustus] detection end
+17758 |Debug:   [XPG Spectrix S40G] is enabled
+17758 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17758 |Debug:   [XPG Spectrix S40G] Probing 0, model: Samsung SSD 990 PRO 2TB                 
+
+17758 |Trace:   [XPG Spectrix S40G] detection end
+17758 |Debug:   [ASUS TUF Laptop] is enabled
+17758 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17758 |Trace:   [ASUS TUF Laptop] detection end
+17758 |Debug:   [Yeelight] is enabled
+17758 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17758 |Trace:   [Yeelight] detection end
+17758 |Debug:   [Philips Wiz] is enabled
+17758 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17758 |Trace:   [Philips Wiz] detection end
+17758 |Debug:   [Philips Hue] is enabled
+17758 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17758 |Trace:   [Philips Hue] detection end
+17758 |Debug:   [NZXT Hue+] is enabled
+17758 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17758 |Trace:   [NZXT Hue+] detection end
+17758 |Debug:   [Nanoleaf] is enabled
+17758 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17758 |Trace:   [Nanoleaf] detection end
+17758 |Debug:   [MSI-RGB] is enabled
+17758 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17758 |Trace:   [MSI-RGB] detection end
+17758 |Debug:   [Lian Li Uni Hub] is enabled
+17758 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17761 |Trace:   [Lian Li Uni Hub] detection end
+17761 |Debug:   [LIFX] is enabled
+17761 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17761 |Trace:   [LIFX] detection end
+17761 |Debug:   [LED Strip] is enabled
+17761 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17761 |Trace:   [LED Strip] detection end
+17761 |Debug:   [KasaSmart] is enabled
+17761 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17761 |Trace:   [KasaSmart] detection end
+17761 |Debug:   [Gigabyte RGB] is enabled
+17761 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17761 |Trace:   [Gigabyte RGB] detection end
+17761 |Debug:   [FanBus] is enabled
+17761 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17761 |Trace:   [FanBus] detection end
+17761 |Debug:   [Espurna] is enabled
+17761 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17761 |Trace:   [Espurna] detection end
+17761 |Debug:   [ElgatoKeyLight] is enabled
+17761 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17761 |Trace:   [ElgatoKeyLight] detection end
+17761 |Debug:   [E1.31] is enabled
+17761 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17761 |Trace:   [E1.31] detection end
+17761 |Debug:   [Dygma Raise] is enabled
+17761 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17761 |Trace:   [Dygma Raise] detection end
+17761 |Debug:   [DMX] is enabled
+17761 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17761 |Trace:   [DMX] detection end
+17761 |Debug:   [Debug Controllers] is enabled
+17761 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17761 |Trace:   [Debug Controllers] detection end
+17761 |Debug:   [Corsair H100i v2] is enabled
+17761 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17761 |Trace:   [Corsair H100i v2] detection end
+17761 |Debug:   [Corsair Hydro Series] is enabled
+17761 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17761 |Trace:   [Corsair Hydro Series] detection end
+17761 |Debug:   [BlinkyTape] is enabled
+17761 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17761 |Trace:   [BlinkyTape] detection end
+17761 |Trace:   [ResourceManager] Calling detection progress callbacks.
+17761 |Info:    ------------------------------------------------------
+17761 |Info:    |                Detection completed                 |
+17761 |Info:    ------------------------------------------------------
+17761 |Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>
+17772 |Debug:   Running zones sizes checks...
+17772 |Debug:   Zones checks finished: 0 unconfigured zone(s).

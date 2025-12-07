@@ -1,0 +1,50 @@
+{
+    "AllowOnlyFirst": false,
+    "Brightness": 100,
+    "CustomSettings": {
+        "AnimationSpeed": 100.0,
+        "BackgroundBrightness": 100,
+        "BackgroundMode": 4,
+        "BackgroundTimeout": 120.0,
+        "ForegroundMode": 2,
+        "ReactiveBackground": false,
+        "SilentBackground": false,
+        "SingleColorMode": 0,
+        "audio_settings": {
+            "amplitude": 100,
+            "audio_device": 1,
+            "avg_mode": 0,
+            "avg_size": 31,
+            "decay": 0,
+            "equalizer": [
+                0.5600000023841858,
+                0.5799999833106995,
+                0.49000000953674316,
+                0.5099999904632568,
+                0.6600000262260437,
+                0.6600000262260437,
+                0.7400000095367432,
+                0.7300000190734863,
+                0.9399999976158142,
+                1.0299999713897705,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.309999942779541
+            ],
+            "filter_constant": 1.059999942779541,
+            "nrml_ofst": 10.0,
+            "nrml_scl": 0.5,
+            "window_mode": 0
+        }
+    },
+    "EffectClassName": "AudioVisualizer",
+    "FPS": 60,
+    "RandomColors": false,
+    "Slider2Val": 1,
+    "Speed": 1,
+    "Temperature": 0,
+    "Tint": 100
+}

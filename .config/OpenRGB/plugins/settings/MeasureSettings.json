@@ -1,0 +1,132 @@
+[
+    {
+        "auto_start": false,
+        "brightness": 90,
+        "devices": [
+            {
+                "brightness": 100,
+                "description": "ENE SMBus Device",
+                "is_percentage_fill": false,
+                "is_segment": false,
+                "location": "I2C: /dev/i2c-3, address 0x70",
+                "name": "ENE DRAM",
+                "reverse": false,
+                "segment_idx": -1,
+                "serial": "",
+                "vendor": "ENE",
+                "version": "AUDA0-E6K5-0101",
+                "zone_idx": 0
+            }
+        ],
+        "fps": 30,
+        "hardware": 11,
+        "hardware_feature": 0,
+        "measure_color": {
+            "color_stops": [
+                [
+                    0.0,
+                    16711691
+                ],
+                [
+                    12.0,
+                    9115167
+                ],
+                [
+                    50.0,
+                    7340034
+                ],
+                [
+                    100.0,
+                    255
+                ]
+            ]
+        },
+        "name": "cpu",
+        "refresh_interval": 100,
+        "running": true
+    },
+    {
+        "auto_start": false,
+        "brightness": 100,
+        "devices": [
+            {
+                "brightness": 100,
+                "description": "ENE SMBus Device",
+                "is_percentage_fill": false,
+                "is_segment": false,
+                "location": "I2C: /dev/i2c-3, address 0x72",
+                "name": "ENE DRAM",
+                "reverse": false,
+                "segment_idx": -1,
+                "serial": "",
+                "vendor": "ENE",
+                "version": "AUDA0-E6K5-0101",
+                "zone_idx": 0
+            }
+        ],
+        "fps": 60,
+        "hardware": 1,
+        "hardware_feature": 0,
+        "measure_color": {
+            "color_stops": [
+                [
+                    0.8,
+                    16646155
+                ],
+                [
+                    0.9,
+                    9049631
+                ],
+                [
+                    1.2,
+                    255
+                ]
+            ]
+        },
+        "name": "gpu",
+        "refresh_interval": 100,
+        "running": true
+    },
+    {
+        "auto_start": false,
+        "brightness": 100,
+        "devices": [
+            {
+                "brightness": 100,
+                "description": "ASUS Aura USB Mainboard Device",
+                "is_percentage_fill": false,
+                "is_segment": false,
+                "location": "HID: /dev/hidraw0",
+                "name": "ASUS ROG STRIX B760-I GAMING WIFI",
+                "reverse": false,
+                "segment_idx": -1,
+                "serial": "9876543210",
+                "vendor": "ASUS",
+                "version": "AULA3-AR32-0222",
+                "zone_idx": 1
+            }
+        ],
+        "fps": 60,
+        "hardware": 4,
+        "hardware_feature": 0,
+        "measure_color": {
+            "color_stops": [
+                [
+                    0.0,
+                    65280
+                ],
+                [
+                    50.0,
+                    65535
+                ],
+                [
+                    100.0,
+                    255
+                ]
+            ]
+        },
+        "name": "musci",
+        "refresh_interval": 100,
+        "running": true
+    }
+]

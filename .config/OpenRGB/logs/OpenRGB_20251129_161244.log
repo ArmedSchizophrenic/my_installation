@@ -1,0 +1,36 @@
+    OpenRGB v0.9+ (1.0rc2)
+    Commit:  from 
+    Launched: 20251129_161244
+====================================================================================================
+
+0     |Info:    [ProfileManager] Found file: test.orp attempting to validate header
+0     |Info:    [ProfileManager] Valid v4 profile found for test
+52    |Info:    [ResourceManager] Initializing HID interfaces: Success
+52    |Info:    ------------------------------------------------------
+52    |Info:    |               Start device detection               |
+52    |Info:    ------------------------------------------------------
+56    |Info:    ------------------------------------------------------
+56    |Info:    |             Detecting I2C interfaces               |
+56    |Info:    ------------------------------------------------------
+56    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-3 Device 8086:7A23 Subsystem: 1043:8882
+56    |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+56    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-10 Device 0000:0000 Subsystem: 0000:0000
+56    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-1 Device 0000:0000 Subsystem: 0000:0000
+56    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-8 Device 1002:73DF Subsystem: 1002:0E36
+56    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-6 Device 1002:73DF Subsystem: 1002:0E36
+56    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-4 Device 1002:73DF Subsystem: 1002:0E36
+56    |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+56    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-11 Device 0000:0000 Subsystem: 0000:0000
+56    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-2 Device 0000:0000 Subsystem: 0000:0000
+56    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-0 Device 0000:0000 Subsystem: 0000:0000
+56    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-9 Device 1002:73DF Subsystem: 1002:0E36
+56    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-7 Device 1002:73DF Subsystem: 1002:0E36
+56    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-5 Device 1002:73DF Subsystem: 1002:0E36
+57    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-MSFT8000:00 Device 0000:0000 Subsystem: 0000:0000
+57    |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+57    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-12 Device 0000:0000 Subsystem: 0000:0000
+57    |Info:    ------------------------------------------------------
+57    |Info:    |               Detecting I2C devices                |
+57    |Info:    ------------------------------------------------------
+233   |Info:    [ENE DRAM] Registering RGB controller
+411   |Info:    [ENE DRAM] Registering RGB controller

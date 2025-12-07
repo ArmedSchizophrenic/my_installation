@@ -1,0 +1,95 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20240810_202722
+====================================================================================================
+
+0     |Info:    Found file: test.orp attempting to validate header
+0     |Info:    Valid v4 profile found for test
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    |               Start device detection               |
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    Initializing HID interfaces: Success
+1003  |Info:    ------------------------------------------------------
+1003  |Info:    |             Detecting I2C interfaces               |
+1003  |Info:    ------------------------------------------------------
+1005  |Info:    Registering I2C interface: /dev/i2c-3 Device 0000:0000 Subsystem: 0000:0000
+1005  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1005  |Info:    Registering I2C interface: /dev/i2c-10 Device 0000:0000 Subsystem: 0000:0000
+1005  |Info:    Registering I2C interface: /dev/i2c-1 Device 0000:0000 Subsystem: 0000:0000
+1005  |Info:    Registering I2C interface: /dev/i2c-8 Device 1002:73DF Subsystem: 1002:0E36
+1005  |Info:    Registering I2C interface: /dev/i2c-6 Device 1002:73DF Subsystem: 1002:0E36
+1005  |Info:    Registering I2C interface: /dev/i2c-4 Device 1002:73DF Subsystem: 1002:0E36
+1005  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1005  |Info:    Registering I2C interface: /dev/i2c-11 Device 0000:0000 Subsystem: 0000:0000
+1005  |Info:    Registering I2C interface: /dev/i2c-2 Device 0000:0000 Subsystem: 0000:0000
+1005  |Info:    Registering I2C interface: /dev/i2c-0 Device 8086:7A23 Subsystem: 1043:8882
+1005  |Info:    Registering I2C interface: /dev/i2c-9 Device 1002:73DF Subsystem: 1002:0E36
+1005  |Info:    Registering I2C interface: /dev/i2c-7 Device 1002:73DF Subsystem: 1002:0E36
+1005  |Info:    Registering I2C interface: /dev/i2c-5 Device 1002:73DF Subsystem: 1002:0E36
+1005  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1005  |Info:    Registering I2C interface: /dev/i2c-MSFT8000:00 Device 0000:0000 Subsystem: 0000:0000
+1005  |Info:    ------------------------------------------------------
+1005  |Info:    |               Detecting I2C devices                |
+1005  |Info:    ------------------------------------------------------
+17656 |Info:    ------------------------------------------------------
+17656 |Info:    |               Detecting I2C PCI devices            |
+17656 |Info:    ------------------------------------------------------
+17657 |Info:    ------------------------------------------------------
+17657 |Info:    |               Detecting HID devices                |
+17657 |Info:    ------------------------------------------------------
+17734 |Info:    [ASUS ROG STRIX B760-I GAMING WIFI] Registering RGB controller
+17734 |Info:    [Keychron Gaming Keyboard 1] Registering RGB controller
+17734 |Info:    ------------------------------------------------------
+17734 |Info:    |            Detecting libusb HID devices            |
+17734 |Info:    ------------------------------------------------------
+17740 |Info:    ------------------------------------------------------
+17740 |Info:    |              Detecting other devices               |
+17740 |Info:    ------------------------------------------------------
+17743 |Info:    ------------------------------------------------------
+17743 |Info:    |                Detection completed                 |
+17743 |Info:    ------------------------------------------------------
+17743 |Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>
+31450 |Info:    ------------------------------------------------------
+31450 |Info:    |               Start device detection               |
+31450 |Info:    ------------------------------------------------------
+31450 |Info:    Initializing HID interfaces: Success
+31452 |Info:    ------------------------------------------------------
+31452 |Info:    |             Detecting I2C interfaces               |
+31452 |Info:    ------------------------------------------------------
+31452 |Info:    Registering I2C interface: /dev/i2c-3 Device 0000:0000 Subsystem: 0000:0000
+31452 |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+31452 |Info:    Registering I2C interface: /dev/i2c-10 Device 0000:0000 Subsystem: 0000:0000
+31452 |Info:    Registering I2C interface: /dev/i2c-1 Device 0000:0000 Subsystem: 0000:0000
+31452 |Info:    Registering I2C interface: /dev/i2c-8 Device 1002:73DF Subsystem: 1002:0E36
+31452 |Info:    Registering I2C interface: /dev/i2c-6 Device 1002:73DF Subsystem: 1002:0E36
+31452 |Info:    Registering I2C interface: /dev/i2c-4 Device 1002:73DF Subsystem: 1002:0E36
+31452 |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+31452 |Info:    Registering I2C interface: /dev/i2c-11 Device 0000:0000 Subsystem: 0000:0000
+31452 |Info:    Registering I2C interface: /dev/i2c-2 Device 0000:0000 Subsystem: 0000:0000
+31452 |Info:    Registering I2C interface: /dev/i2c-0 Device 8086:7A23 Subsystem: 1043:8882
+31452 |Info:    Registering I2C interface: /dev/i2c-9 Device 1002:73DF Subsystem: 1002:0E36
+31452 |Info:    Registering I2C interface: /dev/i2c-7 Device 1002:73DF Subsystem: 1002:0E36
+31453 |Info:    Registering I2C interface: /dev/i2c-5 Device 1002:73DF Subsystem: 1002:0E36
+31453 |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+31453 |Info:    Registering I2C interface: /dev/i2c-MSFT8000:00 Device 0000:0000 Subsystem: 0000:0000
+31453 |Info:    ------------------------------------------------------
+31453 |Info:    |               Detecting I2C devices                |
+31453 |Info:    ------------------------------------------------------
+48090 |Info:    ------------------------------------------------------
+48090 |Info:    |               Detecting I2C PCI devices            |
+48090 |Info:    ------------------------------------------------------
+48090 |Info:    ------------------------------------------------------
+48090 |Info:    |               Detecting HID devices                |
+48090 |Info:    ------------------------------------------------------
+48166 |Info:    [ASUS ROG STRIX B760-I GAMING WIFI] Registering RGB controller
+48166 |Info:    [Keychron Gaming Keyboard 1] Registering RGB controller
+48166 |Info:    ------------------------------------------------------
+48166 |Info:    |            Detecting libusb HID devices            |
+48166 |Info:    ------------------------------------------------------
+48169 |Info:    ------------------------------------------------------
+48169 |Info:    |              Detecting other devices               |
+48169 |Info:    ------------------------------------------------------
+48169 |Info:    ------------------------------------------------------
+48169 |Info:    |                Detection completed                 |
+48169 |Info:    ------------------------------------------------------
+48169 |Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>
