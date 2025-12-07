@@ -1,0 +1,44 @@
+#window {
+font-size: 24px;
+border: rgba(00,00,00,0.0);
+background-color: rgba(00,00,00,0.0);
+}
+
+#input {
+font-size: 32px;
+border: 2px solid #ef5e90;
+color: #1cd; 
+margin: 1px;
+background-color: #163556;
+}
+
+#inner-box {
+margin: 1px;
+border: 1px solid #ef5e90;
+color: #e5e500;
+background-color: #163556;
+}
+
+#outer-box {
+margin: 1px;
+border: none; 
+background-color: ;rgba(0,0,0,0);
+}
+
+#scroll {
+margin: none;
+border: none;
+}
+
+#text {
+margin: 10px;
+border: none;
+color: #1cd4ee;
+}
+
+#entry:selected {
+font-size: 26px;
+margin: 2px;
+color: #e5e500;
+background-color: #ef5e90;
+}

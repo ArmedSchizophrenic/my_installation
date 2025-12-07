@@ -1,0 +1,13 @@
+allow_images=true
+hide_scroll=true
+normal_window=true
+
+term=kitty
+matching=fuzzy
+prompt=
+
+width= 700
+
+key_expan= left
+
+styles=style.css
