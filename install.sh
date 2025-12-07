@@ -28,16 +28,17 @@ sleep 2
 # Instalacja paru
 # ——————————————————————————————
 echo "installing paru..."
-pacman -Sy --needed --noconfirm base-devel git
+if ! command -v paru >/dev/null 2>&1; then
+  pacman -Sy --needed --noconfirm base-devel git
 
-sleep 2
+  sleep 2
 
-sudo -u "$SUDO_USER" bash -c '
-git clone https://aur.archlinux.org/paru.git /tmp/paru;
-cd /tmp/paru || exit 1;
-makepkg -si --noconfirm;
-'
-
+  sudo -u "$SUDO_USER" bash -c '
+  git clone https://aur.archlinux.org/paru.git /tmp/paru;
+  cd /tmp/paru || exit 1;
+  makepkg -si --noconfirm;
+  '
+fi
 # ——————————————————————————————
 # Instalacja paczek z pliku
 # ——————————————————————————————
@@ -69,7 +70,7 @@ if [[ "$answer" =~ ^[Yy]$ ]]; then
   cp -r .config/* "$USER_HOME/.config/"
   mkdir "$USER_HOME/Documents"
   cp -r Documents/* "$USER_HOME/Documents/"
-  
+
   echo "Instaluję Zsh..."
   pacman -S --noconfirm zsh
 
@@ -90,7 +91,7 @@ if [[ "$answer" =~ ^[Yy]$ ]]; then
 
   # Twój config .p10k.zsh
   cp -f home/.p10k.zsh "$USER_HOME/.p10k.zsh"
-
+  cp -f home/.oh-my-zsh/* "$USER_HOME/.oh-my-zsh"
   # Naprawa praw
   chown -R "$SUDO_USER:$SUDO_USER" "$USER_HOME"
 

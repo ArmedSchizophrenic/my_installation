@@ -36,7 +36,7 @@ hyprsunset
 hyprland-workspaces
 hyprdynamicmonitors-bin
 zsh-autosuggestions
-tmux
+fzf
 ripgrep
 eza
 htop
@@ -64,8 +64,6 @@ intltool
 jq
 git
 wget
-yay
-yay-debug
 flatpak
 discover
 blueman
